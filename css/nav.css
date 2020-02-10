@@ -1,17 +1,27 @@
 a{
-    list-style: none;
     color: black;
-    position: relative;
-    right:0;
+
     text-decoration:none;
 }
 a:hover{
     text-decoration: underline wavy red;
-
+    
 }
 
-nav{
-    position: absolute;
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
     right: 0;
-    padding-bottom: 5px;
+    height: 80px;
+    display:flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
 }
