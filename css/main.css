@@ -8,6 +8,10 @@ html{
   font-family: "Circular Std";
 }
 
+body{
+	margin: auto;
+}
+
 h1 {
   font-family: "Orelo Standard DemiBold", sans-serif;
   font-weight: normal;

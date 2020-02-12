@@ -11,17 +11,19 @@
 		<link rel="stylesheet" href="css/Flexgrid.css">
 		<link rel="stylesheet" href="css/Navigation.css">
 
-		<!-- add icons https://www.w3schools.com/icons/ -->
+		<!-- Reference add icons https://www.w3schools.com/icons/ -->
 		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	</head>
 
 	<body>
-		<header>
-			<img class="logo" src="img/logo.png" alt="The Cat Inn logo">
+		<img class="logo" src="img/logo.png" alt="The Cat Inn logo">
 
-			<button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+		<header>
+
 			
 			<nav id="nav-items" class="grid">
+				<button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+
         
         <div class="col-1of6">
           <a href="Booking.html" >Booking</a>
@@ -48,8 +50,8 @@
           <div class="dropdown">
             <button class="dropbtn">phil</button>
             <div class="dropdown-content">
-              <a href="View.html">View Profile</a>
-              <a href="Edit.html">Edit Profile</a>
+              <a href="View-Profile.html">View Profile</a>
+              <a href="Edit-Profile.html">Edit Profile</a>
             </div>
             </div>
         </div>
@@ -58,9 +60,93 @@
 		</header>
 
 		<div class="room-option-buttons">
-			<button class="room-option-button" type="button">Dates</button>
+			<div class="dropdown">
+			<button class="room-option-button"  type="button">Dates</button>
+			<div class="cdropdown-content">
+
+				<table border='1'  bordercolor='#FFFF00' cellspacing='0' cellpadding='0' align=center>
+				  <tr><td><table cellspacing='0' cellpadding='0' align=center width='100' border='1'><tr><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=2&chm=-1' rel="nofollow"><</a></font> </td><td colspan=5 align=center bgcolor='#ffff00'><font size='3' face='Tahoma'>Feb 2020 </font> </td><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=2&chm=1' rel="nofollow">></a>  </font></td></tr><tr><td><font size='3' face='Tahoma'><b>Sun</b></font></td><td><font size='3' face='Tahoma'><b>Mon</b></font></td><td><font size='3' face='Tahoma'><b>Tue</b></font></td><td><font size='3' face='Tahoma'><b>Wed</b></font></td><td><font size='3' face='Tahoma'><b>Thu</b></font></td><td><font size='3' face='Tahoma'><b>Fri</b></font></td><td><font size='3' face='Tahoma'><b>Sat</b></font></td></tr><tr><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td valign=top><font size='2' face='Tahoma'>1  
+				  <br>
+				   </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>2  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>3  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>4  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>5  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>6  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>7  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>8  
+				  <br>
+				   </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>9  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>10  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>11  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>12  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>13  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>14  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>15  
+				  <br>
+				   </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>16  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>17  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>18  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>19  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>20  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>21  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>22  
+				  <br>
+				   </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>23  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>24  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>25  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>26  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>27  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>28  
+				  <br>
+				   </font></td><td valign=top><font size='2' face='Tahoma'>29  
+				  <br>
+				   </font></td></tr><tr></tr></table></td></tr></table>
+				  <!-- Reference https://www.plus2net.com/html_tutorial/html_calendar.php?prm=3&chm=-1-->
+				 </div>
+
+			</div>
+			<div class="dropdown">
 			<button class="room-option-button" type="button">Guests</button>
+			<div class="cdropdown-content">
+			</div>
+
+					<!--This is the checkbox Section-->
+
+			<div class="dropdown">
 			<button class="room-option-button" type="button">Rooms</button>
+			<div class="cdropdown-content">
+				<input type="checkbox" name="room1" value="Private">
+				<label for="room1">Private</label><br>
+				<input type="checkbox" name="room2" value="Shared">
+				<label for="room2"> Shared</label><br>
+				<input type="checkbox" name="room3" value="Window">
+				<label for="room3"> Window</label><br>
+				<!-- Reference https://www.w3schools.com/tags/att_input_type_checkbox.asp-->
+			</div>
+			</div>
 		</div>
 
 		<div class="divider"></div>
