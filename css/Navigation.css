@@ -29,7 +29,7 @@ header li {
     margin: 20px;
 }
 
-/*footer {
+div.cfooter {
     background-color: white;
 
     position: fixed;
@@ -38,7 +38,7 @@ header li {
     height: 80px;
     display:flex;
     align-items: center;
-}*/
+}
 
 /* End of original code */
 
