@@ -77,6 +77,12 @@ img.room-type-image {
 	object-fit: cover;
 }
 /* ----- END OF IMAGES ----- */
+
+/* ----- DIVS ----- */
+div.select-tag {
+	width: 100%;
+}
+/* ----- END OF DIVS ----- */
 /* ------------------------------- END OF ROOM TYPE PAGE STYLING ------------------------------- */
 
 
