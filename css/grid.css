@@ -1,0 +1,61 @@
+[class*='col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; 
+}
+
+
+.col-5of10 {
+	width: 50%;
+}
+
+
+.col-1of6 {
+	width: 16.667%;
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+@media (max-width: 63em) {
+
+	.col-1of6 {
+		width: 33.333%;
+	}
+
+}
+
+@media (max-width: 57em) {
+
+	.col-5of10 {
+		width: 100%;
+	}
+
+}
+
+
+@media (max-width: 32em) {
+
+	.col-1of6 {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 22em) {
+
+	.col-1of6 {
+		width: 100%;
+	}
+
+}
