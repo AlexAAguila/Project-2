@@ -10,8 +10,10 @@ a:hover{
 }
 
 header {
-    background-color: white;
-    position: fixed;
+    background-color: #f7f7f7;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     right: 0;
     height: 80px;
@@ -19,14 +21,15 @@ header {
     align-items: center;
 }
 
-header * {
+/*header  {
     display: inline;
-}
+}*/
 
 header li {
     margin: 20px;
 }
-div.cfooter {
+
+/*footer {
     background-color: white;
 
     position: fixed;
@@ -35,11 +38,11 @@ div.cfooter {
     height: 80px;
     display:flex;
     align-items: center;
-}
+}*/
 
-/*End of original code*/
+/* End of original code */
 
-/*Hamburger css*/
+/* Hamburger css */
 #nav-items a, #nav-items a:visited, #nav-toggle {
 	display: inline-block;
 	padding: 1em 1.25em;
@@ -120,6 +123,7 @@ body {
 }
 
 
+/* 63 em */
 @media (max-width: 63em) {
 
 	.col-1of6 {
@@ -128,16 +132,17 @@ body {
 
 }
 
-@media (max-width: 57em) {
+/* 57em */
+/*@media (max-width: 57em) {
 
 	.col-5of10 {
 		width: 100%;
 	}
 
-}
+}*/
 
-
-@media (max-width: 32em) {
+/* 37em */
+@media (max-width: 800px) {
 
 	.col-1of6 {
 		width: 50%;
@@ -145,6 +150,7 @@ body {
 
 }
 
+/* 22em */
 @media (max-width: 22em) {
 
 	.col-1of6 {
@@ -175,30 +181,32 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    right: 0px;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 24px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    right: 0px;
   }
+
   .dropup-content {
     display: none;
-    position: absolute;
-    bottom:47px;
+    position: absolute; /* https://www.w3schools.com/css/css_positioning.asp */
+    top:-180px;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
 
-  .cdropdown-content {
-    display: none;
+   .cdropdown-content {
     left: 0px;
+    display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    right: 0px;
   }
 
   
@@ -235,12 +243,18 @@ body {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropup-content {display: block;}
 
-  /* Change color of dropdown links on hover */
-  .cdropdown-content a:hover {background-color: #ddd;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .cdropdown-content {display: block;}
-  
+ /* Change color of dropdown links on hover */
+.cdropdown-content a:hover {background-color: #ddd;}
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .cdropdown-content {display: block;}
 
 /*End of Drop down*/
+
+
+/* ------ REFERENCES ------ */
+
+/* POSITIONING https://www.w3schools.com/css/css_positioning.asp */

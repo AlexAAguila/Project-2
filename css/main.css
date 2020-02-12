@@ -8,10 +8,6 @@ html{
   font-family: "Circular Std";
 }
 
-body{
-	margin: auto;
-}
-
 h1 {
   font-family: "Orelo Standard DemiBold", sans-serif;
   font-weight: normal;
@@ -66,7 +62,26 @@ button.room-option-button {
 	border: none;
 }
 
-/* ----- SCHEDULING PAGE ROOM HEADERS ----- */
+/* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
+/* ----- HEADERS ----- */
+h2.room-type-subtitle {
+	display: inline-block;
+	padding-right: 10px;
+}
+/* ----- END HEADERS ----- */
+
+/* ----- IMAGES ----- */
+img.room-type-image {
+	width: 100%;
+	padding-bottom: 10px;
+	object-fit: cover;
+}
+/* ----- END OF IMAGES ----- */
+/* ------------------------------- END OF ROOM TYPE PAGE STYLING ------------------------------- */
+
+
+/* ------------------------------- BOOKING PAGE STYLING ------------------------------- */
+/* ----- HEADERS ----- */
 h1.room-header {
 	margin-top: -25px;
 	padding-left: 10px;
@@ -75,7 +90,7 @@ h1.room-header {
 h2.room-subtitle {
 	padding-left: 10px;
 }
-/* ----- END ----- */
+/* ----- END OF HEADERS ----- */
 
 /* ----- TABEL LAYOUT ----- */
 h3.table-layout-left {
@@ -89,22 +104,25 @@ h3.table-layout-right {
 	float: right;
 	padding-right: 10px;
 }
-/* ----- END ----- */
+/* ----- END OF TABLE LAYOUT ----- */
 
-/* ----- ICON PADDING ----- */
+
+/* ----- ICON STYLING ----- */
 i {
 	padding-top: 20px;
 	padding-left: 10px;
 }
-/* ----- END ----- */
+/* ----- END OF ICON STYLING ----- */
 
-/* ----- ROOM IMAGES ----- */
+
+/* ----- IMAGES ----- */
 img.room-placeholder-image {
 	margin-top: 50px;
 	width: 100%;
 	object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
 }
-/* ----- END ----- */
+/* ----- END OF IMAGES ----- */
+
 
 /* ----- DIVIDING LINE ----- */
 div.divider {
@@ -113,7 +131,9 @@ div.divider {
 	height: 1px;
 	clear: both; /* https://www.w3schools.com/css/css_float.asp */
 }
-/* ----- END ----- */
+/* ----- END OF DIVIDING LINE ----- */
+/* ------------------------------- END OF BOOKING PAGE STYLING ------------------------------- */
+
 
 
 /* ------ REFERENCES ------ */

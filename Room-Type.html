@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>The Cat Inn</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/Flexgrid.css">
+		<link rel="stylesheet" href="css/Navigation.css">
+
+		<!-- add icons https://www.w3schools.com/icons/ -->
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="row-navigation">
+				<div class="column-navigation"> <!-- COLUMN FOR LOGO -->
+					<a href="Landing-Page.html"><img class="logo" src="img/logo.png" alt="The Cat Inn logo"></a>
+				</div> <!-- END OF COLUMN FOR LOGO -->
+
+				<div class="column"> <!-- COLUMN FOR NAVIGATION -->
+					<button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+			
+					<nav id="nav-items" class="grid">
+        
+        				<div class="col-1of6">
+          					<a href="Booking.html">Booking</a>
+        				</div>
+
+        				<div class="col-1of6">
+          					<a href="Grooming.html">Grooming</a>
+        				</div>
+
+        				<div class="col-1of6">
+          					<a href="Extras.html">Extras</a>
+        				</div>
+
+        				<div class="col-1of6">
+          					<a href="Contact.html">Contact</a>
+        				</div>
+
+        				<div class="col-1of6">
+          					<a href="Items.html">Items</a>
+        				</div>
+
+
+        				<div class="col-1of6">
+          					<div class="dropdown">
+            					<button class="dropbtn">phil</button>
+            					<div class="dropdown-content">
+              						<a href="View-Profile.html">View Profile</a>
+              						<a href="Edit-Profile.html">Edit Profile</a>
+            					</div>
+            				</div>
+        				</div>
+      				</nav>
+      			</div> <!-- END OF COLUMN NAVIGATION -->
+      		</div> <!-- END OF ROW NAVIGATION -->
+		</header>
+
+		<div class="row-content">
+			<div class="column-content">
+				<img class="room-type-image" src="img/placeholder-image.jpg" alt="placeholder image">
+				<img class="room-type-image" src="img/placeholder-image.jpg" alt="placeholder image">
+			</div>
+			<div class="column-content">
+				<h1>Mountain View</h1>
+				<h2 class="room-type-subtitle">2 windows</h2>
+				<h2 class="room-type-subtitle">5 guests</h2>
+				<h2 class="room-type-subtitle">3 beds</h2>
+				<h2 class="room-type-subtitle">1 litter</h2>
+				<p>Let your cat roam free with views of the Coquitlam mountain. This room consists of 3 cat towers for endless exploration and playtime. Feel free to have your cat share the space with others to socialize, or book it as a private room if your cat prefers some alone time.</p>
+				<label for="times">Pick-up</label>
+				<select id="times">
+					<option value="none">None</option>
+					<option value="12:00pm">12:00pm</option>
+					<option value="12:30pm">12:30pm</option>
+					<option value="1:00pm">1:00pm</option>
+					<option value="1:30pm">1:30pm</option>
+					<option value="2:00pm">2:00pm</option>
+					<option value="2:30pm">2:30pm</option>
+					<option value="3:00pm">3:00pm</option>
+					<option value="3:30pm">3:30pm</option>
+					<option value="4:00pm">4:00pm</option>
+					<option value="4:30pm">4:30pm</option>
+					<option value="5:00pm">5:00pm</option>
+					<option value="5:30pm">5:30pm</option>
+					<option value="6:00pm">6:00pm</option>
+					<option value="6:30pm">6:30pm</option>
+					<option value="7:00pm">7:00pm</option>
+					<option value="7:30pm">7:30pm</option>
+					<option value="8:00pm">8:00pm</option>
+					<option value="8:30pm">8:30pm</option>
+					<option value="9:00pm">9:30pm</option>
+					<option value="9:30pm">9:30pm</option>
+					<option value="10:00pm">10:00pm</option>
+					<option value="10:30pm">10:30pm</option>
+					<option value="11:00pm">11:00pm</option>
+					<option value="11:30pm">11:30pm</option>
+					<option value="12:00pm">12:00am</option>
+					<option value="12:30am">12:30am</option>
+					<option value="1:00am">1:00am</option>
+					<option value="1:30am">1:30am</option>
+					<option value="2:00am">2:00am</option>
+					<option value="2:30am">2:30am</option>
+					<option value="3:00am">3:00am</option>
+					<option value="3:30am">3:30am</option>
+					<option value="4:00am">4:00am</option>
+					<option value="4:30am">4:30am</option>
+					<option value="5:00am">5:00am</option>
+					<option value="5:30am">5:30am</option>
+					<option value="6:00am">6:00am</option>
+					<option value="6:30am">6:30am</option>
+					<option value="7:00am">7:00am</option>
+					<option value="7:30am">7:30am</option>
+					<option value="8:00am">8:00am</option>
+					<option value="8:30am">8:30am</option>
+					<option value="9:00am">9:00am</option>
+					<option value="9:30am">9:30am</option>
+					<option value="10:00am">10:00am</option>
+					<option value="10:30am">10:30am</option>
+					<option value="11:00am">11:00am</option>
+					<option value="11:30am">11:30am</option>
+				</select>
+
+				<label for="times">Drop-off</label>
+				<select id="times">
+					<option value="none">None</option>
+					<option value="12:00pm">12:00pm</option>
+					<option value="12:30pm">12:30pm</option>
+					<option value="1:00pm">1:00pm</option>
+					<option value="1:30pm">1:30pm</option>
+					<option value="2:00pm">2:00pm</option>
+					<option value="2:30pm">2:30pm</option>
+					<option value="3:00pm">3:00pm</option>
+					<option value="3:30pm">3:30pm</option>
+					<option value="4:00pm">4:00pm</option>
+					<option value="4:30pm">4:30pm</option>
+					<option value="5:00pm">5:00pm</option>
+					<option value="5:30pm">5:30pm</option>
+					<option value="6:00pm">6:00pm</option>
+					<option value="6:30pm">6:30pm</option>
+					<option value="7:00pm">7:00pm</option>
+					<option value="7:30pm">7:30pm</option>
+					<option value="8:00pm">8:00pm</option>
+					<option value="8:30pm">8:30pm</option>
+					<option value="9:00pm">9:30pm</option>
+					<option value="9:30pm">9:30pm</option>
+					<option value="10:00pm">10:00pm</option>
+					<option value="10:30pm">10:30pm</option>
+					<option value="11:00pm">11:00pm</option>
+					<option value="11:30pm">11:30pm</option>
+					<option value="12:00pm">12:00am</option>
+					<option value="12:30am">12:30am</option>
+					<option value="1:00am">1:00am</option>
+					<option value="1:30am">1:30am</option>
+					<option value="2:00am">2:00am</option>
+					<option value="2:30am">2:30am</option>
+					<option value="3:00am">3:00am</option>
+					<option value="3:30am">3:30am</option>
+					<option value="4:00am">4:00am</option>
+					<option value="4:30am">4:30am</option>
+					<option value="5:00am">5:00am</option>
+					<option value="5:30am">5:30am</option>
+					<option value="6:00am">6:00am</option>
+					<option value="6:30am">6:30am</option>
+					<option value="7:00am">7:00am</option>
+					<option value="7:30am">7:30am</option>
+					<option value="8:00am">8:00am</option>
+					<option value="8:30am">8:30am</option>
+					<option value="9:00am">9:00am</option>
+					<option value="9:30am">9:30am</option>
+					<option value="10:00am">10:00am</option>
+					<option value="10:30am">10:30am</option>
+					<option value="11:00am">11:00am</option>
+					<option value="11:30am">11:30am</option>
+				</select>
+				<button type="button">Add Booking to Inventory</button>
+			</div>
+		</div>
+
+		<footer>
+			<p>The Cat Inn. Copyright © 2020.</p>
+		</footer>
+	</body>
+</html>
