@@ -1,22 +1,27 @@
-<!--This is for the navigation-->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
 
-<head>
-    <title>Booking</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="css/Navigation.css" rel="stylesheet">
+		<title>The Cat Inn</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/Flexgrid.css">
+		<link rel="stylesheet" href="css/Navigation.css">
 
+		<!-- add icons https://www.w3schools.com/icons/ -->
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	</head>
 
+	<body>
+		<header>
+			<img class="logo" src="img/logo.png" alt="The Cat Inn logo">
 
-</head>
-<body>
-  <header>
-
-
-      <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
-
-      <nav id="nav-items" class="grid">
+			<button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+			
+			<nav id="nav-items" class="grid">
         
         <div class="col-1of6">
           <a href="Booking.html" >Booking</a>
@@ -40,20 +45,148 @@
 
 
         <div class="col-1of6">
-            <div class="dropdown">
-              <button class="dropbtn">phil</button>
-              <div class="dropdown-content">
-                <a href="View.html">View Profile</a>
-                <a href="Edit.html">Edit Profile</a>
-              </div>
-              </div>
-          </div>
+          <div class="dropdown">
+            <button class="dropbtn">phil</button>
+            <div class="dropdown-content">
+              <a href="View.html">View Profile</a>
+              <a href="Edit.html">Edit Profile</a>
+            </div>
+            </div>
+        </div>
 
       </nav>
+		</header>
 
+		<div class="room-option-buttons">
+			<button class="room-option-button" type="button">Dates</button>
+			<button class="room-option-button" type="button">Guests</button>
+			<button class="room-option-button" type="button">Rooms</button>
+		</div>
 
-</header>
+		<div class="divider"></div>
 
-</body>
+		<!-- first create a row and insert the column -->
+		<div class="row"> <!-- BEGINNING OF ROW 1 -->
+			<!-- COLUMN 1 -->
+			<div class="column">
+				<!-- 100% width -->
+				<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
+				<h1 class="room-header">Header</h1>
+				<h2 class="room-subtitle">Subtitle</h2>
+				<div class="divider"></div>
+				<h3 class="table-layout-left">Label</h3>
+				<h3 class="table-layout-right">Label</h3>
+				<div class="divider"></div>
+				<i class='far fa-star'></i>
+				<h3 class="table-layout-right">Label</h3>
+			</div>
+
+			<!-- COLUMN 2 -->
+			<div class="column">
+				<!-- add nother column, now both are 50% -->
+				<!-- The width of each column is 100% divided by the number of columns within the flex container (.row). Predictably, adding another with divide once again. -->
+				<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
+				<h1 class="room-header">Header</h1>
+				<h2 class="room-subtitle">Subtitle</h2>
+				<div class="divider"></div>
+				<h3 class="table-layout-left">Label</h3>
+				<h3 class="table-layout-right">Label</h3>
+				<div class="divider"></div>
+				<i class='far fa-star'></i>
+				<h3 class="table-layout-right">Label</h3>
+			</div>
+
+			<!-- COLUMN 3 -->
+			<div class="column">
+				<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
+				<h1 class="room-header">Header</h1>
+				<h2 class="room-subtitle">Subtitle</h2>
+				<div class="divider"></div>
+				<h3 class="table-layout-left">Label</h3>
+				<h3 class="table-layout-right">Label</h3>
+				<div class="divider"></div>
+				<i class='far fa-star'></i>
+				<h3 class="table-layout-right">Label</h3>
+			</div>
+
+			<!-- COLUMN 4 -->
+			<div class="column">
+				<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
+				<h1 class="room-header">Header</h1>
+				<h2 class="room-subtitle">Subtitle</h2>
+				<div class="divider"></div>
+				<h3 class="table-layout-left">Label</h3>
+				<h3 class="table-layout-right">Label</h3>
+				<div class="divider"></div>
+				<i class='far fa-star'></i>
+				<h3 class="table-layout-right">Label</h3>
+			</div>
+		</div> <!-- END OF ROW 1 -->
+
+		<div class="row"> <!-- BEGINNING OF ROW 2 -->
+			<!-- COLUMN 1 -->
+			<div class="column">
+				<!-- 100% width -->
+				<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
+				<h1 class="room-header">Header</h1>
+				<h2 class="room-subtitle">Subtitle</h2>
+				<div class="divider"></div>
+				<h3 class="table-layout-left">Label</h3>
+				<h3 class="table-layout-right">Label</h3>
+				<div class="divider"></div>
+				<i class='far fa-star'></i>
+				<h3 class="table-layout-right">Label</h3>
+			</div>
+
+			<!-- COLUMN 2 -->
+			<div class="column">
+				<!-- add nother column, now both are 50% -->
+				<!-- The width of each column is 100% divided by the number of columns within the flex container (.row). Predictably, adding another with divide once again. -->
+				<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
+				<h1 class="room-header">Header</h1>
+				<h2 class="room-subtitle">Subtitle</h2>
+				<div class="divider"></div>
+				<h3 class="table-layout-left">Label</h3>
+				<h3 class="table-layout-right">Label</h3>
+				<div class="divider"></div>
+				<i class='far fa-star'></i>
+				<h3 class="table-layout-right">Label</h3>
+			</div>
+
+			<!-- COLUMN 3 -->
+			<div class="column">
+				<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
+				<h1 class="room-header">Header</h1>
+				<h2 class="room-subtitle">Subtitle</h2>
+				<div class="divider"></div>
+				<h3 class="table-layout-left">Label</h3>
+				<h3 class="table-layout-right">Label</h3>
+				<div class="divider"></div>
+				<i class='far fa-star'></i>
+				<h3 class="table-layout-right">Label</h3>
+			</div>
+
+			<!-- COLUMN 4 -->
+			<div class="column">
+				<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
+				<h1 class="room-header">Header</h1>
+				<h2 class="room-subtitle">Subtitle</h2>
+				<div class="divider"></div>
+				<h3 class="table-layout-left">Label</h3>
+				<h3 class="table-layout-right">Label</h3>
+				<div class="divider"></div>
+				<i class='far fa-star'></i>
+				<h3 class="table-layout-right">Label</h3>
+			</div>
+		</div> <!-- END OF ROW 2 -->
+
+		<footer>
+			<p>The Cat Inn. Copyright © 2020.</p>
+		</footer>
+
+	</body>
 
 </html>
+
+<!-- REFERENCES --> 
+<!--- ICONS https://www.w3schools.com/icons/ -->

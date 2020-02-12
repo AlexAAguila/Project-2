@@ -1,0 +1,27 @@
+/* --------- FLEX GRID --------- */
+.row {
+	width: 90%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+}
+
+.column {
+	flex-basis: 100%; /* specifies the initial main size of a flex item */
+	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+}
+
+/* using min-width is optimal for mobile first layout design */
+/* the way this is laid out, each column will have 100% width on mobile and wrap down to the next column 
+on desktop, all columns will be the same size */
+@media screen and (min-width: 800px) {
+	.column {
+		flex: 1;
+	}
+}
+/* --------- END OF GRID --------- */
+
+/* REFERENCES */
+/* Flex Grid https://www.taniarascia.com/easiest-flex-grid-ever/ */
+/* 0 AUTO https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */

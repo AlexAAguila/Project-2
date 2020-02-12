@@ -1,0 +1,118 @@
+html{
+  background-color: #f7f7f7;
+}
+
+@font-face{
+  font-family: "Orelo";
+  font-family: "Nimbus-Sans";
+  font-family: "Circular Std";
+}
+
+h1 {
+  font-family: "Orelo Standard DemiBold", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+h2 {
+  	font-family: "Nimbus-Sans", sans-serif;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-size: 1.3em;
+}
+
+h3 {
+	font-family: "Nimbus-Sans", sans-serif;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-size: 1em;
+}
+
+p {
+  	font-family: "Nimbus-Sans", sans-serif;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-size: .8em;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	font-family: "Nimbus-Sans", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: .8em;
+}
+
+img.logo {
+	display: inline-block;
+	width: 150px;
+	float: left;
+}
+
+div.room-option-buttons {
+	clear: both;
+	display: block;
+}
+
+button.room-option-button {
+	padding: 10px;
+	background-color: gray;
+	border: none;
+}
+
+/* ----- SCHEDULING PAGE ROOM HEADERS ----- */
+h1.room-header {
+	margin-top: -25px;
+	padding-left: 10px;
+}
+
+h2.room-subtitle {
+	padding-left: 10px;
+}
+/* ----- END ----- */
+
+/* ----- TABEL LAYOUT ----- */
+h3.table-layout-left {
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+}
+
+h3.table-layout-right {
+	display: inline-block;
+	float: right;
+	padding-right: 10px;
+}
+/* ----- END ----- */
+
+/* ----- ICON PADDING ----- */
+i {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+/* ----- END ----- */
+
+/* ----- ROOM IMAGES ----- */
+img.room-placeholder-image {
+	margin-top: 50px;
+	width: 100%;
+	object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
+}
+/* ----- END ----- */
+
+/* ----- DIVIDING LINE ----- */
+div.divider {
+	width: 100%;
+	background-color: gray;
+	height: 1px;
+	clear: both; /* https://www.w3schools.com/css/css_float.asp */
+}
+/* ----- END ----- */
+
+
+/* ------ REFERENCES ------ */
+
+/* OBJECT FIT https://www.w3schools.com/css/css3_object-fit.asp */
+/* FLOATS https://www.w3schools.com/css/css_float.asp */
