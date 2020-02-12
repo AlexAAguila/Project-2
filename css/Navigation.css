@@ -1,0 +1,230 @@
+/* original nav bar code*/
+a{
+    color: black;
+
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline wavy red;
+    
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80px;
+    display:flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+footer {
+    background-color: white;
+
+    position: fixed;
+    bottom: 0;
+    margin-right: auto;
+    height: 80px;
+    display:flex;
+    align-items: center;
+}
+
+/*End of original code*/
+
+/*Hamburger css*/
+#nav-items a, #nav-items a:visited, #nav-toggle {
+	display: inline-block;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	visibility: visible;
+	width: 100%;
+	text-align: left;
+}
+
+
+#nav-toggle {
+	background-color: black;
+	display: block;
+	border: 0;
+}
+
+#nav-toggle:hover, #nav-toggle:focus {
+	background-color: gray;
+}
+
+
+/*
+	Here we hide use .hidden to enable classes to hide our #nav-toggle
+*/
+#nav-toggle.hidden, #nav-items.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+
+
+
+
+a:hover, a:active, a:focus {
+	background-color: gray;
+	color: white;
+}
+
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1em;
+	color: black;
+	padding: 1em;
+}
+/*end of hamburgur css*/
+
+
+/*Grid Css*/
+[class*='col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; 
+}
+
+
+.col-5of10 {
+	width: 50%;
+}
+
+
+.col-1of6 {
+	width: 16.667%;
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+@media (max-width: 63em) {
+
+	.col-1of6 {
+		width: 33.333%;
+	}
+
+}
+
+@media (max-width: 57em) {
+
+	.col-5of10 {
+		width: 100%;
+	}
+
+}
+
+
+@media (max-width: 32em) {
+
+	.col-1of6 {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 22em) {
+
+	.col-1of6 {
+		width: 100%;
+	}
+
+}
+/*End of Grid css*/
+
+/*Dropmenu*/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropup-content {
+    display: none;
+    position: absolute;
+    top:-180px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px ;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+
+  /* Links inside the dropdown */
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px ;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+.dropup-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropup-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*End of Drop down*/
