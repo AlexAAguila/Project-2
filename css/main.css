@@ -62,6 +62,19 @@ button.room-option-button {
 	border: none;
 }
 
+img.landing-page-image {
+	height: 520px;
+	width: 100%;
+	object-fit: cover;
+}
+
+button.landing-page-search-button {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border: none;
+}
+
 /* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
 /* ----- HEADERS ----- */
 h2.room-type-subtitle {

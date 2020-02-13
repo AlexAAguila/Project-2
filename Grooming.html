@@ -5,56 +5,92 @@
 <head>
     <title>Grooming</title>
 
-    <link href="css/Navigation.css" rel="stylesheet">
+    <head>
+    <meta charset="utf-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>The Cat Inn</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Flexgrid.css">
+    <link rel="stylesheet" href="css/Navigation.css">
 
+    <!-- add icons https://www.w3schools.com/icons/ -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  </head>
 
-</head>
-<body>
-  <header>
+  <body>
+    <header>
+      <div class="row-navigation">
+        <div class="column-navigation"> <!-- COLUMN FOR LOGO -->
+          <a href="Landing-Page.html"><img class="logo" src="img/logo.png" alt="The Cat Inn logo"></a>
+        </div> <!-- END OF COLUMN FOR LOGO -->
 
-
-      <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
-
-      <nav id="nav-items" class="grid">
+        <div class="column"> <!-- COLUMN FOR NAVIGATION -->
+          <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+      
+          <nav id="nav-items" class="grid">
         
-        <div class="col-1of6">
-          <a href="Booking.html" >Booking</a>
-        </div>
+                <div class="col-1of6">
+                    <a href="Booking.html">Booking</a>
+                </div>
 
-        <div class="col-1of6">
-          <a href="Grooming.html" >Grooming</a>
-        </div>
+                <div class="col-1of6">
+                    <a href="Grooming.html">Grooming</a>
+                </div>
 
-        <div class="col-1of6">
-          <a href="Extras.html" >Extras</a>
-        </div>
+                <div class="col-1of6">
+                    <a href="Extras.html">Extras</a>
+                </div>
 
-        <div class="col-1of6">
-          <a href="Contact.html" >Contact</a>
-        </div>
+                <div class="col-1of6">
+                    <a href="Contact.html">Contact</a>
+                </div>
 
-        <div class="col-1of6">
-          <a href="Items.html">Items</a>
-        </div>
-
- 
-        <div class="col-1of6">
-            <div class="dropdown">
-              <button class="dropbtn">phil</button>
-              <div class="dropdown-content">
-                <a href="View.html">View Profile</a>
-                <a href="Edit.html">Edit Profile</a>
-              </div>
-              </div>
-          </div>
-
-      </nav>
+                <div class="col-1of6">
+                    <a href="Items.html">Items</a>
+                </div>
 
 
-</header>
+                <div class="col-1of6">
+                    <div class="dropdown">
+                      <button class="dropbtn">phil</button>
+                      <div class="dropdown-content">
+                          <a href="View-Profile.html">View Profile</a>
+                          <a href="Edit-Profile.html">Edit Profile</a>
+                      </div>
+                    </div>
+                </div>
+              </nav>
+            </div> <!-- END OF COLUMN NAVIGATION -->
+          </div> <!-- END OF ROW NAVIGATION -->
+    </header>
 
+    <div class="row-content">
+      <div class="column-content">
+        <img class="room-type-image" src="img/placeholder-image.jpg" alt="placeholder image">
+      </div>
+      <div class="column-content">
+        <h1>Grooming Services</h1>
+        <p>We offer multiple grooming services while your cat enjoys their stay at The Cat Inn. Whether you want us to give them a bath, haircut, nail trim or they just need a little brushing, tick which ones you're interested in and add it to your inventory! The next time you bring your little buddy in, we'll take care of the rest.</p>
+
+        <input type="checkbox" name="bath" value="bath">
+        <label for="bath">Bath</label>
+
+        <input type="checkbox" name="haircut" value="haircut">
+        <label for="haircut">Haircut</label>
+
+        <input type="checkbox" name="nail-trim" value="nail-trim">
+        <label for="nail-trim">Nail Trim</label>
+
+        <button type="button">Add Services to Inventory</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>The Cat Inn. Copyright © 2020.</p>
+    </footer>
 </body>
 
 </html>
