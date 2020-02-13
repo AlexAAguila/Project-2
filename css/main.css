@@ -71,8 +71,17 @@ img.landing-page-image {
 button.landing-page-search-button {
 	height: 100%;
 	width: 100%;
-	background-color: white;
+	background-color: #FEBD2D;
 	border: none;
+	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
+}
+
+button.landing-page-search-button:hover {
+	height: 100%;
+	width: 100%;
+	background-color: #E7AC29;
+	border: none;
+	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
 }
 
 /* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
