@@ -1,4 +1,36 @@
-.row-landing-page-footer {
+
+.column-25 {
+	flex-basis: 25%;
+	padding: 0px 10px 0px 10px;
+}
+
+.column-75 {
+	flex-basis: 100%;
+	padding: 0px 10px 0px 10px;
+}
+
+.column-100 {
+	flex-basis: 100%; /* specifies the initial main size of a flex item */
+	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+}
+
+.row-90 {
+	width: 90%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+}
+
+.row-100 {
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+}
+
+.row-100-footer {
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
 	display: flex; /* defines a flex container */
@@ -7,52 +39,20 @@
 	background-color: white;
 }
 
-/* --------- NAVIGATION FLEX GRID --------- */
-.row-navigation {
-	width: 100%;
-	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
-	display: flex; /* defines a flex container */
-	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
-	flex-wrap: wrap; /* will allow a multi-line flex */
-}
-
-.column-navigation {
-	flex-basis: 100%; /* specifies the initial main size of a flex item */
-	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
-}
-
 /* using min-width is optimal for mobile first layout design */
 /* the way this is laid out, each column will have 100% width on mobile and wrap down to the next column 
 on desktop, all columns will be the same size */
 @media screen and (min-width: 800px) {
-	.column-navigation {
+	.column-100 {
 		flex: 1;
+	}
+
+	.column-75 {
+		flex-basis: 75%;
 	}
 }
 
-/* --------- CONTENT FLEX GRID --------- */
-.row-content {
-	width: 90%;
-	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
-	display: flex; /* defines a flex container */
-	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
-	flex-wrap: wrap; /* will allow a multi-line flex */
-}
 
-.column-content {
-	flex-basis: 100%; /* specifies the initial main size of a flex item */
-	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
-}
-
-/* using min-width is optimal for mobile first layout design */
-/* the way this is laid out, each column will have 100% width on mobile and wrap down to the next column 
-on desktop, all columns will be the same size */
-@media screen and (min-width: 800px) {
-	.column-content {
-		flex: 1;
-	}
-}
-/* --------- END OF GRID --------- */
 
 /* REFERENCES */
 /* Flex Grid https://www.taniarascia.com/easiest-flex-grid-ever/ */

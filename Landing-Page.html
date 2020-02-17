@@ -15,305 +15,202 @@
 
     <!-- add icons https://www.w3schools.com/icons/ -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <script src="java/script.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="row-navigation">
-            <div class="column-navigation"> <!-- COLUMN FOR LOGO -->
-                <h1>TheCatInn</h1>
-            </div> <!-- END OF COLUMN FOR LOGO -->
+        <div class="row-100">
+            <!-- COLUMN FOR LOGO -->
+            <div class="column-25"> 
+                <a href="Landing-Page.html"><h1>TheCatInn</h1></a>
+            </div>
+            <!-- END OF COLUMN FOR LOGO -->
 
-            <div class="column-navigation"> <!-- COLUMN FOR NAVIGATION -->
-                <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+            <!-- COLUMN FOR NAVIGATION -->
+            <div class="column-75">
+                <nav>
+                    <a class="navigation" href="Booking.html">Booking</a>
+                    <a class="navigation" href="Grooming.html">Grooming</a>
+                    <a class="navigation" href="Extras.html">Extras</a>
+                    <a class="navigation" href="Contact.html">Contact</a>
+                    <a class="navigation" href="Items.html">Items</a>
+<!--                     <div class="dropdown">
+                        <button class="dropbtn-navigation">Phil</button>
+                        <div class="dropdown-content">
+                            <a href="View-Profile.html">View Profile</a>
+                            <a href="Edit-Profile.html">Edit Profile</a>
+                    </div> -->
+                </nav>
+            </div>
+            <!-- <div class="column-navigation"> 
+                <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items"></button>
       
                 <nav id="nav-items" class="grid">
-        
-                    <div class="col-1of6">
-                        <a href="Booking.html">Booking</a>
-                    </div>
+                    <a href="Booking.html">Booking</a>
 
-                    <div class="col-1of6">
-                        <a href="Grooming.html">Grooming</a>
-                    </div>
+                    <a href="Grooming.html">Grooming</a>
 
-                    <div class="col-1of6">
-                        <a href="Extras.html">Extras</a>
-                    </div>
+                    <a href="Extras.html">Extras</a>
 
-                    <div class="col-1of6">
-                        <a href="Contact.html">Contact</a>
-                    </div>
+                    <a href="Contact.html">Contact</a>
 
-                    <div class="col-1of6">
-                        <a href="Items.html">Items</a>
-                    </div>
+                    <a href="Items.html">Items</a>
 
-
-                    <div class="col-1of6">
                         <div class="dropdown">
                         <button class="dropbtn">phil</button>
                         <div class="dropdown-content">
                             <a href="View-Profile.html">View Profile</a>
                             <a href="Edit-Profile.html">Edit Profile</a>
                         </div>
-                        </div>
                     </div>
                 </nav>
-            </div> <!-- END OF COLUMN NAVIGATION -->
+            </div> --> <!-- END OF COLUMN NAVIGATION -->
         </div> <!-- END OF ROW NAVIGATION -->
     </header>
 
     <!-- LANDING PAGE IMAGE -->
-    <div class="row-navigation">
-        <div class="column-navigation">
+    <!-- <div class="row-100">
+        <div class="column-100">
             <img class="landing-page-image" src="img/landing-page-image.jpg" alt="Landing page image of a cat waving from the bottom of the page">
         </div>
-    </div>
+    </div> -->
     <!-- END OF LANDING PAGE IMAGE -->
 
+    <!-- FOLLOWING EYES -->
+    <section class="move-area">
+        <div class="container">
+            <div class="eye"></div>
+            <div class="eye"></div>
+        </div>
+    </section>
+    <!-- END OF FOLLOWING EYES -->
 
     <!-- ARRIVAL BUTTON/CALENDAR COLUMN -->
-    <div class="row-landing-page-footer">
-        <div class="column-content">
-            <div class="cfooter">
-                <h3>Arrival Date</h3>
+    <div class="row-100-footer">
+        <div class="column-100">
+            <!-- <div class="cfooter">
+                <h3 class="landing-page">Arrival Date</h3>
                 <div class="dropdown">
                     <button class="dropbtn">dd/mm/yy</button>
                     <div class="dropup-content">
-                        <!-- https://www.plus2net.com/html_tutorial/html_calendar.php?prm=3&chm=-1-->
-                        <table border='1'  bordercolor='#FFFF00' cellspacing='0' cellpadding='0' align=center>
-                            <tr><td><table cellspacing='0' cellpadding='0' align=center width='100' border='1'><tr><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=2&chm=-1' rel="nofollow"><</a></font> </td><td colspan=5 align=center bgcolor='#ffff00'><font size='3' face='Tahoma'>Feb 2020 </font> </td><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=2&chm=1' rel="nofollow">></a>  </font></td></tr><tr><td><font size='3' face='Tahoma'><b>Sun</b></font></td><td><font size='3' face='Tahoma'><b>Mon</b></font></td><td><font size='3' face='Tahoma'><b>Tue</b></font></td><td><font size='3' face='Tahoma'><b>Wed</b></font></td><td><font size='3' face='Tahoma'><b>Thu</b></font></td><td><font size='3' face='Tahoma'><b>Fri</b></font></td><td><font size='3' face='Tahoma'><b>Sat</b></font></td></tr><tr><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td valign=top><font size='2' face='Tahoma'>1
 
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>2
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>3  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>4  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>5  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>6  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>7  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>8  
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>9  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>10  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>11  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>12  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>13  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>14  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>15  
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>16  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>17  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>18  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>19  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>20  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>21  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>22  
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>23  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>24  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>25  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>26  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>27  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>28  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>29  
-                            <br>
-                            </font></td></tr><tr></tr></table></td></tr></table>
                     </div>
                 </div>
+            </div> -->
+            <div class="center">
+                <h3 class="landing-page">Arrival Date</h3>
+                <button class="landing-page-options" type="button">dd/mm/yy</button>
             </div>
         </div>
         <!-- END OF ARRIVAL BUTTON/CALENDAR COLUMN -->
 
         <!-- DEPARTURE BUTTON/CALENDAR COLUMN -->
-        <div class="column-content">
-            <div class="cfooter">
+        <div class="column-100">
+            <!-- <div class="cfooter">
                 <h3>Departure Date</h3>
                 <div class="dropdown">
                     <button class="dropbtn">dd/mm/yy</button>
                     <div class="dropup-content">
-                        <!-- https://www.plus2net.com/html_tutorial/html_calendar.php?prm=3&chm=-1-->
-                        <table border='1'  bordercolor='#FFFF00' cellspacing='0' cellpadding='0' align=center>
-                            <tr><td><table cellspacing='0' cellpadding='0' align=center width='100' border='1'><tr><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=2&chm=-1' rel="nofollow"><</a></font> </td><td colspan=5 align=center bgcolor='#ffff00'><font size='3' face='Tahoma'>Feb 2020 </font> </td><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=2&chm=1' rel="nofollow">></a>  </font></td></tr><tr><td><font size='3' face='Tahoma'><b>Sun</b></font></td><td><font size='3' face='Tahoma'><b>Mon</b></font></td><td><font size='3' face='Tahoma'><b>Tue</b></font></td><td><font size='3' face='Tahoma'><b>Wed</b></font></td><td><font size='3' face='Tahoma'><b>Thu</b></font></td><td><font size='3' face='Tahoma'><b>Fri</b></font></td><td><font size='3' face='Tahoma'><b>Sat</b></font></td></tr><tr><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td valign=top><font size='2' face='Tahoma'>1
-
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>2
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>3  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>4  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>5  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>6  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>7  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>8  
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>9  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>10  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>11  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>12  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>13  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>14  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>15  
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>16  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>17  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>18  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>19  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>20  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>21  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>22  
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>23  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>24  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>25  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>26  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>27  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>28  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>29  
-                            <br>
-                            </font></td></tr><tr></tr></table></td></tr></table>
                     </div>
                 </div>
+            </div> -->
+            <div class="center">
+                <h3 class="landing-page">Departure Date</h3>
+                <button class="landing-page-options" type="button">dd/mm/yy</button>
             </div>
         </div>
         <!-- END OF DEPARTURE BUTTON/CALENDAR COLUMN -->
 
 
         <!-- DEPARTURE BUTTON/CALENDAR COLUMN -->
-        <div class="column-content">
-            <div class="cfooter">
+        <div class="column-100">
+            <!-- <div class="cfooter">
                 <div class="dropdown">
                     <button class="dropbtn">How Many Cat Guests?</button>
                     <div class="dropup-content">
-                        <!-- https://www.plus2net.com/html_tutorial/html_calendar.php?prm=3&chm=-1-->
-                        <table border='1'  bordercolor='#FFFF00' cellspacing='0' cellpadding='0' align=center>
-                            <tr><td><table cellspacing='0' cellpadding='0' align=center width='100' border='1'><tr><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=2&chm=-1' rel="nofollow"><</a></font> </td><td colspan=5 align=center bgcolor='#ffff00'><font size='3' face='Tahoma'>Feb 2020 </font> </td><td  align=center bgcolor='#ffff00'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=2&chm=1' rel="nofollow">></a>  </font></td></tr><tr><td><font size='3' face='Tahoma'><b>Sun</b></font></td><td><font size='3' face='Tahoma'><b>Mon</b></font></td><td><font size='3' face='Tahoma'><b>Tue</b></font></td><td><font size='3' face='Tahoma'><b>Wed</b></font></td><td><font size='3' face='Tahoma'><b>Thu</b></font></td><td><font size='3' face='Tahoma'><b>Fri</b></font></td><td><font size='3' face='Tahoma'><b>Sat</b></font></td></tr><tr><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td valign=top><font size='2' face='Tahoma'>1
-
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>2
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>3  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>4  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>5  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>6  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>7  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>8  
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>9  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>10  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>11  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>12  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>13  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>14  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>15  
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>16  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>17  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>18  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>19  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>20  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>21  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>22  
-                            <br>
-                            </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>23  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>24  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>25  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>26  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>27  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>28  
-                            <br>
-                            </font></td><td valign=top><font size='2' face='Tahoma'>29  
-                            <br>
-                            </font></td></tr><tr></tr></table></td></tr></table>
+                        
                     </div>
                 </div>
+            </div> -->
+            <div class="center">
+                <h3 class="landing-page">How many cat guests?</h3>
+                <button class="landing-page-options" type="button" class="test">choose</button>
             </div>
         </div>
         <!-- END OF DEPARTURE BUTTON/CALENDAR COLUMN -->
 
 
         <!-- SEARCH BUTTON -->
-        <div class="column-content">
+        <div class="column-100">
             <button class="landing-page-search-button" type="button">Search</button>
         </div>
         <!-- END OF SEARCH BUTTON -->
 
         <!-- EMPTY COLUMN -->
-        <div class="column-content">
+        <div class="column-100">
         </div>
         <!-- END OF EMPTY COLUMN -->
     </div>
 
+<!--  FOOTER -->
     <footer>
-        <p>The Cat Inn. Copyright © 2020.</p>
+        <div class="row-100">
+            <div class="column-100">
+                <a href="Landing-Page.html"><h1>TheCatInn</h1></a>
+            </div>
+            <div class="column-100">
+                <div class="nav-footer">
+                    <a class="nav-footer" href="Booking.html">Booking</a>
+                    <p class="footer">Find the puurfect room for your cat.</p>
+                </div>
+            </div>
+            <div class="column-100">
+                <div class="nav-footer">
+                    <a class="nav-footer" href="Grooming.html">Grooming</a>
+                    <p class="footer">Cat just needs to be cleaned? Say no more.</p>
+                </div>
+            </div>
+            <div class="column-100">
+                <div class="nav-footer">
+                    <a class="nav-footer" href="Extras.html">Extras</a>
+                    <p class="footer">Toys, treats, meal plans... You name it, we got it.</p>
+                </div>
+            </div>
+            <div class="column-100">
+                <div class="nav-footer">
+                    <a class="nav-footer" href="Contact.html">Contact</a>
+                    <p class="footer">Get a hold of us to learn more!</p>
+                </div>
+            </div>
+            <div class="column-100">
+                <div class="nav-footer">
+                    <a class="nav-footer" href="Items.html">Items</a>
+                    <p class="footer">Are you missing anything?</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+        </div>
+
+        <div class="row-100">
+            <div class="column-100">
+                <p>The Cat Inn is a great place to leave your precious cats or kittens in the care of our professionals while you do you. We value their safety and happiness.</p>
+            </div>
+            <div class="column-100"></div>
+            <div class="column-100"></div>
+            <div class="column-100"></div>
+            <div class="column-100"></div>
+            <div class="column-100"></div>
+        </div>
+
+        <div class="row-100">
+                <div class="column-100">
+                    <p>The Cat Inn. Copyright © 2020.</p>
+                </div>
+            </div>
     </footer>
 </body>
 </html>

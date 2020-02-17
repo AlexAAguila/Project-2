@@ -36,13 +36,8 @@ p {
   	font-size: .8em;
 }
 
-nav {
-	display: inline-block;
-	float: right;
-	font-family: "Nimbus-Sans", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: .8em;
+body {
+	padding: 1em;
 }
 
 img.logo {
@@ -69,7 +64,7 @@ img.landing-page-image {
 }
 
 button.landing-page-search-button {
-	height: 100%;
+	height: 100px;
 	width: 100%;
 	background-color: #FEBD2D;
 	border: none;
@@ -77,11 +72,50 @@ button.landing-page-search-button {
 }
 
 button.landing-page-search-button:hover {
-	height: 100%;
+	height: 100px;
 	width: 100%;
 	background-color: #E7AC29;
 	border: none;
 	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
+}
+
+div.center {
+	height: 100%;
+}
+
+
+section.move-area {
+	padding: 25% 0 0 0; /* top, right, bottom, left */
+	width: 100%;
+	height: 520px;
+}
+
+div.container {
+	width: 204px;
+  	height: 100px;
+  	margin: auto;
+}
+
+div.eye {
+  position: relative;
+  z-index: -1; /* need to get the eyes behind the nav */
+  display: inline-block;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: #CCC;
+}
+
+div.eye:after { /*pupil*/
+  position: absolute;
+  z-index: -1;
+  bottom: 17px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background: #000;
+  border-radius: 50%;
+  content: " ";
 }
 
 /* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
@@ -162,6 +196,23 @@ div.divider {
 /* ----- END OF DIVIDING LINE ----- */
 /* ------------------------------- END OF BOOKING PAGE STYLING ------------------------------- */
 
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media only screen and (max-width: 800px) {
+  button.landing-page-search-button {
+    height: 60px;
+    border-radius: 25px 25px 0px 0px; /* TOP RIGHT BOTTOM LEFT */
+  }
+
+  button.landing-page-search-button:hover {
+	background-color: #E7AC29;
+	height: 60px;
+    border-radius: 25px 25px 0px 0px; /* TOP RIGHT BOTTOM LEFT */
+  }
+
+  img.landing-page-image {
+  	margin-top: 150px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? */
+  }
+}
 
 
 /* ------ REFERENCES ------ */
