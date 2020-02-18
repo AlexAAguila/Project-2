@@ -80,10 +80,37 @@
 
     <!-- FOLLOWING EYES -->
     <section class="move-area">
-        <div class="container">
-            <div class="eye"></div>
-            <div class="eye"></div>
+            <div class="eyes">
+                <div class="eye">
+                    <div class="ball"></div>
+                </div>
+            <div class="eye">
+                <div class="ball"></div>
+            </div> 
+            <script>
+                var balls = document.getElementsByClassName("ball");
+                document.onmousemove = function(){
+                    var x = event.clientX *100 / window.innerWidth + "%";
+                    var y = event.clientY *100 / window.innerHeight + "%";
+                    //event.clientX => get the horizontal coordinate of the mouse
+                    //event.clientY => get the vertical coordinate of the mouse
+                    //window.innerWidth => get the browser width                     
+                    //window.innerHeight => get the browser height
+                    
+                    
+                    //https://www.youtube.com/watch?v=AixAmLWzXYg
+
+                    for(var i=0; i<2;i++){
+                        balls[i].style.left = x;
+                        balls[i].style.top = y;
+                        balls[i].style.transform = "translate(-"+x+",-"+y+")";
+
+
+                    }
+                }
+            </script>
         </div>
+       
     </section>
     <!-- END OF FOLLOWING EYES -->
 
@@ -195,16 +222,12 @@
 
         </div>
 
-        <div class="row-100">
-            <div class="column-100">
-                <p>The Cat Inn is a great place to leave your precious cats or kittens in the care of our professionals while you do you. We value their safety and happiness.</p>
-            </div>
-            <div class="column-100"></div>
-            <div class="column-100"></div>
-            <div class="column-100"></div>
-            <div class="column-100"></div>
-            <div class="column-100"></div>
-        </div>
+</header>
+<div class="cfooter">
+  <p>Check In:&nbsp;</p>
+  <div class="dropdown">
+    <button class="dropbtn">dd/mm/yy</button>
+    <div class="dropup-content">
 
         <div class="row-100">
                 <div class="column-100">

@@ -38,6 +38,7 @@ p {
 
 body {
 	padding: 1em;
+	margin: 0;
 }
 
 img.logo {
@@ -95,18 +96,18 @@ div.container {
   	height: 100px;
   	margin: auto;
 }
-
+/*
 div.eye {
   position: relative;
-  z-index: -1; /* need to get the eyes behind the nav */
+  z-index: -1; /* need to get the eyes behind the nav *//*
   display: inline-block;
   border-radius: 50%;
   height: 100px;
   width: 100px;
   background: #CCC;
 }
-
-div.eye:after { /*pupil*/
+/
+div.eye:after { /*pupil*//*
   position: absolute;
   z-index: -1;
   bottom: 17px;
@@ -116,6 +117,39 @@ div.eye:after { /*pupil*/
   background: #000;
   border-radius: 50%;
   content: " ";
+}
+*/
+/*New Eye Code*/
+.eyes{
+	position:absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	width:100%;
+	text-align:	center;
+}
+
+.eye{
+	width: 180px;
+	height: 120px;
+	background: rgb(255, 230, 0);
+	display: inline-block;
+	margin: 40px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+.ball{
+	width: 35px;
+	height: 70px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 10px solid rgb(0, 226, 188);
+
 }
 
 /* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
