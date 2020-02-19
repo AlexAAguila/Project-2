@@ -250,14 +250,6 @@ h3.landing-page2 {
   display: inline-block;
 }
 
-button.landing-page-options {
-  margin: 0;
-  padding: 0;
-  display: block;
-  background-color: white;
-  border: none;
-}
-
 /* Used for the drop down menu for profile default 'Phil' */
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {

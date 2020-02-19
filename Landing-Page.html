@@ -16,6 +16,8 @@
     <!-- add icons https://www.w3schools.com/icons/ -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="java/script.js"></script>
 </head>
 
@@ -52,11 +54,11 @@
     <!-- FOLLOWING EYES -->
     <!--- code by https://codepen.io/J-Roel/pen/wWGNQN -->
     <section class="move-area">
-            <div class="eyes">
-                <div class="eye">
-                    <div class="ball"></div>
-                </div>
+        <div class="eyes">
             <div class="eye">
+                <div class="ball"></div>
+                </div>
+                <div class="eye">
                 <div class="ball"></div>
             </div> 
 
@@ -79,6 +81,7 @@
                     }
                 }
             </script>
+            <img class="black-cat" src="img/Cat.png" alt="Black cat with eyes that follow the mouse">
         </div>
     </section>
 
@@ -113,7 +116,7 @@
 
          <!-- COLUMN 4 -->
         <div class="column-100-button">
-            <button class="landing-page-search-button" type="button">Search</button>
+            <a href="booking.html"><button class="landing-page-search-button" type="button">Search</button></a>
         </div>
 
         <!-- COLUMN 5 - EMPTY COLUMN -->
@@ -129,20 +132,97 @@
         </div>
     </div>
 
+<!-- TESTIMONIALS -->
     <div class="row-100">
         <div class="column-25"></div>
         <div class="column-75">
             <h1>Happy Clients</h1>
+            <p>At The Cat Inn, we strive to make your experience the best there is. Please feel free to drop us a comment. These are just a few words some of our customers had to say.</p>
         </div>
     </div>
 
+    <div class="row-100"> <!-- TESTIMONIAL DIV -->
+
+        <div class="column-25"></div>
+
+        <div class="column-100">
+            <div class="testimonial">
+                <img class="testimonial" src="img/testimonial1.jpg" alt="Image of Alex Aguilar, a person who provided a testimonial about his Cat Inn experience.">
+                <div class="testimonial-header">
+                    <h3 class="testimonial-headers">Alex Aguilar</h3>
+                    <h4 class="testimonial-headers">Great Experience!</h4>
+                </div>
+                <div>
+                    <!-- https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p>The Cat Inn is a great place to leave your cat for a few hours as you're gone at work, or even during your vacation, especially when they have specific medical attention. Would highly recommend!</p>
+            </div>
+        </div>
+
+        <div class="column-100">
+            <div class="testimonial">
+                <img class="testimonial" src="img/testimonial2.jpg" alt="Image of Coco Miko, a person who provided a testimonial about her Cat Inn experience.">
+                <div class="testimonial-header">
+                    <h3 class="testimonial-headers">Coco Miko</h3>
+                    <h4 class="testimonial-headers">Would highly recommend!</h4>
+                </div>
+                <div>
+                    <!-- https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <p>I heard about The Cat Inn from a friend of mine and decided to give it a shot while I took my vacation.</p>
+            </div>
+        </div>
+
+        <div class="column-100">
+            <div class="testimonial">
+                <img class="testimonial" src="img/testimonial2.jpg" alt="Image of Coco Miko, a person who provided a testimonial about her Cat Inn experience.">
+                <div class="testimonial-header">
+                    <h3 class="testimonial-headers">Coco Miko</h3>
+                    <h4 class="testimonial-headers">Would highly recommend!</h4>
+                </div>
+                <div>
+                    <!-- https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <p>I heard about The Cat Inn from a friend of mine and decided to give it a shot while I took my vacation.</p>
+            </div>
+        </div>
+
+    </div> <!-- END OF TESTIMONIAL DIV -->
+
+
+    <div class="row-100">
+        <div class="column-25"></div>
+        <div class="column-75">
+            <div class="column-100">
+                <a href="testimonials.html"><button type="button">Leave a Comment</button></a>
+            </div>
+        </div>
+    </div>
+
+
 <!--  FOOTER -->
     <footer>
-        <div class="row-100">
-             <!-- COLUMN 1 -->
-            <div class="column-100">
-                <a href="Landing-Page.html"><h1 class="footer-logo">TheCatInn</h1></a>
-            </div>
+        <section class="footer">
+            <div class="row-100">
+                <!-- COLUMN 1 -->
+                <div class="column-100">
+                    <a href="Landing-Page.html"><h1 class="footer-logo">TheCatInn</h1></a>
+                </div>
 
              <!-- COLUMN 2 -->
             <div class="column-100">
@@ -187,6 +267,7 @@
             <div class="divider"></div>
 
         </div>
+    </section>
 
         <div class="row-100">
                 <div class="column-100">
@@ -198,3 +279,6 @@
 
 </body>
 </html>
+
+<!-- REFERENCES -->
+<!-- STAR RATING https://www.w3schools.com/howto/howto_css_star_rating.asp -->
