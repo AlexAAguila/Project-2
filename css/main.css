@@ -220,9 +220,7 @@ div.eye:after { /*pupil*//*
 	  object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
   }
   /* ----- END OF IMAGES ----- */
-  .extra{
-	margin-top: 50px;
-}
+
   
   /* ----- DIVIDING LINE ----- */
   div.divider {
