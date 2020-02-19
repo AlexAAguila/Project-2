@@ -1,4 +1,5 @@
 html{
+<<<<<<< Updated upstream
 	background-color: #f7f7f7;
   }
   
@@ -83,6 +84,114 @@ html{
 	  height: 100%;
   }
   
+=======
+  background-color: #f7f7f7;
+}
+
+@font-face{
+  font-family: "Orelo";
+  font-family: "Nimbus-Sans";
+  font-family: "Circular Std";
+}
+
+h1 {
+  font-family: "Orelo Standard DemiBold", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+h2 {
+  	font-family: "Nimbus-Sans", sans-serif;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-size: 1.3em;
+}
+
+h3 {
+	font-family: "Nimbus-Sans", sans-serif;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-size: 1em;
+}
+
+p {
+  	font-family: "Nimbus-Sans", sans-serif;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-size: .8em;
+}
+
+body {
+	padding: 1em;
+}
+
+h1.footer-logo {
+	font-family: "Orelo Standard DemiBold", sans-serif;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-size: 2em;
+}
+
+img.logo {
+	display: inline-block;
+	width: 150px;
+	float: left;
+}
+
+div.room-option-buttons {
+	clear: both;
+	display: block;
+}
+
+button.room-option-button {
+	padding: 10px;
+	background-color: gray;
+	border: none;
+}
+
+img.landing-page-image {
+	display: block;
+	position: relative;
+	z-index: -2;
+	margin: auto;
+	margin-top: -230px;
+	width: 400px;
+}
+
+button.landing-page-search-button {
+	height: 100px;
+	width: 100%;
+	background-color: #FEBD2D;
+	border: none;
+	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
+}
+
+button.landing-page-search-button:hover {
+	height: 100px;
+	width: 100%;
+	background-color: #E7AC29;
+	border: none;
+	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
+}
+
+div.center {
+	height: 100%;
+}
+
+/* code by https://codepen.io/J-Roel/pen/wWGNQN */
+section.move-area {
+	padding: 28% 0 0 0; /* top, right, bottom, left */
+	width: 100%;
+	height: 520px;
+}
+
+div.container {
+	width: 204px;
+  	height: 100px;
+  	margin: auto;
+}
+>>>>>>> Stashed changes
 
   
   section.move-area {
@@ -105,7 +214,7 @@ div.eye {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  background: #CCC;
+  background: white;
 }
 /
 div.eye:after { /*pupil*//*
@@ -113,8 +222,8 @@ div.eye:after { /*pupil*//*
   z-index: -1;
   bottom: 17px;
   right: 10px;
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 70px;
   background: #000;
   border-radius: 50%;
   content: " ";
@@ -168,6 +277,7 @@ div.eye:after { /*pupil*//*
 	  padding-bottom: 10px;
 	  object-fit: cover;
   }
+<<<<<<< Updated upstream
   /* ----- END OF IMAGES ----- */
   
   /* ----- DIVS ----- */
@@ -255,3 +365,12 @@ div.eye:after { /*pupil*//*
   
   /* OBJECT FIT https://www.w3schools.com/css/css3_object-fit.asp */
   /* FLOATS https://www.w3schools.com/css/css_float.asp */
+=======
+}
+
+
+/* ------ REFERENCES ------ */
+
+/* OBJECT FIT https://www.w3schools.com/css/css3_object-fit.asp */
+/* FLOATS https://www.w3schools.com/css/css_float.asp */
+>>>>>>> Stashed changes

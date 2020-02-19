@@ -232,6 +232,11 @@ h3.landing-page {
   display: block;
 }
 
+h3.landing-page2 {
+  display: block;
+  padding-left: 50px;
+}
+
 .dropbtn:hover {
   color: #FEBD2D;
   text-decoration: none;
@@ -364,11 +369,12 @@ button.landing-page-options {
     margin-bottom: 10px;
     display: block;
     text-align: center;
-    background-color: blue;
+    background-color: #FEBD2D;
+    color: white;
+    border-radius: 25px;
   }
 
   nav {
-    background-color: gray;
     padding: 20px;
     width: 100%;
     clear: both;
