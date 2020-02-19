@@ -11,13 +11,107 @@ body {
 	font-family: "Orelo";
 	font-family: "Nimbus-Sans";
 	font-family: "Circular Std";
+<<<<<<< Updated upstream
 }
   
 h1 {
+=======
+  }
+
+  h1 {
+>>>>>>> Stashed changes
 	font-family: "Orelo Standard DemiBold", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 2.5em;
+<<<<<<< Updated upstream
+=======
+  }
+  
+  h2 {
+		font-family: "Nimbus-Sans", sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 1.3em;
+  }
+
+  .colour{
+	  color: darkslategrey;
+  }
+  
+  h3 {
+	  font-family: "Nimbus-Sans", sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 1em;
+  }
+  
+  p {
+		font-family: "Nimbus-Sans", sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: .8em;
+  }
+  
+  body {
+	  padding: 1em;
+  }
+  
+  img.logo {
+	  display: inline-block;
+	  width: 150px;
+	  float: left;
+  }
+  
+  div.room-option-buttons {
+	  clear: both;
+	  display: block;
+  }
+  
+  button.room-option-button {
+	  padding: 10px;
+	  background-color: gray;
+	  border: none;
+  }
+  
+  img.landing-page-image {
+	  height: 520px;
+	  width: 100%;
+	  object-fit: cover;
+  }
+  
+  button.landing-page-search-button {
+	  height: 100px;
+	  width: 100%;
+	  background-color: #FEBD2D;
+	  border: none;
+	  border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
+  }
+  
+  button.landing-page-search-button:hover {
+	  height: 100px;
+	  width: 100%;
+	  background-color: #E7AC29;
+	  border: none;
+	  border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
+  }
+  
+  div.center {
+	  height: 100%;
+  }
+
+@font-face{
+  font-family: "Orelo";
+  font-family: "Nimbus-Sans";
+  font-family: "Circular Std";
+}
+
+h1 {
+  font-family: "Orelo Standard DemiBold", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.5em;
+>>>>>>> Stashed changes
 }
   
 h2 {
@@ -152,6 +246,7 @@ img.black-cat {
 	z-index: -2;
 }
 
+<<<<<<< Updated upstream
 
 /* ------------------------------- TYPE STYLING ------------------------------- */
 h1.footer-logo {
@@ -171,6 +266,28 @@ h1.footer-logo {
 section.footer {
 	margin-top: 40px;
 }
+=======
+  
+  section.move-area {
+	  padding: 25% 0 0 0; /* top, right, bottom, left */
+	  width: 100%;
+	  height: 520px;
+  }
+  
+  div.container {
+	  width: 204px;
+		height: 100px;
+		margin: auto;
+  }
+
+  .contain{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 30px 30px 30px 30px;
+	width: 50%;
+  }
+  
+>>>>>>> Stashed changes
 
 /* ------------------------------- EYE CODE ------------------------------- */
 /* code by https://codepen.io/J-Roel/pen/wWGNQN */
