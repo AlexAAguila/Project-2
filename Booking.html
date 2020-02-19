@@ -19,50 +19,53 @@
 
 	<body>
 		<header>
-			<div class="row-navigation">
-				<div class="column-navigation"> <!-- COLUMN FOR LOGO -->
-					<a href="Landing-Page.html"><img class="logo" src="img/logo.png" alt="The Cat Inn logo"></a>
-				</div> <!-- END OF COLUMN FOR LOGO -->
-
-				<div class="column"> <!-- COLUMN FOR NAVIGATION -->
-					<button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
-			
+			<div class="row-100">
+				<!-- COLUMN FOR LOGO -->
+				<div class="column-25"> 
+					<a href="Landing-Page.html"><h1>TheCatInn</h1></a>
+				</div>
+				<!-- END OF COLUMN FOR LOGO -->
+	
+				<!-- COLUMN FOR NAVIGATION -->
+				<div class="column-75">
+					<nav>
+						<a class="navigation" href="Booking.html">Booking</a>
+						<a class="navigation" href="Grooming.html">Grooming</a>
+						<a class="navigation" href="Extras.html">Extras</a>
+						<a class="navigation" href="Contact.html">Contact</a>
+						<a class="navigation" href="Items.html">Items</a>
+	<!--                     <div class="dropdown">
+							<button class="dropbtn-navigation">Phil</button>
+							<div class="dropdown-content">
+								<a href="View-Profile.html">View Profile</a>
+								<a href="Edit-Profile.html">Edit Profile</a>
+						</div> -->
+					</nav>
+				</div>
+				<!-- <div class="column-navigation"> 
+					<button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items"></button>
+		  
 					<nav id="nav-items" class="grid">
-        
-        				<div class="col-1of6">
-          					<a href="Booking.html">Booking</a>
-        				</div>
-
-        				<div class="col-1of6">
-          					<a href="Grooming.html">Grooming</a>
-        				</div>
-
-        				<div class="col-1of6">
-          					<a href="Extras.html">Extras</a>
-        				</div>
-
-        				<div class="col-1of6">
-          					<a href="Contact.html">Contact</a>
-        				</div>
-
-        				<div class="col-1of6">
-          					<a href="Items.html">Items</a>
-        				</div>
-
-
-        				<div class="col-1of6">
-          					<div class="dropdown">
-            					<button class="dropbtn">phil</button>
-            					<div class="dropdown-content">
-              						<a href="View-Profile.html">View Profile</a>
-              						<a href="Edit-Profile.html">Edit Profile</a>
-            					</div>
-            				</div>
-        				</div>
-      				</nav>
-      			</div> <!-- END OF COLUMN NAVIGATION -->
-      		</div> <!-- END OF ROW NAVIGATION -->
-
+						<a href="Booking.html">Booking</a>
+	
+						<a href="Grooming.html">Grooming</a>
+	
+						<a href="Extras.html">Extras</a>
+	
+						<a href="Contact.html">Contact</a>
+	
+						<a href="Items.html">Items</a>
+	
+							<div class="dropdown">
+							<button class="dropbtn">phil</button>
+							<div class="dropdown-content">
+								<a href="View-Profile.html">View Profile</a>
+								<a href="Edit-Profile.html">Edit Profile</a>
+							</div>
+						</div>
+					</nav>
+				</div> --> <!-- END OF COLUMN NAVIGATION -->
+			</div> <!-- END OF ROW NAVIGATION -->
 		</header>
 
 		<div class="room-option-buttons">
@@ -159,9 +162,9 @@
 		<div class="divider"></div>
 
 		<!-- first create a row and insert the column -->
-		<div class="row-content"> <!-- BEGINNING OF ROW 1 -->
+		<div class="row-100"> <!-- BEGINNING OF ROW 1 -->
 			<!-- COLUMN 1 -->
-			<div class="column-content">
+			<div class="column-100">
 				<!-- 100% width -->
 				<a href="Room-Type.html">
 					<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
@@ -177,7 +180,7 @@
 			</div>
 
 			<!-- COLUMN 2 -->
-			<div class="column-content">
+			<div class="column-100">
 				<!-- add nother column, now both are 50% -->
 				<!-- The width of each column is 100% divided by the number of columns within the flex container (.row). Predictably, adding another with divide once again. -->
 				<a href="Room-Type.html">
@@ -194,7 +197,7 @@
 			</div>
 
 			<!-- COLUMN 3 -->
-			<div class="column-content">
+			<div class="column-100">
 				<a href="Room-Type.html">
 					<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
 					<h1 class="room-header">Header</h1>
@@ -209,7 +212,7 @@
 			</div>
 
 			<!-- COLUMN 4 -->
-			<div class="column-content">
+			<div class="column-100">
 				<a href="Room-Type.html">
 					<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
 					<h1 class="room-header">Header</h1>
@@ -224,9 +227,9 @@
 			</div>
 		</div> <!-- END OF ROW 1 -->
 
-		<div class="row-content"> <!-- BEGINNING OF ROW 2 -->
+		<div class="row-100"> <!-- BEGINNING OF ROW 2 -->
 			<!-- COLUMN 1 -->
-			<div class="column-content">
+			<div class="column-100">
 				<!-- 100% width -->
 				<a href="Room-Type.html">
 					<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
@@ -242,7 +245,7 @@
 			</div>
 
 			<!-- COLUMN 2 -->
-			<div class="column-content">
+			<div class="column-100">
 				<!-- add nother column, now both are 50% -->
 				<!-- The width of each column is 100% divided by the number of columns within the flex container (.row). Predictably, adding another with divide once again. -->
 				<a href="Room-Type">
@@ -259,7 +262,7 @@
 			</div>
 
 			<!-- COLUMN 3 -->
-			<div class="column-content">
+			<div class="column-100">
 				<a href="Room-Type.html">
 					<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
 					<h1 class="room-header">Header</h1>
@@ -274,7 +277,7 @@
 			</div>
 
 			<!-- COLUMN 4 -->
-			<div class="column-content">
+			<div class="column-100">
 				<a href="Room-Type.html">
 					<img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
 					<h1 class="room-header">Header</h1>

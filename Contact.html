@@ -2,59 +2,106 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Contact</title>
+  <head>
+		<title>Extras</title>
+		
+		<meta charset="utf-8">
 
-    <link href="css/Navigation.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<title>The Cat Inn</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/Flexgrid.css">
+		<link rel="stylesheet" href="css/Navigation.css">
 
-
-
-</head>
+		<!-- add icons https://www.w3schools.com/icons/ -->
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	</head>
 <body>
   <header>
+    <div class="row-100">
+      <!-- COLUMN FOR LOGO -->
+      <div class="column-25"> 
+        <a href="Landing-Page.html"><h1>TheCatInn</h1></a>
+      </div>
+      <!-- END OF COLUMN FOR LOGO -->
 
+      <!-- COLUMN FOR NAVIGATION -->
+      <div class="column-75">
+        <nav>
+          <a class="navigation" href="Booking.html">Booking</a>
+          <a class="navigation" href="Grooming.html">Grooming</a>
+          <a class="navigation" href="Extras.html">Extras</a>
+          <a class="navigation" href="Contact.html">Contact</a>
+          <a class="navigation" href="Items.html">Items</a>
+<!--                     <div class="dropdown">
+            <button class="dropbtn-navigation">Phil</button>
+            <div class="dropdown-content">
+              <a href="View-Profile.html">View Profile</a>
+              <a href="Edit-Profile.html">Edit Profile</a>
+          </div> -->
+        </nav>
+      </div>
+      <!-- <div class="column-navigation"> 
+        <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items"></button>
+    
+        <nav id="nav-items" class="grid">
+          <a href="Booking.html">Booking</a>
 
-      <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+          <a href="Grooming.html">Grooming</a>
 
-      <nav id="nav-items" class="grid">
-        
-        <div class="col-1of6">
-          <a href="Booking.html" >Booking</a>
-        </div>
+          <a href="Extras.html">Extras</a>
 
-        <div class="col-1of6">
-          <a href="Grooming.html" >Grooming</a>
-        </div>
+          <a href="Contact.html">Contact</a>
 
-        <div class="col-1of6">
-          <a href="Extras.html" >Extras</a>
-        </div>
-
-        <div class="col-1of6">
-          <a href="Contact.html" >Contact</a>
-        </div>
-
-        <div class="col-1of6">
           <a href="Items.html">Items</a>
-        </div>
 
-
-        <div class="col-1of6">
             <div class="dropdown">
-              <button class="dropbtn">phil</button>
-              <div class="dropdown-content">
-                <a href="View.html">View Profile</a>
-                <a href="Edit.html">Edit Profile</a>
-              </div>
-              </div>
+            <button class="dropbtn">phil</button>
+            <div class="dropdown-content">
+              <a href="View-Profile.html">View Profile</a>
+              <a href="Edit-Profile.html">Edit Profile</a>
+            </div>
           </div>
+        </nav>
+      </div> --> <!-- END OF COLUMN NAVIGATION -->
+    </div> <!-- END OF ROW NAVIGATION -->
+  </header>
 
-      </nav>
 
+  <div class="row-100"> <!-- BEGINNING OF ROW 1 -->
+    <!-- COLUMN 1 -->
+    <div class="column-100">
+      <img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
 
-</header>
+      </a>
+    </div>
 
+    <!-- COLUMN 2 -->
+    <div class="column-100">
+      <br>
+      <h1>Contact</h1>
+
+      <br><br><br>
+      <!-- add nother column, now both are 50% -->
+      <!-- The width of each column is 100% divided by the number of columns within the flex container (.row). Predictably, adding another with divide once again. -->
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <textarea cols="50" rows="5">Comment
+    </textarea><br><br>
+  <input type="submit" value="Submit">
+
+    
+</form>
+    </div>
+</div>
+<footer>
+  <p>The Cat Inn. Copyright © 2020.</p>
+</footer>
 </body>
 
 </html>

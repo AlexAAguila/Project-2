@@ -1,101 +1,102 @@
 html{
-  background-color: #f7f7f7;
-}
+	background-color: #f7f7f7;
+  }
+  
+  @font-face{
+	font-family: "Orelo";
+	font-family: "Nimbus-Sans";
+	font-family: "Circular Std";
+  }
+  
+  h1 {
+	font-family: "Orelo Standard DemiBold", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2.5em;
+  }
+  
+  h2 {
+		font-family: "Nimbus-Sans", sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 1.3em;
+  }
+  
+  h3 {
+	  font-family: "Nimbus-Sans", sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 1em;
+  }
+  
+  p {
+		font-family: "Nimbus-Sans", sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: .8em;
+  }
+  
+  body {
+	  padding: 1em;
+  }
+  
+  img.logo {
+	  display: inline-block;
+	  width: 150px;
+	  float: left;
+  }
+  
+  div.room-option-buttons {
+	  clear: both;
+	  display: block;
+  }
+  
+  button.room-option-button {
+	  padding: 10px;
+	  background-color: gray;
+	  border: none;
+  }
+  
+  img.landing-page-image {
+	  height: 520px;
+	  width: 100%;
+	  object-fit: cover;
+  }
+  
+  button.landing-page-search-button {
+	  height: 100px;
+	  width: 100%;
+	  background-color: #FEBD2D;
+	  border: none;
+	  border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
+  }
+  
+  button.landing-page-search-button:hover {
+	  height: 100px;
+	  width: 100%;
+	  background-color: #E7AC29;
+	  border: none;
+	  border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
+  }
+  
+  div.center {
+	  height: 100%;
+  }
+  
 
-@font-face{
-  font-family: "Orelo";
-  font-family: "Nimbus-Sans";
-  font-family: "Circular Std";
-}
-
-h1 {
-  font-family: "Orelo Standard DemiBold", sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2.5em;
-}
-
-h2 {
-  	font-family: "Nimbus-Sans", sans-serif;
-  	font-weight: normal;
-  	font-style: normal;
-  	font-size: 1.3em;
-}
-
-h3 {
-	font-family: "Nimbus-Sans", sans-serif;
-  	font-weight: normal;
-  	font-style: normal;
-  	font-size: 1em;
-}
-
-p {
-  	font-family: "Nimbus-Sans", sans-serif;
-  	font-weight: normal;
-  	font-style: normal;
-  	font-size: .8em;
-}
-
-body {
-	padding: 1em;
-	margin: 0;
-}
-
-img.logo {
-	display: inline-block;
-	width: 150px;
-	float: left;
-}
-
-div.room-option-buttons {
-	clear: both;
-	display: block;
-}
-
-button.room-option-button {
-	padding: 10px;
-	background-color: gray;
-	border: none;
-}
-
-img.landing-page-image {
-	height: 520px;
-	width: 100%;
-	object-fit: cover;
-}
-
-button.landing-page-search-button {
-	height: 100px;
-	width: 100%;
-	background-color: #FEBD2D;
-	border: none;
-	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
-}
-
-button.landing-page-search-button:hover {
-	height: 100px;
-	width: 100%;
-	background-color: #E7AC29;
-	border: none;
-	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
-}
-
-div.center {
-	height: 100%;
-}
-
-
-section.move-area {
-	padding: 25% 0 0 0; /* top, right, bottom, left */
-	width: 100%;
-	height: 520px;
-}
-
-div.container {
-	width: 204px;
-  	height: 100px;
-  	margin: auto;
-}
+  
+  section.move-area {
+	  padding: 25% 0 0 0; /* top, right, bottom, left */
+	  width: 100%;
+	  height: 520px;
+  }
+  
+  div.container {
+	  width: 204px;
+		height: 100px;
+		margin: auto;
+  }
+  
 /*
 div.eye {
   position: relative;
@@ -120,6 +121,7 @@ div.eye:after { /*pupil*//*
 }
 */
 /*New Eye Code*/
+
 .eyes{
 	position:absolute;
 	top: 50%;
@@ -151,105 +153,107 @@ div.eye:after { /*pupil*//*
 	border: 10px solid rgb(0, 226, 188);
 
 }
-
-/* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
-/* ----- HEADERS ----- */
-h2.room-type-subtitle {
-	display: inline-block;
-	padding-right: 10px;
-}
-/* ----- END HEADERS ----- */
-
-/* ----- IMAGES ----- */
-img.room-type-image {
-	width: 100%;
-	padding-bottom: 10px;
-	object-fit: cover;
-}
-/* ----- END OF IMAGES ----- */
-
-/* ----- DIVS ----- */
-div.select-tag {
-	width: 100%;
-}
-/* ----- END OF DIVS ----- */
-/* ------------------------------- END OF ROOM TYPE PAGE STYLING ------------------------------- */
-
-
-/* ------------------------------- BOOKING PAGE STYLING ------------------------------- */
-/* ----- HEADERS ----- */
-h1.room-header {
-	margin-top: -25px;
-	padding-left: 10px;
-}
-
-h2.room-subtitle {
-	padding-left: 10px;
-}
-/* ----- END OF HEADERS ----- */
-
-/* ----- TABEL LAYOUT ----- */
-h3.table-layout-left {
-	display: inline-block;
-	float: left;
-	padding-left: 10px;
-}
-
-h3.table-layout-right {
-	display: inline-block;
-	float: right;
-	padding-right: 10px;
-}
-/* ----- END OF TABLE LAYOUT ----- */
-
-
-/* ----- ICON STYLING ----- */
-i {
-	padding-top: 20px;
-	padding-left: 10px;
-}
-/* ----- END OF ICON STYLING ----- */
-
-
-/* ----- IMAGES ----- */
-img.room-placeholder-image {
+  
+  /* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
+  /* ----- HEADERS ----- */
+  h2.room-type-subtitle {
+	  display: inline-block;
+	  padding-right: 10px;
+  }
+  /* ----- END HEADERS ----- */
+  
+  /* ----- IMAGES ----- */
+  img.room-type-image {
+	  width: 100%;
+	  padding-bottom: 10px;
+	  object-fit: cover;
+  }
+  /* ----- END OF IMAGES ----- */
+  
+  /* ----- DIVS ----- */
+  div.select-tag {
+	  width: 100%;
+  }
+  /* ----- END OF DIVS ----- */
+  /* ------------------------------- END OF ROOM TYPE PAGE STYLING ------------------------------- */
+  
+  
+  /* ------------------------------- BOOKING PAGE STYLING ------------------------------- */
+  /* ----- HEADERS ----- */
+  h1.room-header {
+	  margin-top: -25px;
+	  padding-left: 10px;
+  }
+  
+  h2.room-subtitle {
+	  padding-left: 10px;
+  }
+  /* ----- END OF HEADERS ----- */
+  
+  /* ----- TABEL LAYOUT ----- */
+  h3.table-layout-left {
+	  display: inline-block;
+	  float: left;
+	  padding-left: 10px;
+  }
+  
+  h3.table-layout-right {
+	  display: inline-block;
+	  float: right;
+	  padding-right: 10px;
+  }
+  /* ----- END OF TABLE LAYOUT ----- */
+  
+  
+  /* ----- ICON STYLING ----- */
+  i {
+	  padding-top: 20px;
+	  padding-left: 10px;
+  }
+  /* ----- END OF ICON STYLING ----- */
+  
+  
+  /* ----- IMAGES ----- */
+  img.room-placeholder-image {
+	  margin-top: 50px;
+	  width: 100%;
+	  object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
+  }
+  /* ----- END OF IMAGES ----- */
+  .extra{
 	margin-top: 50px;
-	width: 100%;
-	object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
 }
-/* ----- END OF IMAGES ----- */
-
-
-/* ----- DIVIDING LINE ----- */
-div.divider {
-	width: 100%;
-	background-color: gray;
-	height: 1px;
-	clear: both; /* https://www.w3schools.com/css/css_float.asp */
-}
-/* ----- END OF DIVIDING LINE ----- */
-/* ------------------------------- END OF BOOKING PAGE STYLING ------------------------------- */
-
-/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
-@media only screen and (max-width: 800px) {
-  button.landing-page-search-button {
-    height: 60px;
-    border-radius: 25px 25px 0px 0px; /* TOP RIGHT BOTTOM LEFT */
+  
+  /* ----- DIVIDING LINE ----- */
+  div.divider {
+	  width: 100%;
+	  background-color: gray;
+	  height: 1px;
+	  clear: both; /* https://www.w3schools.com/css/css_float.asp */
   }
-
-  button.landing-page-search-button:hover {
-	background-color: #E7AC29;
-	height: 60px;
-    border-radius: 25px 25px 0px 0px; /* TOP RIGHT BOTTOM LEFT */
+  /* ----- END OF DIVIDING LINE ----- */
+  /* ------------------------------- END OF BOOKING PAGE STYLING ------------------------------- */
+  
+  /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+  @media only screen and (max-width: 800px) {
+	button.landing-page-search-button {
+	  height: 60px;
+	  border-radius: 25px 25px 0px 0px; /* TOP RIGHT BOTTOM LEFT */
+	}
+  
+	button.landing-page-search-button:hover {
+	  background-color: #E7AC29;
+	  height: 60px;
+	  border-radius: 25px 25px 0px 0px; /* TOP RIGHT BOTTOM LEFT */
+	}
+  
+	img.landing-page-image {
+		margin-top: 150px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? */
+	}
   }
-
-  img.landing-page-image {
-  	margin-top: 150px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? */
-  }
-}
-
-
-/* ------ REFERENCES ------ */
-
-/* OBJECT FIT https://www.w3schools.com/css/css3_object-fit.asp */
-/* FLOATS https://www.w3schools.com/css/css_float.asp */
+  
+  
+  /* ------ REFERENCES ------ */
+  
+  /* OBJECT FIT https://www.w3schools.com/css/css3_object-fit.asp */
+  /* FLOATS https://www.w3schools.com/css/css_float.asp */
