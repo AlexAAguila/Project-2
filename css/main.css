@@ -1,5 +1,4 @@
 html{
-<<<<<<< Updated upstream
 	background-color: #f7f7f7;
   }
   
@@ -83,10 +82,6 @@ html{
   div.center {
 	  height: 100%;
   }
-  
-=======
-  background-color: #f7f7f7;
-}
 
 @font-face{
   font-family: "Orelo";
@@ -206,40 +201,18 @@ div.container {
 		margin: auto;
   }
   
-/*
-div.eye {
-  position: relative;
-  z-index: -1; /* need to get the eyes behind the nav *//*
-  display: inline-block;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background: white;
-}
-/
-div.eye:after { /*pupil*//*
-  position: absolute;
-  z-index: -1;
-  bottom: 17px;
-  right: 10px;
-  width: 70px;
-  height: 70px;
-  background: #000;
-  border-radius: 50%;
-  content: " ";
-}
-*/
-/*New Eye Code*/
 
-.eyes{
-	position:absolute;
+/* ------------------------------- EYE CODE ------------------------------- */
+.eyes {
+	position: absolute;
+	z-index: -1;
 	top: 50%;
 	transform:translateY(-50%);
 	width:100%;
 	text-align:	center;
 }
 
-.eye{
+.eye {
 	width: 180px;
 	height: 120px;
 	background: rgb(255, 230, 0);
@@ -250,7 +223,7 @@ div.eye:after { /*pupil*//*
 	overflow: hidden;
 }
 
-.ball{
+.ball {
 	width: 35px;
 	height: 70px;
 	background: #000;
@@ -262,30 +235,28 @@ div.eye:after { /*pupil*//*
 	border: 10px solid rgb(0, 226, 188);
 
 }
+
+/* ------------------------------- END OF EYE CODE ------------------------------- */
   
-  /* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
-  /* ----- HEADERS ----- */
-  h2.room-type-subtitle {
-	  display: inline-block;
-	  padding-right: 10px;
-  }
-  /* ----- END HEADERS ----- */
+/* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
+/* ----- HEADERS ----- */
+h2.room-type-subtitle {
+	display: inline-block;
+	padding-right: 10px;
+}
   
-  /* ----- IMAGES ----- */
-  img.room-type-image {
-	  width: 100%;
-	  padding-bottom: 10px;
-	  object-fit: cover;
-  }
-<<<<<<< Updated upstream
-  /* ----- END OF IMAGES ----- */
+/* ----- IMAGES ----- */
+img.room-type-image {
+	width: 100%;
+	padding-bottom: 10px;
+	object-fit: cover;
+}
   
-  /* ----- DIVS ----- */
-  div.select-tag {
-	  width: 100%;
-  }
-  /* ----- END OF DIVS ----- */
-  /* ------------------------------- END OF ROOM TYPE PAGE STYLING ------------------------------- */
+/* ----- DIVS ----- */
+div.select-tag {
+	width: 100%;
+}
+/* ------------------------------- END OF ROOM TYPE PAGE STYLING ------------------------------- */
   
   
   /* ------------------------------- BOOKING PAGE STYLING ------------------------------- */
@@ -298,7 +269,6 @@ div.eye:after { /*pupil*//*
   h2.room-subtitle {
 	  padding-left: 10px;
   }
-  /* ----- END OF HEADERS ----- */
   
   /* ----- TABEL LAYOUT ----- */
   h3.table-layout-left {
@@ -312,16 +282,12 @@ div.eye:after { /*pupil*//*
 	  float: right;
 	  padding-right: 10px;
   }
-  /* ----- END OF TABLE LAYOUT ----- */
-  
   
   /* ----- ICON STYLING ----- */
   i {
 	  padding-top: 20px;
 	  padding-left: 10px;
-  }
-  /* ----- END OF ICON STYLING ----- */
-  
+  }  
   
   /* ----- IMAGES ----- */
   img.room-placeholder-image {
@@ -339,9 +305,9 @@ div.eye:after { /*pupil*//*
 	  height: 1px;
 	  clear: both; /* https://www.w3schools.com/css/css_float.asp */
   }
-  /* ----- END OF DIVIDING LINE ----- */
   /* ------------------------------- END OF BOOKING PAGE STYLING ------------------------------- */
   
+/* ------------------------------- MEDIA QUERIES ------------------------------- */
   /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
   @media only screen and (max-width: 800px) {
 	button.landing-page-search-button {
@@ -361,16 +327,7 @@ div.eye:after { /*pupil*//*
   }
   
   
-  /* ------ REFERENCES ------ */
-  
-  /* OBJECT FIT https://www.w3schools.com/css/css3_object-fit.asp */
-  /* FLOATS https://www.w3schools.com/css/css_float.asp */
-=======
-}
-
-
 /* ------ REFERENCES ------ */
-
+  
 /* OBJECT FIT https://www.w3schools.com/css/css3_object-fit.asp */
 /* FLOATS https://www.w3schools.com/css/css_float.asp */
->>>>>>> Stashed changes

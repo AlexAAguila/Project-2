@@ -14,6 +14,16 @@
 	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 
+.column-100-button {
+	flex-basis: 100%; /* specifies the initial main size of a flex item */
+}
+
+.column-100-white {
+	flex-basis: 100%; /* specifies the initial main size of a flex item */
+	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+	background-color: white;
+}
+
 .row-90 {
 	width: 90%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
@@ -36,7 +46,6 @@
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
-	background-color: white;
 }
 
 /* using min-width is optimal for mobile first layout design */
@@ -44,6 +53,14 @@
 on desktop, all columns will be the same size */
 @media screen and (min-width: 800px) {
 	.column-100 {
+		flex: 1;
+	}
+
+	.column-100-white {
+		flex: 1;
+	}
+
+	.column-100-button {
 		flex: 1;
 	}
 
