@@ -114,7 +114,9 @@ div.room-option-buttons {
 }
 
 div.center {
-	  height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
 }
 
 div.testimonial {
@@ -133,6 +135,16 @@ div.testimonial-header {
 	display: inline-block;
 }
 
+div.white {
+	display: inline-block;
+	background-color: white;
+	width: 40px;
+	height: 100%;
+	margin-left: -44px;
+	position: relative;
+	z-index: -1;
+}
+
 
 /* ------------------------------- IMG STYLING ------------------------------- */
 img.testimonial {
@@ -144,11 +156,13 @@ img.testimonial {
 }
 
 img.black-cat {
-	padding: 0px;
-	margin: 0 auto;
 	width: 400px;
 	display: block;
-	position: absolute;
+	position: relative;
+	margin-left: calc(50% - 200px);
+	top: 25%;
+/*	transform: translateY(-50%);
+	transform: translateX(100%);*/
 	z-index: -2;
 }
 
@@ -175,7 +189,6 @@ section.footer {
 /* ------------------------------- EYE CODE ------------------------------- */
 /* code by https://codepen.io/J-Roel/pen/wWGNQN */
 section.move-area {
-	padding: 28% 0 0 0; /* top, right, bottom, left */
 	width: 100%;
 	height: 520px;
 } 
@@ -184,33 +197,33 @@ section.move-area {
 	position: absolute;
 	z-index: -1;
 	top: 50%;
-	transform:translateY(-50%);
+	transform: translateY(-20%);
+	margin-left: -22px;
 	width:100%;
 	text-align:	center;
 }
 
 .eye {
-	width: 180px;
+	width: 120px;
 	height: 120px;
-	background: rgb(255, 230, 0);
+	background: white;
 	display: inline-block;
-	margin: 40px;
+	margin: 30px;
 	border-radius: 50%;
 	position: relative;
 	overflow: hidden;
 }
 
 .ball {
-	width: 35px;
-	height: 70px;
+	width: 90px;
+	height: 90px;
 	background: #000;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 50%;
-	border: 10px solid rgb(0, 226, 188);
-
+	border: 10px solid #FEBD2D;
 }
 
   
