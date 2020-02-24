@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Orelo-StandardDemiBold';
+	src: url('../fonts/Orelo/OreloStandardDemiBold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Orelo/OreloStandardDemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	  url('../fonts/Orelo/OreloStandardDemiBold.otf') format('opentype'), /* Open Type Font */
+	  url('../fonts/Orelo/OreloStandardDemiBold.svg') format('svg'), /* Legacy iOS */
+	  url('../fonts/Orelo/OreloStandardDemiBold.ttf') format('truetype'), /* Safari, Android, iOS */
+	  url('../fonts/Orelo/OreloStandardDemiBold.woff') format('woff'), /* Modern Browsers */
+	  url('../fonts/Orelo/OreloStandardDemiBold.woff2') format('woff2'); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+  }
+
+  @font-face {
+	font-family: "NimbusSansDOT-LighExte";
+	src: url("../fonts/Nimbus/NimbusSansDOT-LighExte.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/Nimbus/NimbusSansDOT-LighExte.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	  url("../fonts/Nimbus/NimbusSansDOT-LighExte.otf") format("opentype"), /* Open Type Font */
+	  url("../fonts/Nimbus/NimbusSansDOT-LighExte.svg") format("svg"), /* Legacy iOS */
+	  url("../fonts/Nimbus/NimbusSansDOT-LighExte.ttf") format("truetype"), /* Safari, Android, iOS */
+	  url("../fonts/Nimbus/NimbusSansDOT-LighExte.woff") format("woff"), /* Modern Browsers */
+	  url("../fonts/Nimbus/NimbusSansDOT-LighExte.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+  }
+
+  /* font converted using font-converter.net. thank you! */
+@font-face {
+	font-family: "NimbusSansDOT-Regu";
+	src: url("../fonts/Nimbus/NimbusSansDOT-Regu.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/Nimbus/NimbusSansDOT-Regu.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	  url("../fonts/Nimbus/NimbusSansDOT-Regu.otf") format("opentype"), /* Open Type Font */
+	  url("../fonts/Nimbus/NimbusSansDOT-Regu.svg") format("svg"), /* Legacy iOS */
+	  url("../fonts/Nimbus/NimbusSansDOT-Regu.ttf") format("truetype"), /* Safari, Android, iOS */
+	  url("../fonts/Nimbus/NimbusSansDOT-Regu.woff") format("woff"), /* Modern Browsers */
+	  url("../fonts/Nimbus/NimbusSansDOT-Regu.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+  }

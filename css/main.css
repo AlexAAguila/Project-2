@@ -8,28 +8,17 @@ body {
 }
   
 @font-face{
-	font-family: "Orelo";
-	font-family: "Nimbus-Sans";
 	font-family: "Circular Std";
-<<<<<<< Updated upstream
 }
-  
-h1 {
-=======
-  }
+
+
 
   h1 {
->>>>>>> Stashed changes
-	font-family: "Orelo Standard DemiBold", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 2.5em;
-<<<<<<< Updated upstream
-=======
+	font-family: 'Orelo-StandardDemiBold';
   }
   
   h2 {
-		font-family: "Nimbus-Sans", sans-serif;
+		font-family: "NimbusSansDOT-LighExte", sans-serif;
 		font-weight: normal;
 		font-style: normal;
 		font-size: 1.3em;
@@ -40,14 +29,14 @@ h1 {
   }
   
   h3 {
-	  font-family: "Nimbus-Sans", sans-serif;
+	  font-family: "NimbusSansDOT-LighExte", sans-serif;
 		font-weight: normal;
 		font-style: normal;
 		font-size: 1em;
   }
   
   p {
-		font-family: "Nimbus-Sans", sans-serif;
+		font-family: "NimbusSansDOT-Regu", sans-serif;
 		font-weight: normal;
 		font-style: normal;
 		font-size: .8em;
@@ -100,48 +89,19 @@ h1 {
 	  height: 100%;
   }
 
-@font-face{
-  font-family: "Orelo";
-  font-family: "Nimbus-Sans";
-  font-family: "Circular Std";
-}
 
-h1 {
-  font-family: "Orelo Standard DemiBold", sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2.5em;
->>>>>>> Stashed changes
-}
+
   
-h2 {
-	font-family: "Nimbus-Sans", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 1.3em;
-}
-  
-h3 {
-	font-family: "Nimbus-Sans", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 1em;
-}
+
 
 h4 {
-	font-family: "Nimbus-Sans", sans-serif;
+	font-family: "NimbusSansDOT-LighExte", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1em;
 }
   
-p {
-	font-family: "Nimbus-Sans", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: .8em;
-	line-height: 1.5em;
-}
+
 
 button {
 	color: white;
