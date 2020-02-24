@@ -220,11 +220,10 @@ img.black-cat {
 	z-index: -2;
 }
 
-<<<<<<< Updated upstream
 
 /* ------------------------------- TYPE STYLING ------------------------------- */
 h1.footer-logo {
-	font-family: "Orelo Standard DemiBold", sans-serif;
+	font-family: "Orelo-StandardDemiBold", sans-serif;
   	font-weight: normal;
   	font-style: normal;
   	font-size: 2em;
@@ -240,28 +239,6 @@ h1.footer-logo {
 section.footer {
 	margin-top: 40px;
 }
-=======
-  
-  section.move-area {
-	  padding: 25% 0 0 0; /* top, right, bottom, left */
-	  width: 100%;
-	  height: 520px;
-  }
-  
-  div.container {
-	  width: 204px;
-		height: 100px;
-		margin: auto;
-  }
-
-  .contain{
-	border-radius: 5px;
-	background-color: #f2f2f2;
-	padding: 30px 30px 30px 30px;
-	width: 50%;
-  }
-  
->>>>>>> Stashed changes
 
 /* ------------------------------- EYE CODE ------------------------------- */
 /* code by https://codepen.io/J-Roel/pen/wWGNQN */
@@ -407,33 +384,35 @@ div.select-tag {
 		position: absolute;
 		z-index: -1;
 		top: 50%;
-		transform:translateY(-50%);
+		transform: translateY(120%);
+		margin-left: -22px;
 		width:100%;
 		text-align:	center;
 	}
-
+	
 	.eye {
-		width: 180px;
+		width: 120px;
 		height: 120px;
-		background: rgb(255, 230, 0);
+		background: white;
 		display: inline-block;
-		margin: 40px;
+		margin: 30px;
 		border-radius: 50%;
 		position: relative;
 		overflow: hidden;
 	}
-
+	
 	.ball {
-		width: 35px;
-		height: 70px;
+		width: 90px;
+		height: 90px;
 		background: #000;
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		border-radius: 50%;
-		border: 10px solid rgb(0, 226, 188);
+		border: 10px solid #FEBD2D;
 	}
+	
 }
   
   

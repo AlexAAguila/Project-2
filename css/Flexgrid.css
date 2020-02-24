@@ -5,7 +5,7 @@
 }
 
 .column-75 {
-	flex-basis: 100%;
+	flex-basis: 75%;
 	padding: 0px 10px 0px 10px;
 }
 
@@ -83,6 +83,11 @@ on desktop, all columns will be the same size */
 	.column-100-grey{
 		flex: 1;
 	}
+
+
+
+	
+
 }
 
 .coli-75 {
