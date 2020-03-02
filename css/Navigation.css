@@ -91,6 +91,18 @@ header {
     align-items: center;
 }
 
+.chat{
+  background-color: #000000;
+  width: 5%;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  display:flex;
+  align-items: center;
+}
+
 div.nav-footer {
   margin-top: 35px;
   padding-left: 50px;
