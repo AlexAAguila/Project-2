@@ -90,9 +90,9 @@ header {
     display:flex;
     align-items: center;
 }
-
+/*
 .chat{
-  background-color: #000000;
+  background-color: #ffffff;
   width: 5%;
   position: -webkit-sticky;
   position: sticky;
@@ -102,6 +102,8 @@ header {
   display:flex;
   align-items: center;
 }
+*/
+
 
 div.nav-footer {
   margin-top: 35px;
@@ -243,6 +245,15 @@ a.navigation {
 
 }
 
+.dropbtn-fo:focus {
+  color: black;
+  /* padding: 16px; */
+  font-size: .8em;
+  border: none;
+  font-family: "NimbusSansDOT-Regu", sans-serif;
+
+}
+
 .dropbtn-navigation:hover {
   font-family: "NimbusSansDOT-Regu", sans-serif;
   color: #FEBD2D;
@@ -375,6 +386,8 @@ h3.landing-page2 {
 .dropdown:hover .cdropdown-content {
   display: block;
 }
+
+
 
 /*End of Drop down*/
 

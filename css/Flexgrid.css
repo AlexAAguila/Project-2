@@ -18,6 +18,7 @@
 .column-110 {
 	flex-basis: 100%; /* specifies the initial main size of a flex item */
 	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+
 }
 
 .column-100-button {
@@ -50,6 +51,18 @@
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	justify-content: center;
+	align-items: space-between;
+
+}
+.row-110 {
+	display: flex; /* defines a flex container */
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	justify-content: center;
+	align-items: space-between;
+	margin-top: 50px;
 
 }
 .row-100-grey{
