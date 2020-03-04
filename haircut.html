@@ -45,76 +45,58 @@
 						</div> 
 					</nav>
 				</div>
-				<!-- <div class="column-navigation"> 
-					<button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items"></button>
-		  
-					<nav id="nav-items" class="grid">
-						<a href="Booking.html">Booking</a>
-	
-						<a href="Grooming.html">Grooming</a>
-	
-						<a href="Extras.html">Extras</a>
-	
-						<a href="Contact.html">Contact</a>
-	
-						<a href="Items.html">Items</a>
-	
-							<div class="dropdown">
-							<button class="dropbtn">phil</button>
-							<div class="dropdown-content">
-								<a href="View-Profile.html">View Profile</a>
-								<a href="Edit-Profile.html">Edit Profile</a>
-							</div>
-						</div>
-					</nav>
-				</div> --> <!-- END OF COLUMN NAVIGATION -->
 			</div> <!-- END OF ROW NAVIGATION -->
 		</header>
 
     <div class="row-100">
-		<div class="column-110">
+		<div class="column-100-grooming">
 			<h1>Grooming Services</h1>
 
-			<p>We offer multiple grooming services while your cat enjoys their stay at The Cat Inn. Whether you want us to give them a bath, haircut, nail trim or they just need a little brushing, tick which ones you're interested in and add it to your inventory! The next time you bring your little buddy in, we'll take care of the rest.</p>
+			<p class="paragraph">We offer multiple grooming services while your cat enjoys their stay at The Cat Inn. Whether you want us to give them a bath, haircut, nail trim or they just need a little brushing, tick which ones you're interested in and add it to your inventory! The next time you bring your little buddy in, we'll take care of the rest.</p>
+		</div> <!-- END OF COLUMN-100-GROOMING -->
+	</div> <!-- END OF ROW-100 -->
 
-			<section class="beige">
-				<div class="row-100">
-					<div class="column-75">
-						<div>
-							<button type="button" onclick="window.location.href='bath.html'" class="services">Bath</button>
-							<button type="button" onclick="window.location.href='haircut.html'" class="services">Haircut</button>
-							<button type="button" onclick="window.location.href='nails.html'" class="services">Nail Trim</button>
-						</div>
-						<div>
-							<h2>Haircut</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<section class="beige">
+		<div class="row-100">
+			<div class="column-75">
+				<div>
+					<div>
+						<button type="button" onclick="window.location.href='bath.html'" class="services">Bath</button>
+						<button type="button" onclick="window.location.href='haircut.html'" class="services-active">Haircut</button>
+						<button type="button" onclick="window.location.href='nails.html'" class="services">Nail Trim</button>
+					</div>
 
-							<img src="img/placeholder-image.jpg" alt="Image of an animal being groomed" width="300px">
-						</div>
+					<div>
+						<h2>Haircut</h2>
+						<p class="paragraph">Whether you want your cat to look like a lion or to have no hair at all, we offer many styles! Let us know what kind of hair trimming style you would prefer and we can cut your cat's hair either during their stay or at your request.</p>
+
+						<img src="img/Cat-Haircut.jpg" alt="Image of a cat with a wacky haircut" width="300px">
+						<!-- IMAGE SOURCE: http://petslady.com/article/clip-jobs-top-10-weird-and-bizarre-dog-cat-haircuts -->
 					</div>
-					<div class="column-25">
-						<div class="light-orange">
-							<div>
-								<input type="checkbox" name="bath" value="bath">
-								<label for="bath">Bath</label>
-							</div>
-							<div>
-								<input type="checkbox" name="haircut" value="haircut">
-								<label for="haircut">Haircut</label>
-							</div>
-							<div>
-								<input type="checkbox" name="nail-trim" value="nail-trim">
-								<label for="nail-trim">Nail Trim</label>
-							</div>
-							<div>
-								<button type="button">Add Services</button>
-							</div>
-						</div>
+				</div> <!-- END OF GROUP DIV -->
+			</div> <!-- END OF COLUMN-75 --> 
+
+			<div class="column-25">
+				<div class="light-orange">
+					<div>
+						<input type="checkbox" name="bath" value="bath">
+						<label for="bath">Bath</label>
 					</div>
-				</div>
-			</section>
-		  </div>
-    </div>
+					<div>
+						<input type="checkbox" name="haircut" value="haircut">
+						<label for="haircut">Haircut</label>
+					</div>
+					<div>
+						<input type="checkbox" name="nail-trim" value="nail-trim">
+						<label for="nail-trim">Nail Trim</label>
+					</div>
+					<div>
+						<button type="button">Add Services</button>
+					</div>
+				</div> <!-- END OF LIGHT ORANGE DIV -->
+			</div> <!-- END OF COLUMN-25 -->
+		</div> <!-- END OF ROW-100 -->
+	</section> <!-- END OF BEIGE SECTION -->
 
 <!--     <div class="row-110"> --> <!-- BEGINNING OF ROW 2 -->
 		<!-- COLUMN 1 -->
@@ -137,57 +119,50 @@
             <h1 class="margin-0 dark-orange-color">Book a tour</h1>
             <button type="button" onclick="window.location.href='contact.html'" class="secondary-button dark-orange-color">Schedule a Tour</button>
         </section>
+
         <section>
             <div class="row-100">
                 <!-- COLUMN 1 -->
                 <div class="column-100">
-                    <a href="Landing-Page.html"><h1 class="footer-logo">TheCatInn</h1></a>
+                    <a href="Landing-Page.html"><h1 class="logo white-color">TheCatInn</h1></a>
                 </div>
 
-             <!-- COLUMN 2 -->
-            <div class="column-100">
-                <div class="nav-footer">
-                    <a class="nav-footer" href="Booking.html">Booking</a>
-                    <p class="footer">Find the puurfect room for your cat.</p>
+                <!-- COLUMN 2 -->
+                <div class="column-100">
+                    <div class="nav-footer">
+                        <a class="nav-footer" href="Booking.html">Booking</a>
+                        <p class="footer">Find the puurfect room for your cat.</p>
+                    </div>
                 </div>
+
+                <!-- COLUMN 3 -->
+                <div class="column-100">
+                    <div class="nav-footer">
+                        <a class="nav-footer" href="Grooming.html">Grooming</a>
+                        <p class="footer">Cat just needs to be cleaned? Say no more.</p>
+                    </div>
+                </div>
+
+                <!-- COLUMN 6 -->
+                <div class="column-100">
+                    <div class="nav-footer">
+                        <a class="nav-footer" href="About.html">About</a>
+                        <p class="footer">Are you missing anything?</p>
+                    </div>
+                </div>
+
+                <!-- COLUMN 5 -->
+                <div class="column-100">
+                    <div class="nav-footer">
+                        <a class="nav-footer" href="Contact.html">Contact</a>
+                        <p class="footer">Get a hold of us to learn more!</p>
+                    </div>
+                </div>
+
+                <div class="divider white-background-color"></div>
+
             </div>
-
-             <!-- COLUMN 3 -->
-            <div class="column-100">
-                <div class="nav-footer">
-                    <a class="nav-footer" href="Grooming.html">Grooming</a>
-                    <p class="footer">Cat just needs to be cleaned? Say no more.</p>
-                </div>
-            </div>
-
-             <!-- COLUMN 4 -->
-            <div class="column-100">
-                <div class="nav-footer">
-                    <a class="nav-footer" href="Extras.html">Extras</a>
-                    <p class="footer">Toys, treats, meal plans... You name it, we got it.</p>
-                </div>
-            </div>
-
-             <!-- COLUMN 5 -->
-            <div class="column-100">
-                <div class="nav-footer">
-                    <a class="nav-footer" href="Contact.html">Contact</a>
-                    <p class="footer">Get a hold of us to learn more!</p>
-                </div>
-            </div>
-
-             <!-- COLUMN 6 -->
-            <div class="column-100">
-                <div class="nav-footer">
-                    <a class="nav-footer" href="Items.html">Items</a>
-                    <p class="footer">Are you missing anything?</p>
-                </div>
-            </div>
-
-            <div class="divider white-background-color"></div>
-
-        </div>
-    </section>
+        </section>
 
         <div class="row-100">
                 <div class="column-100">

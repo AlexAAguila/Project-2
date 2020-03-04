@@ -52,6 +52,13 @@ p {
 	line-height: 1.5em;
 }
 
+label {
+	font-family: "NimbusSansDOT-LighExte", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: .8em;
+}
+
 img {
 	border-radius: 10px;
 }
@@ -215,9 +222,18 @@ button.services:hover {
 	color: #ef4f21;
 }
 
+button.services-active {
+	border: none;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0);
+	border-bottom: 2px solid #ef4f21;
+	padding: 0px;
+	color: #ef4f21;
+}
 
 
-/* ------------------------------- DIV STYLING ------------------------------- */
+
+/* ------------------------------- DIV + SECTIONS STYLING ------------------------------- */
 div.room-option-buttons {
 	clear: both;
 	display: block;
@@ -225,7 +241,8 @@ div.room-option-buttons {
 
 div.center {
 	display: inline-block;
-	vertical-align: top;
+/*	vertical-align: top;
+*/	margin: 0 auto;
 	height: 100%;
 }
 
@@ -253,6 +270,20 @@ div.top-banner {
 	display: block;
 }
 
+div.light-orange {
+	background-color: #fbb040;
+	right: 0;
+	position: relative;
+	z-index: 1;
+	height: 100%;
+}
+
+section.beige {
+	background-color: #ffe8bf;
+	padding: 0;
+	margin: 0;
+}
+
 
 /* ------------------------------- IMG STYLING ------------------------------- */
 img.testimonial {
@@ -276,12 +307,14 @@ img.black-cat {
 
 
 /* ------------------------------- TYPE STYLING ------------------------------- */
-h1.footer-logo {
-	font-family: "Orelo Standard DemiBold", sans-serif;
-  	font-weight: normal;
-  	font-style: normal;
-  	font-size: 1.8em;
-  	color: white;
+
+h1.logo {
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+
+h1.margin-0 {
+	margin: 0;
 }
 
 .testimonial-headers {
@@ -358,6 +391,10 @@ img.room-type-image {
 /* ----- DIVS ----- */
 div.select-tag {
 	width: 100%;
+}
+
+.paragraph {
+	width: 50%;
 }
   
   
@@ -523,31 +560,9 @@ footer {
 	background-color: white;
 }
 
-h1.logo {
-	font-size: 1.5em;
-	margin-top: 20px;
-}
-
-h1.margin-0 {
-	margin: 0;
-}
-
-section.beige {
-	background-color: #ffe8bf;
-	padding: 0;
-}
 
 
-
-div.light-orange {
-	background-color: #fbb040;
-	right: 0;
-	position: relative;
-	z-index: 1;
-	height: 100%;
-}
-
-/* Forms */
+/* ------------------------------- FORM ELEMENT STYLING ------------------------------- */
 input[type=text], select, textarea {
   width: 93%;
   margin-left: 30px;
