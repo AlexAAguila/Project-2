@@ -86,6 +86,8 @@ button.landing-page-options {
   	color: black;
   	border: none;
   	border-radius: 0px;
+  	-webkit-transition: color 0.2s ease-out;
+  	transition: color 0.2s ease-out;
 }
 
 button.landing-page-options:hover {
@@ -96,6 +98,8 @@ button.landing-page-options:hover {
   	color: #ef4f21;
   	border: none;
   	border-radius: 0px;
+  	-webkit-transition: color 0.2s ease-out;
+  	transition: color 0.2s ease-out;
 }
 
 /* Primary Button Styling */
@@ -158,6 +162,29 @@ button.secondary-button:hover {
   	transition: background-color 0.5s ease-out;
 }
 
+/* Tertiary Button */
+button.tertiary-button-white {
+	padding: 5px 20px 5px 20px;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	background-color: #f37b50;
+	display: inline-block;
+	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
+
+button.tertiary-button-white:hover {
+	padding: 5px 20px 5px 20px;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	background-color: #F4875F;
+	display: inline-block;
+	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
+
 /* Tags  */
 button.room-option-button {
 	padding: 10px 20px 10px 20px;
@@ -198,7 +225,9 @@ div.testimonial-header {
 }
 
 div.top-banner {
-	width: 100%;
+	width: calc(100% + 21px);
+	height: 70px;
+	margin-left: -10px;
 	background-color: #ef4f21;
 	display: block;
 }
@@ -241,6 +270,10 @@ h1.footer-logo {
 
 .mouse-hover:hover {
 	color: #ef4f21;
+}
+
+p.banner-text {
+	display: inline-block;
 }
 
 /* ------------------------------- SECTION STYLING ------------------------------- */
@@ -471,6 +504,7 @@ footer {
 
 h1.logo {
 	font-size: 1.5em;
+	margin-top: 20px;
 }
 
 h1.margin-0 {
@@ -504,17 +538,19 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #f6dca1;
-  color: #675630;
+  background-color: #ef4f21;
+  color: white;
   border: none;
   cursor: pointer;
   width: calc(100% + 30px);
   height: 50px;
   margin: 30px 0px 0px 0px; /* top right bottom left */
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
 }
 
 input[type=submit]:hover {
-  	background-color: #f0bc3b;
+  	background-color: #DA481E;
   	-webkit-transition: background-color 0.2s ease-out;
   	transition: background-color 0.2s ease-out;
 }
@@ -541,7 +577,7 @@ input[type=submit]:hover {
 }
 
 
-select {
+select.times {
 	width: 15%;
 }
 
