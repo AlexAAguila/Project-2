@@ -270,7 +270,6 @@ div.select-tag {
   
   /* ----- IMAGES ----- */
   img.room-placeholder-image {
-	  margin-top: 50px;
 	  width: 100%;
 	  object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
   }
@@ -354,6 +353,7 @@ div.landing-page {
 	width: 100%;
 	height: 33.5em;
 	background-color: #ffbb39;
+
 }
 
 .landing-page-header {
