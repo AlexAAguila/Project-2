@@ -196,6 +196,26 @@ button.room-option-button {
 }
 
 
+/* Services */
+button.services {
+	border: none;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 0px;
+	color: #ef4f21;
+}
+
+button.services:hover {
+	border: none;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0);
+	border-bottom: 2px solid #ef4f21;
+	padding: 0px;
+	color: #ef4f21;
+}
+
+
+
 /* ------------------------------- DIV STYLING ------------------------------- */
 div.room-option-buttons {
 	clear: both;
