@@ -47,6 +47,8 @@
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	background-color: var(--color2);
+	transition: all 350ms ease-out ;
+
 }
 
 .row-100-footer {
