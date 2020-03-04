@@ -4,104 +4,50 @@ html{
 }
 
 body {
-	padding: 1em;
+	margin: 0;
 }
   
 @font-face{
+	font-family: "Orelo";
+	font-family: "Nimbus-Sans";
 	font-family: "Circular Std";
 }
-
-
-
-  h1 {
-	font-family: 'Orelo-StandardDemiBold';
-  }
   
-  h2 {
-		font-family: "NimbusSansDOT-LighExte", sans-serif;
-		font-weight: normal;
-		font-style: normal;
-		font-size: 1.3em;
-  }
-
-  .colour{
-	  color: darkslategrey;
-  }
+h1 {
+	font-family: "Orelo Standard DemiBold", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2.5em;
+}
   
-  h3 {
-	  font-family: "NimbusSansDOT-LighExte", sans-serif;
-		font-weight: normal;
-		font-style: normal;
-		font-size: 1em;
-  }
+h2 {
+	font-family: "Nimbus-Sans", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.3em;
+}
   
-  p {
-		font-family: "NimbusSansDOT-Regu", sans-serif;
-		font-weight: normal;
-		font-style: normal;
-		font-size: .8em;
-  }
-  
-  body {
-	  padding: 1em;
-  }
-  
-  img.logo {
-	  display: inline-block;
-	  width: 150px;
-	  float: left;
-  }
-  
-  div.room-option-buttons {
-	  clear: both;
-	  display: block;
-  }
-  
-  button.room-option-button {
-	  padding: 10px;
-	  background-color: gray;
-	  border: none;
-  }
-  
-  img.landing-page-image {
-	  height: 520px;
-	  width: 100%;
-	  object-fit: cover;
-  }
-  
-  button.landing-page-search-button {
-	  height: 100px;
-	  width: 100%;
-	  background-color: #FEBD2D;
-	  border: none;
-	  border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
-  }
-  
-  button.landing-page-search-button:hover {
-	  height: 100px;
-	  width: 100%;
-	  background-color: #E7AC29;
-	  border: none;
-	  border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
-  }
-  
-  div.center {
-	  height: 100%;
-  }
-
-
-
-  
-
+h3 {
+	font-family: "Nimbus-Sans", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+}
 
 h4 {
-	font-family: "NimbusSansDOT-LighExte", sans-serif;
+	font-family: "Nimbus-Sans", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1em;
 }
   
-
+p {
+	font-family: "Nimbus-Sans", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: .8em;
+	line-height: 1.5em;
+}
 
 button {
 	color: white;
@@ -189,16 +135,6 @@ div.testimonial-header {
 	display: inline-block;
 }
 
-div.white {
-	display: inline-block;
-	background-color: white;
-	width: 40px;
-	height: 100%;
-	margin-left: -44px;
-	position: relative;
-	z-index: -1;
-}
-
 
 /* ------------------------------- IMG STYLING ------------------------------- */
 img.testimonial {
@@ -223,7 +159,7 @@ img.black-cat {
 
 /* ------------------------------- TYPE STYLING ------------------------------- */
 h1.footer-logo {
-	font-family: "Orelo-StandardDemiBold", sans-serif;
+	font-family: "Orelo Standard DemiBold", sans-serif;
   	font-weight: normal;
   	font-style: normal;
   	font-size: 2em;
@@ -293,8 +229,6 @@ img.room-type-image {
 	width: 100%;
 	padding-bottom: 10px;
 	object-fit: cover;
-	justify-content: center;
-	align-items: center;
 }
   
 /* ----- DIVS ----- */
@@ -386,36 +320,49 @@ div.select-tag {
 		position: absolute;
 		z-index: -1;
 		top: 50%;
-		transform: translateY(120%);
-		margin-left: -22px;
+		transform:translateY(-50%);
 		width:100%;
 		text-align:	center;
 	}
-	
+
 	.eye {
-		width: 120px;
+		width: 180px;
 		height: 120px;
-		background: white;
+		background: rgb(255, 230, 0);
 		display: inline-block;
-		margin: 30px;
+		margin: 40px;
 		border-radius: 50%;
 		position: relative;
 		overflow: hidden;
 	}
-	
+
 	.ball {
-		width: 90px;
-		height: 90px;
+		width: 35px;
+		height: 70px;
 		background: #000;
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		border-radius: 50%;
-		border: 10px solid #FEBD2D;
+		border: 10px solid rgb(0, 226, 188);
 	}
-	
 }
+
+div.landing-page {
+	width: 100%;
+	height: 33.5em;
+	background-color: #ffbb39;
+}
+
+.landing-page-header {
+	font-size: 8em;
+	margin: 0;
+	margin-bottom: -.15em;
+	color: #ef4f21;
+}
+
+
   
   
 /* ------ REFERENCES ------ */
