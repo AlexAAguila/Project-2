@@ -46,7 +46,7 @@
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
-	background-color: #ffbb39;
+	background-color: var(--color2);
 }
 
 .row-100-footer {
@@ -57,7 +57,6 @@
 	background-color: #ffbb39;
 	position: absolute;
 	bottom:100px;
-	justify-content: space-evenly;
 }
 
 /* using min-width is optimal for mobile first layout design */

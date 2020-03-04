@@ -273,6 +273,10 @@ div.select-tag {
 	  width: 100%;
 	  object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
   }
+
+  img.chat{
+	  width:25%;
+  }
   /* ----- END OF IMAGES ----- */
 
   

@@ -79,9 +79,12 @@ a.nav-footer {
   display: inline-block;
 }
 /* ------------------------------- END OF LINKS ------------------------------- */
-
+:root{
+  --color1:#f7f7f7;
+  --color2:#ffbb39;
+}
 header {
-    background-color: #f7f7f7;
+    background-color: var(--color1);
     width: 100%;
     position: -webkit-sticky;
     position: sticky;
@@ -91,19 +94,15 @@ header {
     display:flex;
     align-items: center;
 }
-/*
+
+
 .chat{
-  background-color: #ffffff;
-  width: 5%;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  right: 0;
-  height: 40px;
-  display:flex;
-  align-items: center;
+  left: 0;
 }
-*/
+
 
 
 div.nav-footer {
