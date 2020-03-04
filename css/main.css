@@ -162,7 +162,8 @@ h1.footer-logo {
 	font-family: "Orelo Standard DemiBold", sans-serif;
   	font-weight: normal;
   	font-style: normal;
-  	font-size: 2em;
+  	font-size: 1.8em;
+  	color: white;
 }
 
 .testimonial-headers {
@@ -279,7 +280,7 @@ div.select-tag {
   /* ----- DIVIDING LINE ----- */
   div.divider {
 	  width: 100%;
-	  background-color: gray;
+	  background-color: white;
 	  height: 1px;
 	  clear: both; /* https://www.w3schools.com/css/css_float.asp */
   }
@@ -361,6 +362,42 @@ div.landing-page {
 	margin-bottom: -.15em;
 	color: #ef4f21;
 }
+
+footer {
+	background-color: #ffbb39;
+}
+
+.white-color {
+	color: white;
+}
+
+.white-background-color {
+	background-color: white;
+}
+
+h1.logo {
+	font-size: 1.5em;
+}
+
+h1.margin-0 {
+	margin: 0;
+}
+
+section.beige {
+	background-color: #ffe8bf;
+	padding: 0;
+}
+
+
+
+div.light-orange {
+	background-color: #fbb040;
+	right: 0;
+	position: relative;
+	height: 100%;
+}
+
+
 
 
   
