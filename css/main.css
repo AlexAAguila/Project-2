@@ -15,35 +15,36 @@ body {
 }
   
 h1 {
-	font-family: "Orelo Standard DemiBold", sans-serif;
+	font-family: "Orelo-StandardDemiBold", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 2.5em;
+
 }
   
 h2 {
-	font-family: "Nimbus-Sans", sans-serif;
+	font-family: "NimbusSansDOT-LighExte", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1.3em;
 }
   
 h3 {
-	font-family: "Nimbus-Sans", sans-serif;
+	font-family: "NimbusSansDOT-LighExte", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1em;
 }
 
 h4 {
-	font-family: "Nimbus-Sans", sans-serif;
+	font-family: "NimbusSansDOT-LighExte", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1em;
 }
   
 p {
-	font-family: "Nimbus-Sans", sans-serif;
+	font-family: "NimbusSansDOT-Regu", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: .8em;
