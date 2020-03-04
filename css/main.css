@@ -5,6 +5,7 @@ html{
 
 body {
 	margin: 0;
+	padding: 0;
 }
   
 @font-face{
@@ -173,9 +174,7 @@ h1.footer-logo {
 
 
 /* ------------------------------- SECTION STYLING ------------------------------- */
-section.footer {
-	margin-top: 40px;
-}
+
 
 /* ------------------------------- EYE CODE ------------------------------- */
 /* code by https://codepen.io/J-Roel/pen/wWGNQN */
@@ -283,7 +282,6 @@ div.select-tag {
   /* ----- DIVIDING LINE ----- */
   div.divider {
 	  width: 100%;
-	  background-color: white;
 	  height: 1px;
 	  clear: both; /* https://www.w3schools.com/css/css_float.asp */
   }
@@ -449,6 +447,14 @@ input[type=submit]:hover {
    background-color: #eeeeee;
    padding: 30px 30px 0px 0px;
    width: 100%;
+}
+
+.black-color {
+	color: black;
+}
+
+.black-background-color {
+	background-color: black;
 }
 
 
