@@ -356,6 +356,7 @@ h1.center {
   div.divider {
 	  width: 100%;
 	  height: 1px;
+	margin: 20px;
 	  clear: both; /* https://www.w3schools.com/css/css_float.asp */
   }
 

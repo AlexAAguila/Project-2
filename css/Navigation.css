@@ -410,21 +410,26 @@ h3.landing-page2 {
   a.navigation {
     padding: 15px;
     margin-bottom: 10px;
-    display: block;
     text-align: center;
+    
+    justify-content: space-between;
     background-color: #FEBD2D;
     color: white;
-    border-radius: 25px;
   }
 
   nav {
     padding: 20px;
+    justify-content: space-evenly;
     width: 100%;
-    clear: both;
+
   }
 
   header {
     position: static;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+
+
     margin-top: 150px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? */
   }
 }
