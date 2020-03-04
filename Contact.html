@@ -3,7 +3,7 @@
 <html lang="en">
 
   <head>
-		<title>Extras</title>
+		<title>Contact</title>
 		
 		<meta charset="utf-8">
 
@@ -25,19 +25,16 @@
     <div class="row-100">
       <!-- COLUMN FOR LOGO -->
       <div class="column-25"> 
-        <a href="Landing-Page.html"><h1>TheCatInn</h1></a>
+        <a href="Landing-Page.html"><h1 class="logo">TheCatInn</h1></a>
       </div>
       <!-- END OF COLUMN FOR LOGO -->
 
       <!-- COLUMN FOR NAVIGATION -->
       <div class="column-75">
         <nav>
-          <a class="navigation" href="Landing-Page.html">Home</a>
-          <a class="navigation" href="Booking.html">Booking</a>
           <a class="navigation" href="Grooming.html">Grooming</a>
-          <a class="navigation" href="Extras.html">Extras</a>
+          <a class="navigation" href="About.html">About</a>
           <a class="navigation" href="Contact.html">Contact</a>
-          <a class="navigation" href="Items.html">Items</a>
                      <div class="dropdown">
             <button class="dropbtn-navigation">Phil</button>
             <div class="dropdown-content">
@@ -69,43 +66,123 @@
           </div>
         </nav>
       </div> --> <!-- END OF COLUMN NAVIGATION -->
-    </div> <!-- END OF ROW NAVIGATION -->
+    <!-- </div> --> <!-- END OF ROW NAVIGATION -->
   </header>
-  <div class="divider"></div>
 
 
   <div class="row-100"> <!-- BEGINNING OF ROW 1 -->
-    <!-- COLUMN 1 -->
-    <div class="column-110">
-      <img class="room-placeholder-image" src="img/placeholder-image.jpg" alt="placeholder image">
-
-      </a>
-    </div>
-
-    <!-- COLUMN 2 -->
-    <div class="column-110">
-      <br>
+    <div class="column-100">
       <h1>Contact</h1>
-
-      <br><br><br>
-      <!-- add nother column, now both are 50% -->
-      <!-- The width of each column is 100% divided by the number of columns within the flex container (.row). Predictably, adding another with divide once again. -->
-<form action="/action_page.php">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <textarea cols="50" rows="5">Comment
-    </textarea><br><br>
-  <input type="submit" value="Submit">
-
-    
-</form>
     </div>
-</div>
-<footer>
-  <p>The Cat Inn. Copyright © 2020.</p>
-</footer>
+  </div>
+
+  <div class="row-100">
+    <div class="column-25">
+      <h4>phone: 604.894.2258</h4>
+      <h4>email: hello@thecatinn.com</h4>
+    </div>
+    <div class="column-75">
+      <!--  FORM -->
+      <div class="container">
+
+        <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="First Name">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+          </div>
+        </div>
+          
+        <div class="row">
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">Canada</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Comments" style="height:200px"></textarea>
+          </div>
+        </div>
+  
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+<!--  FOOTER -->
+  <footer>
+    <section>
+        <div class="row-100">
+          <!-- COLUMN 1 -->
+          <div class="column-100">
+              <a href="Landing-Page.html"><h1 class="footer-logo">TheCatInn</h1></a>
+              <p>604.894.2258</p>
+              <p>hello@thecatinn.com</p>
+          </div>
+
+          <!-- COLUMN 2 -->
+          <div class="column-100">
+            <div class="nav-footer">
+                <a class="nav-footer" href="Booking.html">Booking</a>
+                <p class="footer">Find the puurfect room for your cat.</p>
+            </div>
+          </div>
+
+          <!-- COLUMN 3 -->
+          <div class="column-100">
+            <div class="nav-footer">
+              <a class="nav-footer" href="Grooming.html">Grooming</a>
+              <p class="footer">Cat just needs to be cleaned? Say no more.</p>
+            </div>
+          </div>
+
+          <!-- COLUMN 4 -->
+          <div class="column-100">
+            <div class="nav-footer">
+              <a class="nav-footer" href="Extras.html">Extras</a>
+              <p class="footer">Toys, treats, meal plans... You name it, we got it.</p>
+            </div>
+          </div>
+
+          <!-- COLUMN 5 -->
+          <div class="column-100">
+            <div class="nav-footer">
+              <a class="nav-footer" href="Contact.html">Contact</a>
+              <p class="footer">Get a hold of us to learn more!</p>
+            </div>
+          </div>
+
+          <!-- COLUMN 6 -->
+          <div class="column-100">
+            <div class="nav-footer">
+              <a class="nav-footer" href="Items.html">Items</a>
+              <p class="footer">Are you missing anything?</p>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+        </div>
+    </section>
+        <div class="row-100">
+          <div class="column-100">
+            <p>The Cat Inn. Copyright © 2020.</p>
+          </div>
+        </div>
+  </footer>
+<!--  END OF FOOTER -->
 </body>
 
 </html>
