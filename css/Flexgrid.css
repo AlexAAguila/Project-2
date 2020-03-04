@@ -58,6 +58,7 @@
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
+	background-color: #ef4f21;
 }
 
 .row-100-yellow {
@@ -77,8 +78,7 @@
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	background-color: #ffbb39;
-	position: absolute;
-	bottom:100px;
+
 }
 
 /* using min-width is optimal for mobile first layout design */
@@ -105,8 +105,9 @@ on desktop, all columns will be the same size */
 
 	.column-75 {
 		flex-basis: 75%;
-		justify-content: flex-end;
+		justify-content: flex-start;
 		align-content: center;
+		display: block;
 
 
 	}
@@ -125,7 +126,8 @@ on desktop, all columns will be the same size */
 
 	}
 	.column-75{
-		justify-content: space-around;
+		justify-content: flex-start;
+		align-content: center;
 
 	}
 
