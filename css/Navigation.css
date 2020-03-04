@@ -83,16 +83,18 @@ a.nav-footer {
   --color1:#f7f7f7;
   --color2:#ffbb39;
 }
+
 header {
-    background-color: var(--color1);
-    width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    right: 0;
-    height: 80px;
-    display:flex;
-    align-items: center;
+  z-index: 500;
+  background-color: var(--color1);
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+  height: 80px;
+  display:flex;
+  align-items: center;
 }
 
 
@@ -242,7 +244,6 @@ a.navigation {
   font-size: .8em;
   border: none;
   font-family: "NimbusSansDOT-Regu", sans-serif;
-
 }
 
 .dropbtn-fo:focus {

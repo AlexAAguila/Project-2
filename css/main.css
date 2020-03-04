@@ -50,18 +50,18 @@ p {
 	line-height: 1.5em;
 }
 
-button {
+/*button {
 	color: white;
 	background-color: #FEBD2D;
 	padding: 5px 20px 5px 20px; /* top left bottom right */
-	border: none;
+	/*border: none;
 	border-radius: 25px;
 	margin: 0px;
-}
+} */
 
-button:hover {
+/*button:hover {
 	background-color: #E7AC29;
-}
+}*/
 
 /* https://www.w3schools.com/howto/howto_css_star_rating.asp */
 .checked {
@@ -78,13 +78,15 @@ button.room-option-button {
 button.landing-page-search-button {
 	height: 100px;
 	width: 100%;
-	background-color: #FEBD2D;
+	background-color: #ef4f21;
 	border: none;
 	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
 }
 
 button.landing-page-search-button:hover {
-	background-color: #E7AC29;
+	background-color: #DA481E;
+  	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
 }
 
 button.landing-page-options {
@@ -358,7 +360,7 @@ div.landing-page {
 
 }
 
-.landing-page-header {
+h1.landing-page-header {
 	font-size: 8em;
 	margin: 0;
 	margin-bottom: -.15em;
@@ -397,6 +399,7 @@ div.light-orange {
 	background-color: #fbb040;
 	right: 0;
 	position: relative;
+	z-index: 1;
 	height: 100%;
 }
 
@@ -457,7 +460,9 @@ input[type=submit]:hover {
 	background-color: black;
 }
 
-
+button.nav-drop-button {
+	background-color: rgba(0, 0, 0, 0);
+}
   
   
 /* ------ REFERENCES ------ */
