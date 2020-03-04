@@ -2,8 +2,8 @@
 
 .column-25 {
 	flex-basis: 25%;
-	padding: 0px 10px 0px 10px;
-}
+/*	padding: 0px 10px 0px 10px;
+*/}
 
 .column-75 {
 	flex-basis: 100%;
@@ -54,7 +54,6 @@
 }
 .row-100-head{
 	width: 100%;
-	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
@@ -69,7 +68,6 @@
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	background-color: var(--color2);
 	transition: all 350ms ease-out ;
-
 }
 
 .row-100-footer {

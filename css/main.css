@@ -120,7 +120,7 @@ button.primary-button {
   	margin: 4px 2px;
   	cursor: pointer;
   	background-color: rgba(0, 0, 0, 0); 
-  	border: 2px solid white;
+  	border: 1px solid white;
   	border-radius: 7px;
   	-webkit-transition: background-color 0.5s ease-out;
   	transition: background-color 0.5s ease-out;
@@ -238,10 +238,11 @@ div.room-option-buttons {
 	clear: both;
 	display: block;
 }
-.banner{
+
+/*.banner{
 	background-color: black;
 	width: 100%;
-}
+}*/
 
 div.center {
 	display: inline-block;
@@ -268,10 +269,9 @@ div.testimonial-header {
 
 div.top-banner {
 	width: calc(100% + 21px);
-	height: 70px;
-	margin-left: -10px;
 	background-color: #ef4f21;
 	display: block;
+	padding-bottom: 10px;
 }
 
 div.light-orange {
@@ -314,7 +314,6 @@ img.black-cat {
 
 h1.logo {
 	font-size: 1.5em;
-	margin-top: 20px;
 }
 
 h1.margin-0 {
@@ -624,7 +623,7 @@ select.times {
 
 
 
-/* ------------------------------- STAR [ TESTIMONIAL RATINGS ] ------------------------------- */
+/* ------------------------------- STAR [ TESTIMONIAL RATINGS ] ICON ------------------------------- */
 
 /* https://www.w3schools.com/howto/howto_css_star_rating.asp */
 .checked {
