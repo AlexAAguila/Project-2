@@ -35,18 +35,22 @@ nav {
 a {
   text-decoration: none;
   font-family: "NimbusSansDOT-Regu", sans-serif;
-  color: black;
-}
-
-a:hover {
-  text-decoration: none;
-  font-family: "NimbusSansDOT-Regu", sans-serif;
-  color: #FEBD2D;
 }
 
 a.navigation {
   padding-left: 30px;
   font-size: .8em;
+  color: white;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+a.navigation:hover {
+  padding-left: 30px;
+  font-size: .8em;
+  color: #ef4f21;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
 }
 
 a.nav-footer {

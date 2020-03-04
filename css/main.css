@@ -1,7 +1,9 @@
 /* ------------------------------- BASIC FUNCTIONALITIES ------------------------------- */
+
 html{
 	background-color: #f7f7f7;
 }
+
 
 body {
 	margin: 0;
@@ -19,7 +21,6 @@ h1 {
 	font-weight: normal;
 	font-style: normal;
 	font-size: 2.5em;
-
 }
   
 h2 {
@@ -51,37 +52,23 @@ p {
 	line-height: 1.5em;
 }
 
-/*button {
-	color: white;
-	background-color: #FEBD2D;
-	padding: 5px 20px 5px 20px; /* top left bottom right */
-	/*border: none;
-	border-radius: 25px;
-	margin: 0px;
-} */
-
-/*button:hover {
-	background-color: #E7AC29;
-}*/
-
-/* https://www.w3schools.com/howto/howto_css_star_rating.asp */
-.checked {
-	color: orange;
+img {
+	border-radius: 10px;
 }
+
+
 
 /* ------------------------------- BUTTON STYLING ------------------------------- */
-button.room-option-button {
-	padding: 10px;
-	background-color: gray;
-	border: none;
-}
 
+/* Landing Page Search Button */
 button.landing-page-search-button {
 	height: 100px;
 	width: 100%;
 	background-color: #ef4f21;
 	border: none;
 	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
+	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
 }
 
 button.landing-page-search-button:hover {
@@ -90,6 +77,7 @@ button.landing-page-search-button:hover {
   	transition: background-color 0.5s ease-out;
 }
 
+/* Arrival + Departure Button */
 button.landing-page-options {
 	margin: 0;
   	padding: 0;
@@ -105,9 +93,79 @@ button.landing-page-options:hover {
   	padding: 0;
   	display: block;
   	background-color: white;
-  	color: #FEBD2D;
+  	color: #ef4f21;
   	border: none;
   	border-radius: 0px;
+}
+
+/* Primary Button Styling */
+button.primary-button {
+	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	background-color: rgba(0, 0, 0, 0); 
+  	border: 2px solid white;
+  	border-radius: 7px;
+  	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+  	-webkit-transition: color 0.5s ease-out;
+  	transition: color 0.5s ease-out;
+}
+
+button.primary-button:hover {
+	color: #ef4f21;
+  	font-size: 16px;
+  	cursor: pointer;
+  	background-color: white; 
+  	border: 2px solid white;
+  	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+  	-webkit-transition: color 0.5s ease-out;
+  	transition: color 0.5s ease-out;
+}
+
+/* Secondary Button Styling */
+button.secondary-button {
+  	color: #ef4f21;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	background-color: white; 
+  	border: 2px solid #ef4f21;
+  	border-radius: 7px;
+  	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+  	-webkit-transition: color 0.5s ease-out;
+  	transition: color 0.5s ease-out;
+}
+
+button.secondary-button:hover {
+  	color: white;
+  	font-size: 16px;
+  	cursor: pointer;
+  	background-color: #ef4f21; 
+  	border: 2px solid #ef4f21;
+  	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
+
+/* Tags  */
+button.room-option-button {
+	padding: 10px 20px 10px 20px;
+	color: #ef4f21;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-radius: 30px;
+	border: 2px solid #ef4f21;
 }
 
 
@@ -137,6 +195,12 @@ div.testimonial {
 
 div.testimonial-header {
 	display: inline-block;
+}
+
+div.top-banner {
+	width: 100%;
+	background-color: #ef4f21;
+	display: block;
 }
 
 
@@ -175,6 +239,9 @@ h1.footer-logo {
 	padding-left: 10px;
 }
 
+.mouse-hover:hover {
+	color: #ef4f21;
+}
 
 /* ------------------------------- SECTION STYLING ------------------------------- */
 
@@ -240,12 +307,15 @@ div.select-tag {
 }
   
   
-  /* ------------------------------- BOOKING PAGE STYLING ------------------------------- */
-  /* ----- HEADERS ----- */
-  h1.room-header {
-	  margin-top: -25px;
-	  padding-left: 10px;
-  }
+/* ------------------------------- BOOKING PAGE STYLING ------------------------------- */
+/* ----- HEADERS ----- */
+
+h1.center {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	color: black;
+}
   
   h2.room-subtitle {
 	  padding-left: 10px;
@@ -288,6 +358,23 @@ div.select-tag {
 	  height: 1px;
 	  clear: both; /* https://www.w3schools.com/css/css_float.asp */
   }
+
+
+
+/* ------------------------------- COLOUR MANIPULATIONS ------------------------------- */
+
+.black-color {
+	color: black;
+}
+
+.black-background-color {
+	background-color: black;
+}
+
+
+.dark-orange-color {
+	color: #ef4f21;
+}
 
 
   
@@ -431,7 +518,6 @@ input[type=submit]:hover {
   	transition: background-color 0.2s ease-out;
 }
 
-
 .col-75 {
   float: left;
   width: 100%;
@@ -453,38 +539,19 @@ input[type=submit]:hover {
    width: 100%;
 }
 
-.black-color {
-	color: black;
+
+select {
+	width: 15%;
 }
 
-.black-background-color {
-	background-color: black;
-}
 
-button.nav-drop-button {
-	background-color: rgba(0, 0, 0, 0);
-}
 
-.dark-orange-color {
-	color: #ef4f21;
-}
+/* ------------------------------- STAR [ TESTIMONIAL RATINGS ] ------------------------------- */
 
-button.secondary-button {
-	background-color: #4CAF50; /* Green */
-  	border: none;
-  	color: white;
-  	padding: 15px 32px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-  	margin: 4px 2px;
-  	cursor: pointer;
-  	background-color: white; 
-  	color: black; 
-  	border: 2px solid #4CAF50;
+/* https://www.w3schools.com/howto/howto_css_star_rating.asp */
+.checked {
+	color: orange;
 }
-
   
   
 /* ------ REFERENCES ------ */
