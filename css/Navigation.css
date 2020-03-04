@@ -41,6 +41,7 @@ a.navigation {
   padding-left: 30px;
   font-size: .8em;
   color: white;
+  
   -webkit-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out;
 }
@@ -98,6 +99,7 @@ header {
   right: 0;
   height: 80px;
   display:flex;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -403,6 +405,7 @@ h3.landing-page2 {
     margin-top: 20px;
   }
 
+
   button.landing-page-options {
     padding-bottom: 40px;
   }
@@ -412,7 +415,6 @@ h3.landing-page2 {
     margin-bottom: 10px;
     text-align: center;
     
-    justify-content: space-between;
     background-color: #FEBD2D;
     color: white;
   }
