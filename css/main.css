@@ -71,17 +71,17 @@ img {
 button.landing-page-search-button {
 	height: 100px;
 	width: 100%;
-	background-color: #ef4f21;
+	color: #ecedee;
+	background-color: #231f20;
 	border: none;
-	border-radius: 0px 25px 0px 0px; /* top-left, top-right, bottom-right, bottom-left https://www.w3schools.com/css/css3_borders.asp */
-	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+  	transition: background-color 0.2s ease-out;
 }
 
 button.landing-page-search-button:hover {
-	background-color: #DA481E;
-  	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
+	background-color: #ea307c;
+  	-webkit-transition: background-color 0.2s ease-out;
+  	transition: background-color 0.2s ease-out;
 }
 
 /* Arrival + Departure Button */
@@ -102,7 +102,7 @@ button.landing-page-options:hover {
   	padding: 0;
   	display: block;
   	background-color: white;
-  	color: #ef4f21;
+  	color: #ee2a7b;
   	border: none;
   	border-radius: 0px;
   	-webkit-transition: color 0.2s ease-out;
@@ -111,7 +111,7 @@ button.landing-page-options:hover {
 
 /* Primary Button Styling */
 button.primary-button {
-	color: white;
+	color: #ea307c;
   	padding: 15px 32px;
   	text-align: center;
   	text-decoration: none;
@@ -120,29 +120,29 @@ button.primary-button {
   	margin: 4px 2px;
   	cursor: pointer;
   	background-color: rgba(0, 0, 0, 0); 
-  	border: 1px solid white;
+  	border: 1px solid #ea307c;
   	border-radius: 7px;
-  	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
-  	-webkit-transition: color 0.5s ease-out;
-  	transition: color 0.5s ease-out;
+  	-webkit-transition: background-color 0.2s ease-out;
+  	transition: background-color 0.2s ease-out;
+  	-webkit-transition: color 0.2s ease-out;
+  	transition: color 0.2s ease-out;
 }
 
 button.primary-button:hover {
-	color: #ef4f21;
+	color: #ecedee;
   	font-size: 16px;
   	cursor: pointer;
-  	background-color: white; 
-  	border: 2px solid white;
-  	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
-  	-webkit-transition: color 0.5s ease-out;
-  	transition: color 0.5s ease-out;
+  	background-color: #ea307c; 
+  	border: 1px solid #ea307c;
+  	-webkit-transition: background-color 0.2s ease-out;
+  	transition: background-color 0.2s ease-out;
+  	-webkit-transition: color 0.2s ease-out;
+  	transition: color 0.2s ease-out;
 }
 
 /* Secondary Button Styling */
 button.secondary-button {
-  	color: #ef4f21;
+  	color: #231f20;
   	padding: 15px 32px;
   	text-align: center;
   	text-decoration: none;
@@ -151,22 +151,22 @@ button.secondary-button {
   	margin: 4px 2px;
   	cursor: pointer;
   	background-color: white; 
-  	border: 2px solid #ef4f21;
+  	border: 1px solid #231f20;
   	border-radius: 7px;
-  	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
-  	-webkit-transition: color 0.5s ease-out;
-  	transition: color 0.5s ease-out;
+  	-webkit-transition: background-color 0.2s ease-out;
+  	transition: background-color 0.2s ease-out;
+  	-webkit-transition: color 0.2s ease-out;
+  	transition: color 0.2s ease-out;
 }
 
 button.secondary-button:hover {
-  	color: white;
+  	color: #ecedee;
   	font-size: 16px;
   	cursor: pointer;
-  	background-color: #ef4f21; 
-  	border: 2px solid #ef4f21;
-  	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
+  	background-color: #231f20; 
+  	border: 1px solid #231f20;
+  	-webkit-transition: background-color 0.2s ease-out;
+  	transition: background-color 0.2s ease-out;
 }
 
 /* Tertiary Button */
@@ -175,7 +175,7 @@ button.tertiary-button-white {
 	color: white;
 	border: none;
 	border-radius: 20px;
-	background-color: #f37b50;
+	background-color: #f259a1;
 	display: inline-block;
 	-webkit-transition: background-color 0.5s ease-out;
   	transition: background-color 0.5s ease-out;
@@ -186,7 +186,7 @@ button.tertiary-button-white:hover {
 	color: white;
 	border: none;
 	border-radius: 20px;
-	background-color: #F4875F;
+	background-color: #F477B2;
 	display: inline-block;
 	-webkit-transition: background-color 0.5s ease-out;
   	transition: background-color 0.5s ease-out;
@@ -269,7 +269,7 @@ div.testimonial-header {
 
 div.top-banner {
 	width: calc(100% + 21px);
-	background-color: #ef4f21;
+	background-color: #ee2a7b;
 	display: block;
 	padding-bottom: 10px;
 }
@@ -307,6 +307,11 @@ img.black-cat {
 /*	transform: translateY(-50%);
 	transform: translateX(100%);*/
 	z-index: -2;
+}
+
+/* Cat landing page image */
+img.landing-page-image {
+	border-radius: none;
 }
 
 
@@ -461,7 +466,7 @@ h1.center {
 /* ------------------------------- COLOUR MANIPULATIONS ------------------------------- */
 
 .black-color {
-	color: black;
+	color: #231f20;
 }
 
 .black-background-color {
@@ -478,15 +483,15 @@ h1.center {
 /* ------------------------------- MEDIA QUERIES ------------------------------- */
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 @media only screen and (max-width: 800px) {
-	button.landing-page-search-button {
-	  	border-radius: 25px 25px 0px 0px; /* TOP RIGHT BOTTOM LEFT */
+	/*button.landing-page-search-button {
+	  	/* border-radius: 25px 25px 0px 0px; */ /* TOP RIGHT BOTTOM LEFT 
 	}
 
 	button.landing-page-search-button:hover {
-	  	background-color: #E7AC29;
+	  	background-color: #ea307c;
 	  	height: 60px;
-	  	border-radius: 25px 25px 0px 0px; /* TOP RIGHT BOTTOM LEFT */
-	}
+	  	/* border-radius: 25px 25px 0px 0px;*/ /* TOP RIGHT BOTTOM LEFT 
+	} */
 
 	button.landing-page-options:hover {
 	margin-bottom: 40px;
@@ -540,7 +545,7 @@ h1.center {
 div.landing-page {
 	width: 100%;
 	height: 29em;
-	background-color: #ffbb39;
+	background-color: #ecedee;
 
 }
 
@@ -548,12 +553,12 @@ h1.landing-page-header {
 	font-size: 8em;
 	margin: 0;
 	margin-bottom: -.15em;
-	color: #ef4f21;
+	color: #231f20;
 }
 
 footer {
 	color: white;
-	background-color: #ffbb39;
+	background-color: #231f20;
 }
 
 .white-color {

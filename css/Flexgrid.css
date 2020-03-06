@@ -18,6 +18,16 @@
 	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 
+.column-100-2 {
+	/*flex-basis: 100%;  specifies the initial main size of a flex item */
+	width: 100%;
+	flex-basis: 100%;
+}
+
+.column-body-padding {
+	width: 10%;
+}
+
 .column-100-grooming {
 	flex-basis: 100%;  /* specifies the initial main size of a flex item */
 	width: 200px;
@@ -57,7 +67,7 @@
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
-	background-color: #ef4f21;
+	background-color: #ee2a7b;
 }
 
 .row-100-yellow {
@@ -86,9 +96,13 @@ on desktop, all columns will be the same size */
 	.column-100 {
 
 		width: 360px;
-	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
-	flex-wrap: wrap;
+		padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+		flex-wrap: wrap;
+	}
 
+	.column-100-2 {
+		flex: 1;
+		flex-wrap: wrap;
 	}
 
 	.column-100-white {
