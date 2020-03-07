@@ -275,6 +275,10 @@ div.light-orange {
 	position: relative;
 	z-index: 1;
 	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 section.beige {
@@ -331,6 +335,11 @@ h1.margin-0 {
 
 p.banner-text {
 	display: inline-block;
+}
+
+/*Room- Type paragraph*/
+p.room-type{
+	margin-right: 50px;
 }
 
 /* ------------------------------- SECTION STYLING ------------------------------- */
@@ -544,6 +553,7 @@ h1.center {
 		color: #231f20;
 
 	}
+
 }
 
 
@@ -584,6 +594,8 @@ input[type=text], select, textarea {
   border-bottom: 2px solid #bdbdbd;
   resize: vertical;
   background-color: #eeeeee;
+  margin-left: 30px;
+  margin-right: 50px;
 }
 
 input[type=submit] {

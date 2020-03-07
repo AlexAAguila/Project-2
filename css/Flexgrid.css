@@ -64,6 +64,51 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 
 /*End of Booking.html*/
 
+/*Custom Flex for Grooming and sub grooming page*/
+.column-25-groom{
+		flex-basis: 25%;
+	/*	padding: 0px 10px 0px 10px;*/
+		padding: 0px 10px 0px 50px;
+	
+}
+.row-100-groom{
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	display: flex;
+	justify-content: center;
+}
+
+/*end of Grooming*/
+
+/*Custom Flex for Room-Type */
+.row-100-room-type{
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	padding-left: 25%;
+	padding-top: 50px;
+}
+
+
+/*end of Room-Type*/
+
+/*Custom for profile pages*/
+
+.row-100-profile {
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+
+}
+
+/*end of profile pages*/
 
 .column-100-button {
 	flex-basis: 100%; /* specifies the initial main size of a flex item */
@@ -99,6 +144,7 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	background-color: #ee2a7b;
+	padding-bottom: 15px;
 }
 
 .row-100-yellow {
@@ -163,6 +209,7 @@ on desktop, all columns will be the same size */
 		align-items: flex-end;
 		justify-content: center;
 	}
+	
 
 	
 
@@ -171,6 +218,15 @@ on desktop, all columns will be the same size */
 @media only screen and (max-width: 800px){
 	.row-100-head{
 		background-color: #ffbb39;
+	}
+
+	.row-100-head{
+		width: 100%;
+		display: flex; /* defines a flex container */
+		flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+		flex-wrap: wrap; /* will allow a multi-line flex */
+		background-color: #ee2a7b;
+		padding-bottom: 50px;
 	}
 	.column-100 {
 		flex-basis: 100%;
@@ -196,10 +252,38 @@ on desktop, all columns will be the same size */
 			
 			
 			}
+			
+
+		.row-100-room-type{
+			padding-left: 0;
+			padding-top: 100px;
+		}
+
+		.row-100-profile {
+			padding-top: 70px;
+		}
 
 }
+@media only screen and (max-width: 1060px){
+	.column-25-groom{
+		/*	padding: 0px 10px 0px 10px;*/
+			padding: 0px 10px 0px 0px;
+			flex-basis: 100%;
+		
+		
+	}
 
 
+	.column-100-groom {
+		flex-basis: 100%;  /* specifies the initial main size of a flex item */
+		width: 200px;
+		padding: 70px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+	}
+	.row-100-groom{
+		padding-top: 10px;
+	}
+
+}
 
 
 
