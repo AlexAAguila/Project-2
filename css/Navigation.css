@@ -29,7 +29,7 @@ a:hover, a:active, a:focus {
 nav {
   display: inline-block;
   float: right;
-  padding: 20px 0px 20px 0px; /* TOP RIGHT BOTTOM LEFT */
+  padding: 45px 0px 30px 0px; /* TOP RIGHT BOTTOM LEFT */
 }
 
 a {
@@ -87,6 +87,8 @@ a.nav-footer {
 :root{
   --color1:#f7f7f7;
   --color2:#ffbb39;
+  --colorb:black;
+  --colorw:white;
 }
 
 header {
@@ -432,7 +434,7 @@ h3.landing-page2 {
     align-items: space-evenly;
 
 
-    margin-top: 150px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? */
+    margin-top: 20px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? */
   }
 }
 

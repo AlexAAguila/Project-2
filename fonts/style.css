@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "AkzidenzGroteskBQ-LigExt";
+  src: url("./fonts/AkzidenzGrotesk-LightExtended.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/AkzidenzGrotesk-LightExtended.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/AkzidenzGrotesk-LightExtended.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/AkzidenzGrotesk-LightExtended.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/AkzidenzGrotesk-LightExtended.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/AkzidenzGrotesk-LightExtended.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/AkzidenzGrotesk-LightExtended.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

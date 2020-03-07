@@ -6,6 +6,8 @@ const htmlTag= document.querySelector('html');
 const bodyTag = document.querySelector('body');
 const myNav = document.querySelector('header');
 const myElem = document.querySelector('.row-100-yellow');
+const nav = document.querySelector('a');
+
 
 
 let scrolled = () => {
@@ -18,4 +20,7 @@ addEventListener('scroll', () => {
 
     myElem.style.setProperty('background', scrolled()>50 ?
     "var(--color1)" : "var(--color2)");
+
+    myNav.style.setProperty('color', scrolled()>50 ?
+    "var(--colorb)" : "var(--colorw)");
 })
