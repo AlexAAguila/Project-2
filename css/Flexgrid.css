@@ -142,6 +142,19 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 
 /*End of contact*/
 
+/*custom to about page*/
+.row-100-about {
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	padding-top: 30px;
+}
+/*end for about*/
+
+
+
 /*Custom for Payment Page*/
 
 
