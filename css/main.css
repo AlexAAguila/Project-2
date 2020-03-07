@@ -20,28 +20,28 @@ h1 {
 }
   
 h2 {
-	font-family: "NimbusSansDOT-LighExte", sans-serif;
+	font-family: "AkzidenzGroteskBQ-LigExt", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1.3em;
 }
   
 h3 {
-	font-family: "NimbusSansDOT-LighExte", sans-serif;
+	font-family: "AkzidenzGroteskBQ-LigExt", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1em;
 }
 
 h4 {
-	font-family: "NimbusSansDOT-LighExte", sans-serif;
+	font-family: "AkzidenzGroteskBQ-LigExt", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1em;
 }
   
 p {
-	font-family: "NimbusSansDOT-Regu", sans-serif;
+	font-family: "Aileron-Black", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: .8em;
@@ -49,7 +49,7 @@ p {
 }
 
 label {
-	font-family: "NimbusSansDOT-LighExte", sans-serif;
+	font-family: "Aileron-Black", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: .8em;
@@ -463,6 +463,7 @@ h1.center {
 
 .black-color {
 	color: #231f20;
+	padding: 10px;
 }
 
 .black-background-color {
@@ -536,11 +537,20 @@ h1.center {
 		border-radius: 50%;
 		border: 10px solid rgb(0, 226, 188);
 	}
+
+	h1.landing-page-header{
+		padding-top: 30px;
+		font-size: 8em;
+		margin: 0;
+		color: #231f20;
+
+	}
 }
+
+
 
 div.landing-page {
 	width: 100%;
-	height: 29em;
 	background-color: #ecedee;
 
 }
@@ -548,7 +558,6 @@ div.landing-page {
 h1.landing-page-header {
 	font-size: 8em;
 	margin: 0;
-	margin-bottom: -.15em;
 	color: #231f20;
 }
 

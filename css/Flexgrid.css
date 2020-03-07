@@ -2,8 +2,10 @@
 
 .column-25 {
 	flex-basis: 25%;
-/*	padding: 0px 10px 0px 10px;
-*/}
+/*	padding: 0px 10px 0px 10px;*/
+    padding: 20px 10px 0px 50px;
+
+}
 
 .column-75 {
 	flex-basis: 100%;
@@ -33,6 +35,19 @@
 	width: 200px;
 	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
+/* Custom Flex Box for Index.html*/
+.column-100-landing{
+flex-basis: 50%;	
+padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+
+
+}
+.column-100-cat {
+	/*flex-basis: 100%;  specifies the initial main size of a flex item */
+	flex-basis: 50%;	
+	padding: 0px 10px 0px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+}
+/* End of Index.html*/
 
 .column-100-button {
 	flex-basis: 100%; /* specifies the initial main size of a flex item */
@@ -123,6 +138,15 @@ on desktop, all columns will be the same size */
 
 
 	}
+	.column-100-cat {
+		/*flex-basis: 100%;  specifies the initial main size of a flex item */
+		flex-basis: 50%;	
+		padding: 0px 10px 0px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+	}
+
 	
 
 }
@@ -140,8 +164,21 @@ on desktop, all columns will be the same size */
 	.column-75{
 		justify-content: flex-start;
 		align-content: center;
+		z-index: 500;
 
 	}
+	.column-100-landing{
+		flex-basis: 50%;	
+		padding: 20px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+		
+		
+		}
+		.column-100-cat{
+			flex-basis: 50%;	
+			padding: 20px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+			
+			
+			}
 
 }
 
