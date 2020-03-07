@@ -35,6 +35,10 @@
 	width: 200px;
 	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
+
+
+
+
 /* Custom Flex Box for Index.html*/
 .column-100-landing{
 flex-basis: 50%;	
@@ -48,6 +52,18 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	padding: 0px 10px 0px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 /* End of Index.html*/
+
+/*Custom Flex for Booking.html*/
+.column-100-booking{
+	width: 100%;
+	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+	flex-wrap: wrap;
+	padding-top: 50px;
+
+}
+
+/*End of Booking.html*/
+
 
 .column-100-button {
 	flex-basis: 100%; /* specifies the initial main size of a flex item */
@@ -103,6 +119,7 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	background-color: #ffbb39;
 
 }
+
 
 /* using min-width is optimal for mobile first layout design */
 /* the way this is laid out, each column will have 100% width on mobile and wrap down to the next column 
