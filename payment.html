@@ -52,29 +52,28 @@
 
   <div class="row-100-contact"> <!-- BEGINNING OF ROW 1 -->
     <div class="column-100">
-      <h1>Contact</h1>
+      <h1>Checkout</h1>
     </div>
   </div>
 
-  <div class="row-100">
-    <div class="column-25">
-      <h4>phone: 604.894.2258</h4>
-      <h4>email: hello@thecatinn.com</h4>
-    </div>
-    <div class="column-75">
+  
       
       <!--  FORM -->
       <div class="container">
 
+        <div class="row-100-payment">
+        <div class="column-100">
+            <h1>Payment </h1>
         <form action="/action_page.php">
 
-        <div class="row">
+        <div class="row-100">
           <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="First Name">
+            <input type="text" id="fname" name="firstname" placeholder="Card Number">
           </div>
-        </div>
 
-        <div class="row">
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="First Name">
+          </div>
           <div class="col-75">
             <input type="text" id="lname" name="lastname" placeholder="Last Name">
           </div>
@@ -83,16 +82,48 @@
         <div class="row">
           <div class="col-75">
             <select id="country" name="country">
-              <option value="australia">Canada</option>
+              <option value="australia">Card Expire</option>
             </select>
           </div>
         </div>
         <div class="row">
-          <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="Comments" style="height:200px"></textarea>
-          </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Security Code">
+              </div>
         </div>
-  
+        </form>
+        <form action="/action_page.php">
+        </div>
+        <div class="column-100">
+            <h1>Items</h1>
+            <div class="column-100">
+          <div class="row-100-items">
+              <div class="column-100">
+            <p>Daycare</p>
+            <p>Overnight</p>
+            <p>Pick-up</p>
+            <p>Drop-off</p>
+            <div class="divider black-background-color"></div>
+
+            <p>Total</p>
+          
+          </div>
+          
+          <div class="column-100">
+            <p>$100</p>
+            <p>$50</p>
+            <p>$10</p>
+            <p>$10</p>
+			<div class="divider black-background-color"></div>
+
+            <p>$170</p>
+          
+          </div>
+
+        </div>
+        </div>
+        </div>
+    </div>
         <div class="row">
           <input type="submit" value="Submit">
         </div>
@@ -102,14 +133,7 @@
       </div>
     </div>
   </div>
-  <div class="chat">
-  <div class="dropdown">
-    <img src="img/chat-icon.png" type="dropbtn" class="chat">
-    <div class="dropup-content">
-        <img src="img/chat.png" class="room-placeholder-image">
-      </div>
-    </div>
-  </div>
+  
 
   <footer>
     <section class="white-background-color">

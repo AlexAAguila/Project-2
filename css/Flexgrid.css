@@ -62,6 +62,18 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 
 }
 
+.row-100-booking {
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	justify-content: space-evenly;
+	padding-top: 10px;
+	padding-bottom: 30px;
+
+}
+
 /*End of Booking.html*/
 
 /*Custom Flex for Grooming and sub grooming page*/
@@ -79,6 +91,14 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	display: flex;
 	justify-content: center;
+}
+.row-100-groom-head{
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	padding-top: 70px;
 }
 
 /*end of Grooming*/
@@ -109,6 +129,41 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 
 /*end of profile pages*/
+
+/*Custom for Contact*/
+
+.row-100-contact{
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+}
+
+/*End of contact*/
+
+/*Custom for Payment Page*/
+
+
+.row-100-payment {
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	justify-content: space-evenly;
+
+}
+.row-100-items {
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+
+
+}
+
+/*end of payment page*/
 
 .column-100-button {
 	flex-basis: 100%; /* specifies the initial main size of a flex item */
@@ -240,6 +295,14 @@ on desktop, all columns will be the same size */
 		z-index: 500;
 
 	}
+
+	.column-100-booking{
+		width: 100%;
+		padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+		flex-wrap: wrap;
+		padding-top: 100px;
+	
+	}
 	.column-100-landing{
 		flex-basis: 50%;	
 		padding: 20px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
@@ -260,6 +323,11 @@ on desktop, all columns will be the same size */
 		}
 
 		.row-100-profile {
+			padding-top: 70px;
+		}
+
+		.row-100-contact{
+
 			padding-top: 70px;
 		}
 

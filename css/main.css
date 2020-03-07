@@ -459,9 +459,8 @@ h1.center {
   
   /* ----- DIVIDING LINE ----- */
   div.divider {
-	  width: 100%;
+	  width: 115%;
 	  height: 1px;
-	margin: 20px;
 	  clear: both; /* https://www.w3schools.com/css/css_float.asp */
   }
 
@@ -552,6 +551,11 @@ h1.center {
 		margin: 0;
 		color: #231f20;
 
+	}
+	div.divider {
+		width: 130%;
+		height: 1px;
+		clear: both; /* https://www.w3schools.com/css/css_float.asp */
 	}
 
 }
