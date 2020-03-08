@@ -63,11 +63,13 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	justify-content: space-around;
-	padding-left: 25%;;
+	padding-left: 10%;
+	padding-right: 10%;
 	padding-right: 50px;
 	padding-top: 50px;
-
+	flex-basis: 100%;
 }
+
 .column-100-info {
 	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	width: 75%;

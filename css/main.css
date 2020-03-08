@@ -601,6 +601,10 @@ footer {
 	background-color: white;
 }
 
+.footer-padding {
+	padding: 40px 10% 40px 10%;
+}
+
 
 
 /* ------------------------------- FORM ELEMENT STYLING ------------------------------- */
@@ -617,7 +621,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #ef4f21;
+  background-color: #ee2a7b;
   color: white;
   border: none;
   cursor: pointer;
@@ -629,7 +633,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  	background-color: #DA481E;
+  	background-color: #F477B2;
   	-webkit-transition: background-color 0.2s ease-out;
   	transition: background-color 0.2s ease-out;
 }
