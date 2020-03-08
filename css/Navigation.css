@@ -101,8 +101,9 @@ a.nav-footer {
   --colorb:black;
   --colorw:white;
 }
-
+/*Header Stuff*/
 header {
+  
   z-index: 500;
   background-color: var(--color1);
   width: 100%;
@@ -114,8 +115,12 @@ header {
   display:flex;
   justify-content: flex-end;
   align-items: center;
+
+
 }
 
+
+/*Header end*/
 
 .chat{
   position: -webkit-sticky;
@@ -447,22 +452,23 @@ h3.landing-page2 {
     color: white;
     */
   }
-
+/*
   nav {
     padding: 20px;
     justify-content: space-evenly;
     width: 100%;
 
   }
-
+/*
   header {
     position: static;
     justify-content: space-evenly;
     align-items: space-evenly;
 
 
-    margin-top: 20px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? */
+    margin-top: 20px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? 
   }
+  */
 }
 
 
