@@ -73,18 +73,14 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	justify-content: space-around;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-right: 50px;
-	padding-top: 50px;
+	padding: 50px 10% 50px 10%;
 	flex-basis: 100%;
 }
 
 .column-100-info {
 	/*flex-basis: 100%;  specifies the initial main size of a flex item */
-	width: 75%;
+	width: 100%;
 	flex-basis: 100%;
-	padding-right: 50px;
 }
 
 
@@ -205,6 +201,9 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
+	padding-top: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .column-25-contact{
@@ -476,7 +475,6 @@ on desktop, all columns will be the same size */
 		}
 
 		.row-100-contact{
-
 			padding-top: 70px;
 		}
 		.column-25-contact{
