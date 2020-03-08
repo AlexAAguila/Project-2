@@ -18,9 +18,9 @@
 
 .column-100 {
 	/*flex-basis: 100%;  specifies the initial main size of a flex item */
-	width: 200px;
-	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+	width: 100%;
 }
+
 
 .column-100-2 {
 	/*flex-basis: 100%;  specifies the initial main size of a flex item */
@@ -93,7 +93,6 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 /*Custom Flex for Booking.html*/
 .column-100-booking{
 	width: 100%;
-	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-wrap: wrap;
 	padding-top: 50px;
 
@@ -101,6 +100,7 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 
 .row-100-booking {
 	width: 100%;
+	padding: 0px 10% 0px 10%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 

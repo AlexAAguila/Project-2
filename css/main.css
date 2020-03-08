@@ -331,6 +331,7 @@ h1.logo {
 
 h1.margin-0 {
 	margin: 0;
+	line-height: .8em;
 }
 
 .testimonial-headers {
@@ -410,7 +411,6 @@ h2.room-type-subtitle {
 /* ----- IMAGES ----- */
 img.room-type-image {
 	width: 100%;
-	padding-bottom: 10px;
 	object-fit: cover;
 }
   
@@ -462,6 +462,8 @@ h1.center {
   /* ----- IMAGES ----- */
   img.room-placeholder-image {
 	  width: 100%;
+	  padding: 0;
+	  margin: 0;
 	  object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
   }
 
@@ -473,7 +475,7 @@ h1.center {
   
   /* ----- DIVIDING LINE ----- */
   div.divider {
-	  width: 115%;
+	  width: 100%;
 	  height: 1px;
 	  clear: both; /* https://www.w3schools.com/css/css_float.asp */
   }
@@ -583,7 +585,7 @@ div.landing-page {
 }
 
 h1.landing-page-header {
-	font-size: 6.5em;
+	font-size: 6em;
 	margin: 0;
 	color: #231f20;
 }
@@ -599,7 +601,6 @@ footer {
 
 .white-background-color {
 	background-color: white;
-	padding-left: 10%;
 }
 
 .footer-padding {
@@ -737,7 +738,7 @@ select.times {
 
 
 
-
+/* https://speckyboy.com/underline-text-effects-css/ */
 * {
   box-sizing: border-box;
 }
@@ -760,14 +761,14 @@ a.services {
   color: #333;
 }
 
-a.services-active {
+/*a.services-active {
   display: inline-block;
   width: 25%;
   padding: .75rem 0;
   margin: 0;
   text-decoration: none;
   color: #333;
-}
+}*/
 
 .one:hover ~hr{
 	margin-left:0%;
@@ -791,7 +792,7 @@ a.services-active {
 
 hr {
   height: .25rem;
-  width: 25%;
+  width: 27%;
   margin: 0;
   background: #ee2a7b;
   border: none;
