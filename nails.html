@@ -62,11 +62,21 @@
 		<div class="row-100">
 			<div class="column-75">
 				<div>
-					<div>
+					<!-- <div>
 						<button type="button" onclick="window.location.href='Grooming.html'" class="services">Bath</button>
 						<button type="button" onclick="window.location.href='haircut.html'" class="services">Haircut</button>
 						<button type="button" onclick="window.location.href='nails.html'" class="services-active">Nail Trim</button>
-					</div>
+					</div> -->
+
+                    <div class="link-container">
+                        <ul>
+                            <li class="one"><a href="Grooming.html" class="services-active">Bath</a></li><!--
+                            --><li class="two"><a href="Haircut.html" class="services">Haircut</a></li><!--
+                            --><li class="three"><a href="Nails.html" class="services">Nail Trim</a></li><!--
+                            -->
+                            <hr />
+                        </ul>
+                    </div>
 
 					<div>
 						<h2>Nail Trimming</h2>
@@ -80,7 +90,7 @@
 
             <div class="column-25-groom">
 				<div class="light-orange">
-                        <div>
+                        <!-- <div>
 						<input type="checkbox" name="bath" value="bath">
 						<label for="bath">Bath</label>
 					</div>
@@ -96,7 +106,21 @@
                         <a href="payment.html">
                         <button type="button">Add Services</button>
                         </a>
-					</div>
+					</div> -->
+                    <label class="container">Bath
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Haircut
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Nail Trim
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
 				</div> <!-- END OF LIGHT ORANGE DIV -->
 			</div> <!-- END OF COLUMN-25 -->
 		</div> <!-- END OF ROW-100 -->

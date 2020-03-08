@@ -44,7 +44,7 @@
 .column-100-grooming {
 	flex-basis: 100%;  /* specifies the initial main size of a flex item */
 	width: 200px;
-	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+	padding: 0px 10% 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 
 
@@ -114,11 +114,9 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 
 /*Custom Flex for Grooming and sub grooming page*/
 .column-25-groom{
-		flex-basis: 25%;
-	/*	padding: 0px 10px 0px 10px;*/
-		padding: 0px 10px 0px 50px;
-	
+	flex-basis: 25%;
 }
+
 .row-100-groom{
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
@@ -268,8 +266,8 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
-
 }
+
 .row-100-head{
 	width: 100%;
 	display: flex; /* defines a flex container */

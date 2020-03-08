@@ -54,7 +54,7 @@
 		<div class="column-100-grooming">
 			<h1>Grooming Services</h1>
 
-			<p class="paragraph">We offer multiple grooming services while your cat enjoys their stay at The Cat Inn. Whether you want us to give them a bath, haircut, nail trim or they just need a little brushing, tick which ones you're interested in and add it to your inventory! The next time you bring your little buddy in, we'll take care of the rest.</p>
+			<p class="paragraph">We offer multiple grooming services while your cat enjoys their stay at the Happy Cat Hotel. Whether you want us to give them a bath, haircut, nail trim or they just need a little brushing, tick which ones you're interested in and add it to your inventory! The next time you bring your little buddy in, we'll take care of the rest.</p>
 		</div> <!-- END OF COLUMN-100-GROOMING -->
 	</div> <!-- END OF ROW-100 -->
 
@@ -62,11 +62,21 @@
 		<div class="row-100">
 			<div class="column-75">
 				<div>
-					<div>
+                    <!-- https://speckyboy.com/underline-text-effects-css/ -->
+                    <div class="link-container">
+                        <ul>
+                            <li class="one"><a href="Grooming.html" class="services-active">Bath</a></li><!--
+                            --><li class="two"><a href="Haircut.html" class="services">Haircut</a></li><!--
+                            --><li class="three"><a href="Nails.html" class="services">Nail Trim</a></li><!--
+                            -->
+                            <hr />
+                        </ul>
+                    </div>
+					<!-- <div>
 						<button type="button" onclick="window.location.href='Grooming.html'" class="services-active">Bath</button>
 						<button type="button" onclick="window.location.href='haircut.html'" class="services">Haircut</button>
 						<button type="button" onclick="window.location.href='nails.html'" class="services">Nail Trim</button>
-					</div>
+					</div> -->
 
 					<div>
 						<h2>Bath</h2>
@@ -78,9 +88,10 @@
 				</div> <!-- END OF GROUP DIV -->
 			</div> <!-- END OF COLUMN-75 --> 
 
+
 			<div class="column-25-groom">
 				<div class="light-orange">
-                        <div>
+                    <!-- <div>
 						<input type="checkbox" name="bath" value="bath">
 						<label for="bath">Bath</label>
 					</div>
@@ -93,10 +104,23 @@
 						<label for="nail-trim">Nail Trim</label>
                     </div>
 					<div class="row-100-groom">
-                        <a href="payment.html">
-                            <button type="button">Add Services</button>
-                            </a>
-                        </div>
+                        <a href="payment.html"><button type="button" class="tertiary-button-white">Add Services</button></a>
+                    </div> -->
+
+                    <label class="container">Bath
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Haircut
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Nail Trim
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
 				</div> <!-- END OF LIGHT ORANGE DIV -->
 			</div> <!-- END OF COLUMN-25 -->
 		</div> <!-- END OF ROW-100 -->
