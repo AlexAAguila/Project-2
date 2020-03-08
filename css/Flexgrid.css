@@ -25,6 +25,7 @@
 	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	width: 100%;
 	flex-basis: 100%;
+
 }
 
 .column-body-padding {
@@ -46,12 +47,35 @@ flex-basis: 50%;
 padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 
 
+
 }
+
 .column-100-cat {
 	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	flex-basis: 50%;	
 	/*padding: 0px 10px 0px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
+
+.row-100-info {
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	justify-content: space-around;
+	padding-left: 25%;;
+	padding-right: 50px;
+	padding-top: 50px;
+
+}
+.column-100-info {
+	/*flex-basis: 100%;  specifies the initial main size of a flex item */
+	width: 75%;
+	flex-basis: 100%;
+	padding-right: 50px;
+}
+
+
 /* End of Index.html*/
 
 /*Custom Flex for Booking.html*/
@@ -250,6 +274,10 @@ on desktop, all columns will be the same size */
 		flex: 1;
 		flex-wrap: wrap;
 	}
+	.column-100-info {
+		flex: 0;
+		flex-wrap: wrap;
+	}
 
 	.column-100-white {
 		flex: 1;
@@ -344,6 +372,10 @@ on desktop, all columns will be the same size */
 			padding-top: 70px;
 		}
 
+		.row-100-info{
+			padding-left: 0;
+		}
+
 }
 @media only screen and (max-width: 1060px){
 	.column-25-groom{
@@ -363,6 +395,7 @@ on desktop, all columns will be the same size */
 	.row-100-groom{
 		padding-top: 10px;
 	}
+
 
 }
 
