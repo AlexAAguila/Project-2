@@ -28,6 +28,15 @@
 
 }
 
+.column-100-promo {
+	/*flex-basis: 100%;  specifies the initial main size of a flex item */
+	width: 100%;
+	flex-basis: 100%;
+	padding-left: 10.5%;
+
+}
+
+
 .column-body-padding {
 	width: 10%;
 }
@@ -44,7 +53,7 @@
 /* Custom Flex Box for Index.html*/
 .column-100-landing{
 flex-basis: 50%;	
-padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 
 
 
@@ -205,6 +214,34 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 
 /*end of payment page*/
 
+/*Custom for Footer*/
+.row-100-black-foot{
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	padding: 40px 10% 40px 10%;
+
+}
+.row-100-black-foot-2{
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	padding: 40px 10% 40px 10%;
+
+}
+
+.column-100-black-foot{
+	flex-basis: 100%;  /*specifies the initial main size of a flex item */
+	flex: 1;
+	width: 200px;
+	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+}
+/*End for Footer*/
+
 .column-100-button {
 	flex-basis: 100%; /* specifies the initial main size of a flex item */
 }
@@ -223,6 +260,7 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	/*display: flex;
 	justify-content: flex-end;*/
 }
+
 
 .row-100 {
 	width: 100%;
@@ -249,6 +287,7 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	background-color: var(--color2);
 	transition: all 350ms ease-out ;
+	padding-left: 10%;
 }
 
 .row-100-footer {
@@ -256,7 +295,8 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
-	background-color: #ffbb39;
+	background-color: white;
+	padding-left: 20px;
 
 }
 
@@ -299,6 +339,7 @@ on desktop, all columns will be the same size */
 
 
 	}
+
 	.column-100-cat {
 		/*flex-basis: 100%;  specifies the initial main size of a flex item */
 		flex-basis: 50%;	
@@ -308,8 +349,12 @@ on desktop, all columns will be the same size */
 		justify-content: center;
 	}
 	
+	.column-100-black-foot{
+		width: 360px;
+		padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+		flex-wrap: wrap;
+	}
 
-	
 
 }
 
@@ -338,6 +383,12 @@ on desktop, all columns will be the same size */
 		z-index: 500;
 
 	}
+	.column-100-black-foot{
+		flex-basis: 100%;
+	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+	flex-wrap: wrap;
+	}
+
 
 	.column-100-booking{
 		width: 100%;
@@ -373,10 +424,12 @@ on desktop, all columns will be the same size */
 
 			padding-top: 70px;
 		}
-
+/*
 		.row-100-info{
-			padding-left: 0;
-		}
+			display: flex;
+align-items: center;		
+}
+*/
 
 }
 @media only screen and (max-width: 1060px){

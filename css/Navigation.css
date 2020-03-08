@@ -126,7 +126,7 @@ header {
 
 div.nav-footer {
   margin-top: 35px;
-  padding-left: 200px; /*Changed this to padding 200 and float left to make everything aligned*/
+ /* padding-left: 200px; Changed this to padding 200 and float left to make everything aligned*/
   float: left;
 }
 
