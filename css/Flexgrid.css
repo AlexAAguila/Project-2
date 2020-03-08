@@ -4,8 +4,8 @@
 .column-25 {
 	flex-basis: 25%;
 /*	padding: 0px 10px 0px 10px;*/
-    padding: 20px 10px 0px 50px;
-
+/*    padding: 20px 10px 0px 50px;
+*/
 }
 
 .column-75 {
@@ -50,7 +50,7 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 .column-100-cat {
 	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	flex-basis: 50%;	
-	padding: 0px 10px 0px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
+	/*padding: 0px 10px 0px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 /* End of Index.html*/
 
@@ -185,7 +185,6 @@ padding: 0px 20px 50px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 
 .column-100-white {
 	flex-basis: 100%; /* specifies the initial main size of a flex item */
-	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	background-color: white;
 }
 

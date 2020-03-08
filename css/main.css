@@ -28,25 +28,29 @@ h2 {
 }
   
 h3 {
-	font-family: "AkzidenzGroteskBQ-LigExt", sans-serif;
+	font-family: "Aileron-Regular", sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 h4 {
-	font-family: "AkzidenzGroteskBQ-LigExt", sans-serif;
+	font-family: "Aileron-Regular", sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	font-size: 1em;
+	font-size: .8em;
 }
   
 p {
-	font-family: "Aileron-Black", sans-serif;
+	font-family: "Aileron-Regular", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: .8em;
 	line-height: 1.5em;
+}
+
+strong {
+	font-family: "Aileron-Bold", sans-serif;
 }
 
 label {
@@ -174,8 +178,8 @@ button.tertiary-button-white {
 	border-radius: 20px;
 	background-color: #f259a1;
 	display: inline-block;
-	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+  	transition: background-color 0.2s ease-out;
 }
 
 button.tertiary-button-white:hover {
@@ -185,8 +189,8 @@ button.tertiary-button-white:hover {
 	border-radius: 20px;
 	background-color: #F477B2;
 	display: inline-block;
-	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+  	transition: background-color 0.2s ease-out;
 }
 
 /* Tags  */
@@ -240,12 +244,12 @@ div.room-option-buttons {
 	width: 100%;
 }*/
 
-div.center {
-	display: inline-block;
+/*.center {
+	display: inline-block;*/
 /*	vertical-align: top;
-*/	margin: 0 auto;
+*/	/*margin: 0 auto;
 	height: 100%;
-}
+}*/
 
 div.testimonial {
 	display: inline-block;
@@ -309,16 +313,20 @@ img.black-cat {
 	z-index: -2;
 }
 
-/* Cat landing page image */
+/* Pink cat landing page image */
 img.landing-page-image {
-	border-radius: none;
+	border-radius: 0;
+	padding: 0;
+	margin: -1px;
 }
 
 
 /* ------------------------------- TYPE STYLING ------------------------------- */
 
 h1.logo {
-	font-size: 1.5em;
+	font-size: 1.1em;
+	margin: 0;
+	padding-top: 45px;
 }
 
 h1.margin-0 {
@@ -341,6 +349,11 @@ p.banner-text {
 /*Room- Type paragraph*/
 p.room-type{
 	margin-right: 50px;
+}
+
+.center {
+	display: block;
+	text-align: center;
 }
 
 /* ------------------------------- SECTION STYLING ------------------------------- */
@@ -551,8 +564,8 @@ h1.center {
 		font-size: 8em;
 		margin: 0;
 		color: #231f20;
-
 	}
+
 	div.divider {
 		width: 130%;
 		height: 1px;
@@ -570,7 +583,7 @@ div.landing-page {
 }
 
 h1.landing-page-header {
-	font-size: 8em;
+	font-size: 6.5em;
 	margin: 0;
 	color: #231f20;
 }
