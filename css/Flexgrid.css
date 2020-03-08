@@ -134,6 +134,11 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	padding-top: 70px;
+	padding-left: 10%;
+}
+
+.column-75-groom-details{
+	width:300px;
 }
 
 /*end of Grooming*/
@@ -147,8 +152,28 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	padding-left: 25%;
 	padding-top: 50px;
+
+	
 }
 
+.column-100-calenders{
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	flex-direction: column; /* determines the direction of a child in a flex container as left-to-right */ 
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.row-100-calendar{
+	width: 100%;
+	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+	display: flex; /* defines a flex container */
+	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+	flex-wrap: wrap; /* will allow a multi-line flex */
+	justify-content: center;
+
+	
+}
 
 /*end of Room-Type*/
 
@@ -161,6 +186,13 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 
+	
+
+}
+
+.column-100-profile {
+	/*flex-basis: 100%;  specifies the initial main size of a flex item */
+	width: 100%;
 }
 
 /*end of profile pages*/
@@ -175,6 +207,14 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-wrap: wrap; /* will allow a multi-line flex */
 }
 
+.column-25-contact{
+	padding-left: 10%;
+	padding-right: 20px;
+	/*	padding: 0px 10px 0px 10px;*/
+	/*    padding: 20px 10px 0px 50px;
+	*/
+}
+
 /*End of contact*/
 
 /*custom to about page*/
@@ -185,6 +225,8 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	padding-top: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 /*end for about*/
 
@@ -379,13 +421,27 @@ on desktop, all columns will be the same size */
 	.column-75{
 		justify-content: flex-start;
 		align-content: center;
-		z-index: 500;
 
 	}
 	.column-100-black-foot{
 		flex-basis: 100%;
 	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-wrap: wrap;
+	}
+	.row-100-yellow{
+		padding: 0;
+	}
+
+	.column-75{
+		padding: 0;
+	}
+
+	.column-25{
+		flex-basis: auto;
+	}
+
+	.row-100-head{
+		padding: 0;
 	}
 
 
@@ -422,6 +478,28 @@ on desktop, all columns will be the same size */
 		.row-100-contact{
 
 			padding-top: 70px;
+		}
+		.column-25-contact{
+			flex-basis: 100%;
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+
+		.row-100-profile {
+			width: 100%;
+			margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+			display: flex; /* defines a flex container */
+			flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+			flex-wrap: wrap; /* will allow a multi-line flex */
+		
+		}
+
+		.column-100-profile {
+			/*flex-basis: 100%;  specifies the initial main size of a flex item */
+			width: 100%;
 		}
 /*
 		.row-100-info{
@@ -475,6 +553,14 @@ align-items: center;
 	.column-100-promo{
 		padding-left: 5px;
 		padding-right: 50px;
+	}
+	.row-100-profile {
+		width: 100%;
+		margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+		display: flex; /* defines a flex container */
+		flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
+		flex-wrap: wrap; /* will allow a multi-line flex */
+	
 	}
 
 

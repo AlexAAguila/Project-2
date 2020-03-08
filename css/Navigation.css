@@ -127,6 +127,7 @@ header {
   position: sticky;
   bottom: 0;
   left: 0;
+  padding-left: 10%;
 }
 
 div.nav-footer {
@@ -468,6 +469,11 @@ h3.landing-page2 {
 
     margin-top: 20px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? */
   }
+  .chat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   
 }
 
@@ -477,6 +483,8 @@ h3.landing-page2 {
   nav{
     padding: 0;
   }
+
+
 
 
 }
