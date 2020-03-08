@@ -800,7 +800,7 @@ hr {
 }
 
 /*Mobile View*/
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 414px) {
 
 	h1.landing-page-header{
 		padding-top: 30px;

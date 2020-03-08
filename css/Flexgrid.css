@@ -454,7 +454,7 @@ align-items: center;
 }
 
 /*mobile view*/
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 414px) {
 
 	.row-100-yellow{
 		padding: 0;
