@@ -769,6 +769,10 @@ a.services-active {
   color: #333;
 }
 
+.one:hover ~hr{
+	margin-left:0%;
+}
+
 .two:hover ~ hr {
   margin-left: 25%;
 }
@@ -781,6 +785,10 @@ a.services-active {
   margin-left: 75%;
 }
 
+
+
+
+
 hr {
   height: .25rem;
   width: 25%;
@@ -790,6 +798,22 @@ hr {
   transition: .2s ease-in-out;
 }
 
+/*Mobile View*/
+@media only screen and (max-width: 360px) {
+
+	h1.landing-page-header{
+		padding-top: 30px;
+		font-size: 6em;
+		margin: 0;
+		color: #231f20;
+	}
+
+	button.primary-button{
+		padding: 15px 22px;
+	}
+
+
+}
 
 
 /* ------------------------------- STAR [ TESTIMONIAL RATINGS ] ICON ------------------------------- */
