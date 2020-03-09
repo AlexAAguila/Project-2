@@ -139,6 +139,7 @@
 	justify-content: center;
 	align-items: flex-start;
 }
+
 .row-100-calendar{
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
@@ -155,6 +156,7 @@
 /*Custom for profile pages*/
 
 .row-100-profile {
+	padding: 0px 10% 0px 10%;
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
 	display: flex; /* defines a flex container */

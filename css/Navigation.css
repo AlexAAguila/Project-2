@@ -71,10 +71,10 @@ a.nav-footer {
 
 
 :root{
-  --color1:#f7f7f7;
-  --color2:#ecedee;
-  --colorb:black;
-  --colorw:white;
+  --color1: #f7f7f7;
+  --color2: #ecedee;
+  --colorb: black;
+  --colorw: white;
 }
 
 /* Header */
@@ -390,13 +390,11 @@ h3.landing-page2 {
     padding: 20px;
     justify-content: space-evenly;
     width: 100%;
-
   }
 
   header {
     position: static;
     justify-content: space-evenly;
-    align-items: space-evenly;
     margin-top: 20px; 
   }
 
