@@ -68,13 +68,16 @@ a.nav-footer {
   display: inline-block;
 }
 /* ------------------------------- END OF LINKS ------------------------------- */
+
+
 :root{
   --color1:#f7f7f7;
   --color2:#ecedee;
   --colorb:black;
   --colorw:white;
 }
-/*Header Stuff*/
+
+/* Header */
 header {
   
   z-index: 500;
@@ -91,9 +94,7 @@ header {
 
 
 }
-
-
-/*Header end*/
+/* Header End */
 
 .chat{
   position: -webkit-sticky;
@@ -105,7 +106,6 @@ header {
 
 div.nav-footer {
   margin-top: 35px;
- /* padding-left: 200px; Changed this to padding 200 and float left to make everything aligned*/
   float: left;
 }
 
@@ -114,52 +114,20 @@ p.footer {
   color: white;
 }
 
-/*header  {
-    display: inline;
-}*/
-
-/*header li {
-    margin: 20px;
-}*/
 
 /* ------------------------------- LANDING PAGE FOOTER ------------------------------- */
 div.cfooter {
-    /* background-color: white; */
-    /* position: sticky; */
-/*    width: 100%;
-    margin: auto;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    background-color: red;*/
     background-color: red;
 }
 /* ------------------------------- END OF LANDING PAGE FOOTER ------------------------------- */
 
 
 
-/*Grid Css*/
 [class*='col-'] {
 	float: left;
 	padding: 0; 
 	text-align: center; 
 }
-
-
-/*.col-5of10 {
-	width: 50%;
-}*/
-
-
-/*.col-1of6 {
-	width: 16.667%;
-}*/
-
-/*.grid:after {
-	content: "";
-	display: block;
-	clear: both;
-}*/
 
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
@@ -167,76 +135,11 @@ div.cfooter {
 	box-sizing: border-box;
 }
 
-
-/* 63 em */
-/*@media (max-width: 63em) {
-
-	.col-1of6 {
-		width: 33.333%;
-	}
-
-}*/
-
-/* 57em */
-/*@media (max-width: 57em) {
-
-	.col-5of10 {
-		width: 100%;
-	}
-
-}*/
-
-/* 37em */
-/*@media (max-width: 800px) {
-
-	.col-1of6 {
-		width: 50%;
-	}
-
-}*/
-
-/* 22em */
-/*@media (max-width: 22em) {
-
-	.col-1of6 {
-		width: 100%;
-	}
-
-}*/
-/*End of Grid css*/
-
-/*Dropmenu
-
-nav {
-  display: inline-block;
-  float: right;
-  padding: 45px 0px 30px 0px; /* TOP RIGHT BOTTOM LEFT 
-}
-
-a {
-  text-decoration: none;
-  font-family: "NimbusSansDOT-Regu", sans-serif;
-  color: black;
-}
-
-a:hover {
-  text-decoration: none;
-  font-family: "NimbusSansDOT-Regu", sans-serif;
-  color: #FEBD2D;
-}
-
-a.navigation {
-  padding-left: 30px;
-  font-size: .8em;
-}
-*/
-
 /* ------------------------------- HOVER POP-UP ------------------------------- */
 
 /* Dropdown Button */
 .dropbtn-navigation {
   color: black;
-  /* padding: 16px; */
   font-size: .8em;
   border: none;
   font-family: "NimbusSansDOT-Regu", sans-serif;
@@ -244,7 +147,6 @@ a.navigation {
 
 .dropbtn-fo:focus {
   color: black;
-  /* padding: 16px; */
   font-size: .8em;
   border: none;
   font-family: "NimbusSansDOT-Regu", sans-serif;
@@ -256,7 +158,6 @@ a.navigation {
   font-family: "NimbusSansDOT-Regu", sans-serif;
   color: #FEBD2D;
   text-decoration: none;
-  /* padding: 16px; */
   font-size: .8em;
   border: none;
 }
@@ -294,9 +195,6 @@ h3.landing-page2 {
 }
 
 .dropdown-booking:hover .cdropdown-content {display: block;}
-
-
-
 /*End of Booking Changes*/
 
   
@@ -384,7 +282,7 @@ h3.landing-page2 {
   text-decoration: underline;
 }
 
-/*https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+/* https://www.w3schools.com/howto/howto_css_dropdown.asp */
 
   /* Links inside the dropdown */
   .dropup-content a {
@@ -499,10 +397,9 @@ h3.landing-page2 {
     position: static;
     justify-content: space-evenly;
     align-items: space-evenly;
-
-
-    margin-top: 20px; /* WHY DO I NEED TO MOVE IT 150PX DOWN? IS THERE ANOTHER SOLUTION?? */
+    margin-top: 20px; 
   }
+
   .chat{
     display: flex;
     flex-direction: row;
@@ -517,10 +414,6 @@ h3.landing-page2 {
   nav{
     padding: 0;
   }
-
-
-
-
 }
 
 

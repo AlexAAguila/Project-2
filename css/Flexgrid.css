@@ -1,11 +1,5 @@
-
-
-
 .column-25 {
 	flex-basis: 25%;
-/*	padding: 0px 10px 0px 10px;*/
-/*    padding: 20px 10px 0px 50px;
-*/
 }
 
 .column-75 {
@@ -17,24 +11,18 @@
 }
 
 .column-100 {
-	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	width: 100%;
 }
 
-
 .column-100-2 {
-	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	width: 100%;
 	flex-basis: 100%;
-
 }
 
 .column-100-promo {
-	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	width: 100%;
 	flex-basis: 100%;
 	padding-left: 10.5%;
-
 }
 
 
@@ -48,22 +36,14 @@
 	padding: 0px 10% 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 
-
-
-
-/* Custom Flex Box for Index.html*/
+/* Custom Flex Box for Index.html */
 .column-100-landing{
-flex-basis: 50%;	
-padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
-
-
-
+	flex-basis: 50%;	
+	padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 
 .column-100-cat {
-	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	flex-basis: 50%;	
-	/*padding: 0px 10px 0px 100px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 
 .row-100-info {
@@ -78,7 +58,6 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 
 .column-100-info {
-	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	width: 100%;
 	flex-basis: 100%;
 }
@@ -104,7 +83,6 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	justify-content: space-evenly;
 	padding-top: 10px;
 	padding-bottom: 30px;
-
 }
 
 /*End of Booking.html*/
@@ -123,6 +101,7 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	display: flex;
 	justify-content: center;
 }
+
 .row-100-groom-head{
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
@@ -181,13 +160,9 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
-
-	
-
 }
 
 .column-100-profile {
-	/*flex-basis: 100%;  specifies the initial main size of a flex item */
 	width: 100%;
 }
 
@@ -209,14 +184,10 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 .column-25-contact{
 	padding-left: 10%;
 	padding-right: 20px;
-	/*	padding: 0px 10px 0px 10px;*/
-	/*    padding: 20px 10px 0px 50px;
-	*/
 }
+/* End of Contact */
 
-/*End of contact*/
-
-/*custom to about page*/
+/* Custom to about page */
 .row-100-about {
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
@@ -227,13 +198,11 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	padding-left: 10%;
 	padding-right: 10%;
 }
-/*end for about*/
+/*End for About*/
 
 
 
 /*Custom for Payment Page*/
-
-
 .row-100-payment {
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
@@ -243,18 +212,17 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	justify-content: space-evenly;
 
 }
+
 .row-100-items {
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
 	display: flex; /* defines a flex container */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
-
-
 }
 
-/*end of payment page*/
+/* End of Payment Page */
 
-/*Custom for Footer*/
+/* Custom for Footer */
 .row-100-black-foot{
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
@@ -264,6 +232,7 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	padding: 40px 10% 40px 10%;
 
 }
+
 .row-100-black-foot-2{
 	width: 100%;
 	margin: 0 auto; /* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
@@ -271,7 +240,6 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	flex-direction: row; /* determines the direction of a child in a flex container as left-to-right */ 
 	flex-wrap: wrap; /* will allow a multi-line flex */
 	padding: 40px 10% 40px 10%;
-
 }
 
 .column-100-black-foot{
@@ -281,6 +249,7 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	padding: 0px 10px 0px 10px; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 }
 /*End for Footer*/
+
 
 .column-100-button {
 	flex-basis: 100%; /* specifies the initial main size of a flex item */
@@ -300,7 +269,6 @@ padding: 0px 20px 0px 10%; /* TOP RIGHT BOTTOM LEFT [TRBL] */
 	/*display: flex;
 	justify-content: flex-end;*/
 }
-
 
 .row-100 {
 	width: 100%;
@@ -499,12 +467,6 @@ on desktop, all columns will be the same size */
 			/*flex-basis: 100%;  specifies the initial main size of a flex item */
 			width: 100%;
 		}
-/*
-		.row-100-info{
-			display: flex;
-align-items: center;		
-}
-*/
 
 }
 @media only screen and (max-width: 1060px){
@@ -561,12 +523,11 @@ align-items: center;
 	
 	}
 
-
-
 }
 
 
 
 /* REFERENCES */
+
 /* Flex Grid https://www.taniarascia.com/easiest-flex-grid-ever/ */
 /* 0 AUTO https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */

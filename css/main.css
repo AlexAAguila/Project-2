@@ -247,6 +247,11 @@ a.chat-button {
 	box-shadow: -2px 2px 8px #b1b1b1;
 }
 
+li.left {
+  display: inline;
+  text-align: left;
+}
+
 
 
 /* ------------------------------- DIV + SECTIONS STYLING ------------------------------- */
@@ -366,47 +371,6 @@ p.room-type{
 
 /* ------------------------------- SECTION STYLING ------------------------------- */
 
-
-/* ------------------------------- EYE CODE ------------------------------- */
-/* code by https://codepen.io/J-Roel/pen/wWGNQN */
-section.move-area {
-	width: 100%;
-	height: 520px;
-} 
-
-.eyes {
-	position: absolute;
-	z-index: -1;
-	top: 50%;
-	transform: translateY(-20%);
-	margin-left: -22px;
-	width:100%;
-	text-align:	center;
-}
-
-.eye {
-	width: 120px;
-	height: 120px;
-	background: white;
-	display: inline-block;
-	margin: 30px;
-	border-radius: 50%;
-	position: relative;
-	overflow: hidden;
-}
-
-.ball {
-	width: 90px;
-	height: 90px;
-	background: #000;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-	border: 10px solid #FEBD2D;
-}
-
   
 /* ------------------------------- ROOM TYPE PAGE STYLING ------------------------------- */
 /* ----- HEADERS ----- */
@@ -524,15 +488,6 @@ h1.center {
 /* ------------------------------- MEDIA QUERIES ------------------------------- */
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 @media only screen and (max-width: 800px) {
-	/*button.landing-page-search-button {
-	  	/* border-radius: 25px 25px 0px 0px; */ /* TOP RIGHT BOTTOM LEFT 
-	}
-
-	button.landing-page-search-button:hover {
-	  	background-color: #ea307c;
-	  	height: 60px;
-	  	/* border-radius: 25px 25px 0px 0px;*/ /* TOP RIGHT BOTTOM LEFT 
-	} */
 
 	button.landing-page-options:hover {
 	margin-bottom: 40px;
@@ -695,8 +650,12 @@ input[type=submit]:hover {
   clear: both;
 }
 
-.row {
+.row-checkout {
 	padding: 0px 10% 60px 10%;
+}
+
+.row {
+	padding: 0px 10% 0px 10%;
 }
 
 
@@ -789,11 +748,6 @@ select.times {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
-
-
-
-
 
 /* https://speckyboy.com/underline-text-effects-css/ */
 * {

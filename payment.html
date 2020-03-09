@@ -1,4 +1,3 @@
-<!--This is for the navigation-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +6,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>The Cat Inn</title>
+    <title>The Happy Cat Hotel</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/flexgrid.css">
@@ -22,30 +21,41 @@
 </head>
 
 <body>
-  <header>
-    <!-- NAVIGATION -->
-      <div class="row-100-yellow">
-            <!-- COLUMN FOR LOGO -->
-            <div class="column-25"> 
-                <a href="Index.html"><h1 class="logo black-color">Happy Cat Hotel</h1></a>
+    <!-- SALES BANNER -->
+    <div class="row-100-head">
+        <div class="column-100-promo">
+            <div class="top-banner">
+                <p class="banner-text white-color">starting at <strong>$29 per night</strong> for first-time guests at the Happy Cat Hotel!</p>
+                <button class="tertiary-button-white" type="button">See Offer</button>
             </div>
+        </div> <!-- END OF COLUMN-100-PROMO -->
+    </div> <!-- END OF ROW-100-HEAD -->
 
-            <!-- COLUMN FOR NAVIGATION -->
-            <div class="column-75">
-                <nav>
-                    <a class="navigation" href="grooming.html">Grooming</a>
-                    <a class="navigation" href="about.html">About</a>
-                    <a class="navigation" href="contact.html">Contact</a>
-                    <div class="dropdown">
-                        <button class="dropbtn-navigation primary-button">Phil</button>
-                        <div class="dropdown-content">
-                            <a href="view-profile.html">View Profile</a>
-                            <a href="edit-profile.html">Edit Profile</a>
-                        </div> 
-                    </div>
-                </nav>
-            </div>
-        </div>  <!-- END OF ROW NAVIGATION -->
+    <header>
+
+    <!-- NAVIGATION -->
+    <div class="row-100-yellow">
+        <div class="column-25"> 
+            <a href="Index.html"><h1 class="logo black-color">Happy Cat Hotel</h1></a>
+        </div>
+
+        <!-- COLUMN FOR NAVIGATION -->
+        <div class="column-75">
+            <nav>
+                <a class="navigation" href="grooming.html">grooming</a>
+                <a class="navigation" href="contact.html">contact</a>
+                <a class="navigation" href="payment.html">check out</a>
+                <div class="dropdown">
+                    <button class="dropbtn-navigation primary-button margin-left">Meow, Phil</button>
+                    <div class="dropdown-content">
+                        <a href="view-profile.html">view profile</a>
+                        <a href="edit-profile.html">edit profile</a>
+                    </div> 
+                </div>
+            </nav>
+        </div>
+    </div>  <!-- END OF ROW NAVIGATION -->
+
     </header>
     <!-- END OF NAVIGATION -->
 
@@ -59,75 +69,74 @@
 
   
       
-      <!--  FORM -->
-      <div class="container-payment">
-
+    <!--  FORM -->
+    <div class="container-payment">
         <div class="row-100-payment">
-        <div class="column-100">
-            <h2>Payment </h2>
-        <form action="/action_page.php">
-
-        <div class="row-100">
-          <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="Card Number">
-          </div>
-
-          <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="First Name">
-          </div>
-          <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="Last Name">
-          </div>
-        </div>
-          
-        <div class="row">
-          <div class="col-75">
-            <select id="country" name="country">
-              <option value="australia">Card Expire</option>
-            </select>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Security Code">
-              </div>
-        </div>
-        </form>
-        <form action="/action_page.php">
-        </div>
-        <div class="column-100">
-            <h2>Items</h2>
             <div class="column-100">
-          <div class="row-100-items">
-              <div class="column-100">
-            <p>Daycare</p>
-            <p>Overnight</p>
-            <p>Pick-up</p>
-            <p>Drop-off</p>
-            <div class="divider black-background-color"></div>
+                <h2>Payment </h2>
+                <form action="/action_page.php">
+                    <div class="row-100">
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Card Number">
+                        </div>
 
-            <p>Total</p>
-          
-          </div>
-          
-          <div class="column-100">
-            <p>$100</p>
-            <p>$50</p>
-            <p>$10</p>
-            <p>$10</p>
-			<div class="divider black-background-color"></div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="First Name">
+                        </div>
 
-            <p>$170</p>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
           
-          </div>
+                    <div class="row-checkout">
+                        <div class="col-75">
+                            <select id="country" name="country">
+                                <option value="australia">Card Expire</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="row-checkout">
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Security Code">
+                        </div>
+                    </div>
+                </form>
+                
+                <form action="/action_page.php">
+            </div>
+            
+            <div class="column-100">
+                <h2>Items</h2>
+                <div class="column-100">
+                    <div class="row-100-items">
+                        <div class="column-100">
+                            <p>Daycare</p>
+                            <p>Overnight</p>
+                            <p>Pick-up</p>
+                            <p>Drop-off</p>
 
-        </div>
-        </div>
-        </div>
-    </div>
-        <div class="row">
-          <input type="submit" value="Confirm Checkout" onclick="window.location.href='purchase-confirmation.html'">
-        </div>
+                            <div class="divider black-background-color"></div>
+                                <p>Total</p>
+                            </div>
+          
+                            <div class="column-100">
+                                <p>$100</p>
+                                <p>$50</p>
+                                <p>$10</p>
+                                <p>$10</p>
+
+                            <div class="divider black-background-color"></div>
+                                <p>$170</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-checkout">
+                <input type="submit" value="Confirm Checkout" onclick="window.location.href='purchase-confirmation.html'">
+            </div>
 
         </form>
 
@@ -183,9 +192,8 @@
                         <p class="footer">Get a hold of us to learn more!</p>
                     </div>
                 </div>
-        </div>
-                <div class="divider white-background-color"></div>
-
+                <div class="divider white-background-color margin-top"></div>
+                </div>
             </div>
         </section>
 
@@ -200,6 +208,6 @@
         </div>
     </footer>
 <!--  END OF FOOTER -->
-</body>
 
+</body>
 </html>
